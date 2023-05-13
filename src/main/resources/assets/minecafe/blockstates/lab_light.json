@@ -1,0 +1,5 @@
+{
+  "variants": {
+    "": { "model": "minecafe:block/lab/lab_light" }
+  }
+}

@@ -164,6 +164,13 @@
   "block.minecafe.starfruit_crop_bottom": "Starfruit Tree",
   "block.minecafe.acai_crop_bottom": "Acai Tree",
 
+  "block.minecafe.lab_floor": "Lab Floor",
+  "block.minecafe.lab_lower_wall": "Lab Lower Wall",
+  "block.minecafe.lab_trim_wall": "Lab Wall Trim",
+  "block.minecafe.lab_upper_wall": "Lab Upper Wall",
+  "block.minecafe.lab_ceiling": "Lab Ceiling",
+  "block.minecafe.lab_light": "Lab Light",
+
   "item.minecafe.blueberry": "Blueberries",
   "item.minecafe.blackberry": "Blackberries",
   "item.minecafe.cranberry": "Cranberries",

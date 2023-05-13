@@ -188,4 +188,29 @@ public class ModBlocksInit {
      */
     public static final RegistryObject<LiquidBlock> COFFEE_FLUID_BLOCK = BLOCKS.register("coffee_fluid_block",
             () -> new LiquidBlock(ModFluids.SOURCE_COFFEE_FLUID, BlockBehaviour.Properties.copy(Blocks.WATER)));
+
+    /**
+     * Café Lab Blocks
+     */
+
+    private static final Supplier<Block> labBlockSupplier = () -> new Block(
+            BlockBehaviour.Properties.of(Material.STONE)
+                    .strength(-1.0f)
+    );
+
+    public static final RegistryObject<Block> LAB_LOWER_WALL = registerBlockItem("lab_lower_wall", labBlockSupplier);
+    public static final RegistryObject<Block> LAB_TRIM_WALL = registerBlockItem("lab_trim_wall", labBlockSupplier);
+
+    public static final RegistryObject<Block> LAB_UPPER_WALL = registerBlockItem("lab_upper_wall", labBlockSupplier);
+
+    public static final RegistryObject<Block> LAB_CEILING = registerBlockItem("lab_ceiling", labBlockSupplier);
+
+    public static final RegistryObject<Block> LAB_FLOOR = registerBlockItem("lab_floor", labBlockSupplier);
+
+    public static final RegistryObject<Block> LAB_LIGHT = registerBlockItem("lab_light",
+            () -> new Block(
+                    BlockBehaviour.Properties.of(Material.GLASS)
+                            .strength(-1.0f)
+                            .lightLevel((blkState) -> 15)
+            ));
 }

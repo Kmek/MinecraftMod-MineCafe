@@ -89,6 +89,14 @@ public class ModCreativeTabInit {
 
         // Fun Blocks
         output.accept(ModItemsInit.COFFEE_BUCKET.get());
+
+        // Lab Blocks
+        output.accept(ModBlocksInit.LAB_FLOOR.get());
+        output.accept(ModBlocksInit.LAB_LOWER_WALL.get());
+        output.accept(ModBlocksInit.LAB_TRIM_WALL.get());
+        output.accept(ModBlocksInit.LAB_UPPER_WALL.get());
+        output.accept(ModBlocksInit.LAB_CEILING.get());
+        output.accept(ModBlocksInit.LAB_LIGHT.get());
     }
 
     private void acceptCropsAndSeeds(CreativeModeTab.Output output) {

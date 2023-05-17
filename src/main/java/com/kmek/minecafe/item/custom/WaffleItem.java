@@ -3,6 +3,7 @@ package com.kmek.minecafe.item.custom;
 import net.minecraft.ChatFormatting;
 import net.minecraft.nbt.CompoundTag;
 import net.minecraft.network.chat.Component;
+import net.minecraft.network.chat.TextComponent;
 import net.minecraft.world.food.FoodProperties;
 import net.minecraft.world.item.Item;
 import net.minecraft.world.item.ItemStack;
@@ -23,7 +24,7 @@ public class WaffleItem extends Item {
 
     // Don't stack tagged waffle items
     @Override
-    public int getMaxStackSize(ItemStack stack) {
+    public int getItemStackLimit(ItemStack stack) {
         return stack.hasTag() ? 1 : 64;
     }
 
@@ -41,7 +42,7 @@ public class WaffleItem extends Item {
         if (stack.hasTag()) {
             // Read tag data
             String filling = stack.getTag().getString("bobamod.filling");
-            components.add(Component.literal(filling).withStyle(ChatFormatting.GRAY));
+            components.add(new TextComponent(filling).withStyle(ChatFormatting.GRAY));
         }
         super.appendHoverText(stack, level, components, flag);
     }

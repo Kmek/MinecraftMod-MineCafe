@@ -7,6 +7,7 @@ import com.kmek.minecafe.item.registery.FoodVariants;
 import com.kmek.minecafe.registration.ItemDataLoader;
 import net.minecraft.ChatFormatting;
 import net.minecraft.network.chat.Component;
+import net.minecraft.network.chat.TextComponent;
 import net.minecraft.world.effect.MobEffectInstance;
 import net.minecraft.world.effect.MobEffects;
 import net.minecraft.world.food.FoodProperties;
@@ -58,7 +59,7 @@ public class ModItemsInit {
                     .build())) {
         @Override
         public void appendHoverText(ItemStack stack, @Nullable Level level, List<Component> components, TooltipFlag flag) {
-            components.add(Component.literal("Poisonous when raw").withStyle(ChatFormatting.YELLOW));
+            components.add(new TextComponent("Poisonous when raw").withStyle(ChatFormatting.YELLOW));
             super.appendHoverText(stack, level, components, flag);
         }
     }));
@@ -126,7 +127,7 @@ public class ModItemsInit {
                     .build())) {
         @Override
         public void appendHoverText(ItemStack stack, @Nullable Level level, List<Component> components, TooltipFlag flag) {
-            components.add(Component.literal("Consume raw eggs at your own risk").withStyle(ChatFormatting.YELLOW));
+            components.add(new TextComponent("Consume raw eggs at your own risk").withStyle(ChatFormatting.YELLOW));
             super.appendHoverText(stack, level, components, flag);
         }
     });
@@ -149,7 +150,7 @@ public class ModItemsInit {
                     .build())) {
         @Override
         public void appendHoverText(ItemStack stack, @Nullable Level level, List<Component> components, TooltipFlag flag) {
-            components.add(Component.literal("Consume raw eggs at your own risk").withStyle(ChatFormatting.YELLOW));
+            components.add(new TextComponent("Consume raw eggs at your own risk").withStyle(ChatFormatting.YELLOW));
             super.appendHoverText(stack, level, components, flag);
         }
     });
@@ -287,26 +288,26 @@ public class ModItemsInit {
                             .effect(() -> new MobEffectInstance(MobEffects.GLOWING, 600, 0), 1.0f)
                             .effect(() -> new MobEffectInstance(MobEffects.NIGHT_VISION, 300, 0), 1.0f)
                             .alwaysEat().build()),
-                    Component.literal("Glowing!").withStyle(ChatFormatting.YELLOW)));
+                    new TextComponent("§6Glowing!§r")));
     public static final RegistryObject<Item> PHANTOM_MILK_TEA = ITEMS.register("phantom_milk_tea",
             () -> new MilkTeaItem(new Item.Properties().food(
                     new FoodProperties.Builder().nutrition(1).saturationMod(0.4f)
                             .effect(() -> new MobEffectInstance(MobEffects.LEVITATION, 700, 0), 1.0f)
                             .effect(() -> new MobEffectInstance(MobEffects.SLOW_FALLING, 1000, 0), 1.0f)
                             .alwaysEat().build()),
-                    Component.literal("A good pick-me-up in the morning").withStyle(ChatFormatting.YELLOW)));
+                    new TextComponent("§eA good pick-me-up in the morning§r")));
     public static final RegistryObject<Item> BLAZING_MILK_TEA = ITEMS.register("blazing_milk_tea",
             () -> new MilkTeaItem(new Item.Properties().food(
                     new FoodProperties.Builder().nutrition(0).saturationMod(0f)
                             .effect(() -> new MobEffectInstance(MobEffects.FIRE_RESISTANCE, 600, 0), 1.0f)
                             .alwaysEat().build()),
-                    Component.literal("Now with authentic firey taste").withStyle(ChatFormatting.YELLOW)));
+                    new TextComponent("Now with authentic firey taste").withStyle(ChatFormatting.YELLOW)));
     public static final RegistryObject<Item> DARKSIDE_MILK_TEA = ITEMS.register("darkside_milk_tea",
             () -> new MilkTeaItem(new Item.Properties().food(
                     new FoodProperties.Builder().nutrition(0).saturationMod(0f)
-                            .effect(() -> new MobEffectInstance(MobEffects.DARKNESS, 800, 0), 1.0f)
+                            .effect(() -> new MobEffectInstance(MobEffects.BLINDNESS, 800, 0), 1.0f)
                             .alwaysEat().build()),
-                    Component.literal("Join the dark side").withStyle(ChatFormatting.YELLOW)));
+                    new TextComponent("Join the dark side").withStyle(ChatFormatting.YELLOW)));
     public static final RegistryObject<Item> WET_MILK_TEA = ITEMS.register("wet_milk_tea",
             () -> new MilkTeaItem(new Item.Properties().food(
                     new FoodProperties.Builder().nutrition(0).saturationMod(0f)
@@ -314,13 +315,13 @@ public class ModItemsInit {
                             .effect(() -> new MobEffectInstance(MobEffects.DOLPHINS_GRACE, 800, 0), 1.0f)
                             .effect(() -> new MobEffectInstance(MobEffects.NIGHT_VISION, 300, 0), 1.0f)
                             .alwaysEat().build()),
-                    Component.literal("Underwater vibes").withStyle(ChatFormatting.YELLOW)));
+                    new TextComponent("Underwater vibes").withStyle(ChatFormatting.YELLOW)));
     public static final RegistryObject<Item> IMAGINARY_MILK_TEA = ITEMS.register("imaginary_milk_tea",
         () -> new MilkTeaItem(new Item.Properties().food(
                 new FoodProperties.Builder().nutrition(0).saturationMod(0f)
                         .effect(() -> new MobEffectInstance(MobEffects.INVISIBILITY, 800, 0), 1.0f)
                         .alwaysEat().build()),
-                Component.literal("It's there, I promise!").withStyle(ChatFormatting.YELLOW)));
+                new TextComponent("It's there, I promise!").withStyle(ChatFormatting.YELLOW)));
 
     /**
      * Coffee Stuff
@@ -347,13 +348,13 @@ public class ModItemsInit {
             ).toList();
     public static final RegistryObject<Item> RED_EYE_COFFEE = ITEMS.register("red_eye_coffee",
             () -> new CoffeeItem(0, 0, 3, null,
-                    Component.literal("Careful there!").withStyle(ChatFormatting.DARK_RED)));
+                    new TextComponent("Careful there!").withStyle(ChatFormatting.DARK_RED)));
     public static final RegistryObject<Item> BLACK_EYE_COFFEE = ITEMS.register("black_eye_coffee",
             () -> new CoffeeItem(0, 0, 4, null,
-                    Component.literal("Has a lot of caffeine...").withStyle(ChatFormatting.DARK_RED)));
+                    new TextComponent("Has a lot of caffeine...").withStyle(ChatFormatting.DARK_RED)));
     public static final RegistryObject<Item> DEAD_EYE_COFFEE = ITEMS.register("dead_eye_coffee",
             () -> new CoffeeItem(0, 0, 5, null,
-                    Component.literal("Too much caffeine...").withStyle(ChatFormatting.DARK_RED).withStyle(ChatFormatting.OBFUSCATED)));
+                    new TextComponent("Too much caffeine...").withStyle(ChatFormatting.DARK_RED).withStyle(ChatFormatting.OBFUSCATED)));
 
     // Teas
     public static final RegistryObject<Item> MATCHA_TEA = ITEMS.register("matcha_tea",

@@ -1,64 +1,64 @@
 package com.kmek.minecafe.item;
 
-import com.kmek.minecafe.MineCafeMod;
 import com.kmek.minecafe.block.ModBlocksInit;
-import net.minecraft.network.chat.Component;
-import net.minecraft.resources.ResourceLocation;
+import net.minecraft.core.NonNullList;
 import net.minecraft.world.item.CreativeModeTab;
 import net.minecraft.world.item.ItemStack;
-import net.minecraftforge.event.CreativeModeTabEvent;
-import net.minecraftforge.eventbus.api.IEventBus;
 
 public class ModCreativeTabInit {
-    public static CreativeModeTab minecafeTab;
+    public static CreativeModeTab minecafeBlocksTab = new CreativeModeTab("minecafe_blocks") {
+        @Override
+        public ItemStack makeIcon() {
+            return new ItemStack(ModBlocksInit.ESPRESSO_MACHINE.get());
+        }
 
-    /**
-     * Registering the event bus
-     */
-    public void register(IEventBus modEventBus) {
-        modEventBus.addListener(this::registerCustomCreativeTab);
-    }
+        @Override
+        public void fillItemList(NonNullList<ItemStack> pItems) {
+            super.fillItemList(pItems);
+//            acceptBlocks(output);
+//            acceptCropsAndSeeds(output); // todo
+        }
+    };
 
-    private void registerCustomCreativeTab(CreativeModeTabEvent.Register event) {
-        minecafeTab = event.registerCreativeModeTab(new ResourceLocation(MineCafeMod.MODID, "minecafe_tab1"), builder -> builder
-            .title(Component.translatable("itemGroup.minecafe_blocks"))
-            .icon(() -> new ItemStack(ModBlocksInit.ESPRESSO_MACHINE.get()))
-            .displayItems((featureFlags, output, hasOp) -> {
-                // Add categories
-                acceptBlocks(output);
-                acceptCropsAndSeeds(output);
-            })
-            .build()
-        );
-        event.registerCreativeModeTab(new ResourceLocation(MineCafeMod.MODID, "minecafe_tab2"), builder -> builder
-                .title(Component.translatable("itemGroup.minecafe_ingredients"))
-                .icon(() -> new ItemStack(ModItemsInit.BUTTER.get()))
-                .displayItems((featureFlags, output, hasOp) -> {
-                    // Add categories
-                    acceptIngredients(output);
-                    acceptDishes(output);
-                })
-                .build()
-        );
-        event.registerCreativeModeTab(new ResourceLocation(MineCafeMod.MODID, "minecafe_tab3"), builder -> builder
-                .title(Component.translatable("itemGroup.minecafe_food"))
-                .icon(() -> new ItemStack(ModItemsInit.BREADS.get(0).get()))
-                .displayItems((featureFlags, output, hasOp) -> {
-                    // Add categories
-                    acceptFoods(output);
-                })
-                .build()
-        );
-        event.registerCreativeModeTab(new ResourceLocation(MineCafeMod.MODID, "minecafe_tab4"), builder -> builder
-                .title(Component.translatable("itemGroup.minecafe_drinks"))
-                .icon(() -> new ItemStack(ModItemsInit.BOBA_MILK_TEAS.get(ModItemsInit.BOBA_MILK_TEAS.size() - 1).get()))
-                .displayItems((featureFlags, output, hasOp) -> {
-                    // Add categories
-                    acceptDrinks(output);
-                })
-                .build()
-        );
-    }
+    public static CreativeModeTab minecafeIngredientsTab = new CreativeModeTab("minecafe_ingredients") {
+        @Override
+        public ItemStack makeIcon() {
+            return new ItemStack(ModItemsInit.BUTTER.get());
+        }
+
+        @Override
+        public void fillItemList(NonNullList<ItemStack> pItems) {
+            super.fillItemList(pItems);
+//            acceptIngredients(output);
+//            acceptDishes(output); // todo
+        }
+    };
+
+    public static CreativeModeTab minecafeFoodTab = new CreativeModeTab("minecafe_food") {
+        @Override
+        public ItemStack makeIcon() {
+            return new ItemStack(ModItemsInit.BREADS.get(0).get());
+        }
+
+        @Override
+        public void fillItemList(NonNullList<ItemStack> pItems) {
+            super.fillItemList(pItems);
+//            acceptFoods(output); // todo
+        }
+    };
+
+    public static CreativeModeTab minecafeDrinkTab = new CreativeModeTab("minecafe_drinks") {
+        @Override
+        public ItemStack makeIcon() {
+            return new ItemStack(ModItemsInit.BOBA_MILK_TEAS.get(ModItemsInit.BOBA_MILK_TEAS.size() - 1).get());
+        }
+
+        @Override
+        public void fillItemList(NonNullList<ItemStack> pItems) {
+            super.fillItemList(pItems);
+//            acceptDrinks(output); // todo
+        }
+    };
 
     /*****************************************************************************************************************
      * Blocks

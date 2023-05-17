@@ -67,7 +67,6 @@ public class MineCafeMod {
 
         // Register creative mode tabs
         ModCreativeTabInit creativeTabsInit = new ModCreativeTabInit();
-        creativeTabsInit.register(modEventBus);
     }
 
     private void commonSetup(final FMLCommonSetupEvent event) {

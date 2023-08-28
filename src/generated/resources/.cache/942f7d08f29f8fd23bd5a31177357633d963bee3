@@ -1,4 +1,4 @@
-// 1.19.3	2023-06-21T22:16:30.2931384	Item Models: minecafe
+// 1.19.3	2023-06-29T23:22:40.1947384	Item Models: minecafe
 cf5722ffb590e719bf0e5d9d9f9394c4e0417b0e assets/minecafe/models/item/acacia_wall_shelf.json
 9e44bbdc343de02d5e26df590228ba45cb7b88d5 assets/minecafe/models/item/acai.json
 3d7c4d99797e475007f2fe27fcc55f1d717371ee assets/minecafe/models/item/acai_cannoli.json
@@ -441,6 +441,7 @@ d3e147e501c2eef27db9d024dd7a80fb1bc15927 assets/minecafe/models/item/lemon_yogur
 d4bd2327e8c329762cc8212f76ec4ed567d69d87 assets/minecafe/models/item/lily_of_the_valley_seeds.json
 db6a3f688f371ab82378122639e32d2f93ab742b assets/minecafe/models/item/lime.json
 c96baff6bab56f2bf7e573968fb48b98061f09ec assets/minecafe/models/item/limeade.json
+aaf191a5ca3fbe2780e309a9b70535fb1a75174c assets/minecafe/models/item/lime_cake.json
 de4c1a35975b669c2dc6b75ce333fbfca5f66f4a assets/minecafe/models/item/lime_cannoli.json
 7cfecc4bc793d096f0bf985e9ea3c70e4f2c112e assets/minecafe/models/item/lime_cream.json
 655b155ad8fc3734db03c634352065d0404aaf7b assets/minecafe/models/item/lime_crinkle_cookie.json
@@ -537,6 +538,7 @@ f6b7b65118ee1a1fa21efb823026a46481591ef8 assets/minecafe/models/item/neapolitan_
 cb3dd78597b54ec76f8204c948ece780a54751ad assets/minecafe/models/item/oak_wall_shelf.json
 e2455ae425cd0842b46f7b7da4396cc3a90d313a assets/minecafe/models/item/oatmeal_raisin_cookie.json
 e1bdd2c2b23aaee9194cfeb87be3cfd1757df87d assets/minecafe/models/item/orange.json
+56548903b9afcedf9a162e18313906667329e05a assets/minecafe/models/item/orange_cake.json
 e166c5a527898c381e453780f5cd908c0b57dc54 assets/minecafe/models/item/orange_cannoli.json
 522e3bf68f6fe91a309af12a940b0bc4d4aa1449 assets/minecafe/models/item/orange_cream.json
 9f70531e3ec368957b9a2fb67571ae7fba538bfe assets/minecafe/models/item/orange_creamsicle_pie_slice.json
@@ -750,6 +752,7 @@ f60f87ba2174a1a76d04963f57295a6c29204afe assets/minecafe/models/item/starfruit_p
 3a6a426ff508c9ac132cc9f3ff2a90ec76c1e67e assets/minecafe/models/item/steamed_milk.json
 80262ca69018dc4fd13a55d26f0938da58d3e555 assets/minecafe/models/item/strawberry.json
 daa7cc4befea271971a27fba74d9a87222137e27 assets/minecafe/models/item/strawberry_bread.json
+131381aef8b074c8130bd4b41a9d6d0413186bc0 assets/minecafe/models/item/strawberry_cake.json
 83632b1034d16f0a94598da1d2d4252331fb701b assets/minecafe/models/item/strawberry_cannoli.json
 5c6609f6cbd5f575862c969fb7ff83fa4c6737cd assets/minecafe/models/item/strawberry_cheesecake_slice.json
 9e0c2cc2f82c1423588f589c7c1d654a5756669a assets/minecafe/models/item/strawberry_chocolate.json
@@ -760,6 +763,7 @@ f24add6e477e684c5745eabe2aa03546c34877fa assets/minecafe/models/item/strawberry_
 8bb6d50e6c8cd304a79d66cde0e77898045b6739 assets/minecafe/models/item/strawberry_jam_toast.json
 44e2b3db1f4756a45bd0fea347e2365c08183bef assets/minecafe/models/item/strawberry_juice.json
 bce2c09ad722d1a26182cadc0799195c0fe11e44 assets/minecafe/models/item/strawberry_lemonade.json
+3c4ec5cefcfb48195d19d6ddd67b12616780ff14 assets/minecafe/models/item/strawberry_lemonade_cake.json
 59d66b2f04da56247c02983dbcf3b29c7af02584 assets/minecafe/models/item/strawberry_macaron.json
 ae3fe4c820c4dfcc0e14f571148b8c7b35e18541 assets/minecafe/models/item/strawberry_milk.json
 92872900b13597361691b486aaa18630d6253e62 assets/minecafe/models/item/strawberry_milk_tea.json

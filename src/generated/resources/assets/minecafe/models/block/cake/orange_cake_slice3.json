@@ -1,0 +1,9 @@
+{
+  "parent": "minecafe:block/cake/cake_slice3",
+  "textures": {
+    "bottom": "minecafe:block/cake/orange_cake_bottom",
+    "inner": "minecafe:block/cake/orange_cake_inner",
+    "side": "minecafe:block/cake/orange_cake_side",
+    "top": "minecafe:block/cake/orange_cake_top"
+  }
+}

@@ -189,6 +189,18 @@ public class ModBlocksInit {
     public static final List<RegistryObject<Block>> LUNCHBOXES = List.of(RED_LUNCHBOX, CREEPER_LUNCHBOX, END_LUNCHBOX);
 
     /**
+     * To-Go Boxes & Containers
+     */
+//    public static final RegistryObject<Block> TREAT_BOX = registerBlockItem("treat_box",
+//            () -> new LunchboxBlock(BlockBehaviour.Properties.of(Material.PLANT).noOcclusion().instabreak().sound(SoundType.WOOD))); // TODO create new class
+//    // TODO cake (or pie) box
+//    // TODO macaron box
+//    // TODO gift bag
+//    // TODO drink bag
+//
+//    public static final List<RegistryObject<Block>> TO_GO_CONTAINERS = List.of(TREAT_BOX);
+
+    /**
      * Wall Shelves
      */
     public static RegistryObject<Block> registerWallShelfBlockItem(String name) {

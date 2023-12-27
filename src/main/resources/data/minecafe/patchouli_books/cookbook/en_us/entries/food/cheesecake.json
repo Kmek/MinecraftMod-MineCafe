@@ -57,6 +57,10 @@
       "type": "patchouli:crafting",
       "recipe": "minecafe:foods/cake/funfetti_cheesecake_slice",
       "recipe2": "minecafe:foods/cake/rainbow_cheesecake_slice"
+    },
+    {
+      "type": "patchouli:smelting",
+      "recipe": "minecafe:foods/cake/basque_cheesecake_slice"
     }
   ]
 }

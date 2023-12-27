@@ -2,8 +2,8 @@
   "type": "minecraft:crafting_shaped",
   "category": "misc",
   "key": {
-    "C": { "item": "minecafe:peppermint_cream" },
-    "F": { "tag": "forge:crops/peppermint" },
+    "C": { "item": "minecafe:vanilla_cream" },
+    "F": { "tag": "forge:candy_cane" },
     "A": { "tag": "forge:crops/almond" }
   },
   "pattern": [

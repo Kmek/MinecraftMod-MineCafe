@@ -15,5 +15,6 @@ chocolate_chip_muffin, 6, 3
 smores_muffin, 6, 3
 double_chocolate_muffin, 6, 3
 pumpkin_muffin, 6, 3
+pumpkin_cheesecake_muffin, 7, 3
 chorus_fruit_muffin, 6, 3
 matcha_muffin, 6, 3

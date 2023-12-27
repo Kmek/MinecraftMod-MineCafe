@@ -6,3 +6,5 @@ strawberry_chocolate, 4, 2.5
 white_strawberry_chocolate, 4, 2.5
 caramel_apple, 4, 2.5
 peeps, 1, 0.5
+candy_cane, 3, 2
+candy_corn, 1, 0.5

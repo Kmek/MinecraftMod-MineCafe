@@ -47,11 +47,12 @@
     {
       "type": "patchouli:crafting",
       "recipe": "minecafe:foods/baked_goods/muffins/pumpkin_muffin",
-      "recipe2": "minecafe:foods/baked_goods/muffins/chorus_fruit_muffin"
+      "recipe2": "minecafe:foods/baked_goods/muffins/pumpkin_cheesecake_muffin"
     },
     {
       "type": "patchouli:crafting",
-      "recipe": "minecafe:foods/baked_goods/muffins/matcha_muffin"
+      "recipe": "minecafe:foods/baked_goods/muffins/matcha_muffin",
+      "recipe2": "minecafe:foods/baked_goods/muffins/chorus_fruit_muffin"
     }
   ]
 }

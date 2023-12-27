@@ -130,6 +130,7 @@ almond_macaron, 3, 1.5
 coconut_macaron, 3, 1.5
 vanilla_macaron, 3, 1.5
 snowman_macaron, 3, 1.5
+peppermint_macaron, 3, 1.5
 oreo_macaron, 3, 1.5
 
 // Need items implemented for recipe
@@ -137,7 +138,6 @@ funfetti_macaron, 3, 1.5
 pina_colada_macaron, 3, 1.5
 cinnamon_roll_macaron, 3, 1.5
 carrot_cake_macaron, 3, 1.5
-peppermint_macaron, 3, 1.5
 donut_macaron, 3, 1.5
 cotton_candy_macaron, 3, 1.5
 

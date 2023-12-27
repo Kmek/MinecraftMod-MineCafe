@@ -21,7 +21,8 @@
     },
     {
       "type": "patchouli:crafting",
-      "recipe": "minecafe:foods/baked_goods/brownies/peanut_butter_brownie"
+      "recipe": "minecafe:foods/baked_goods/brownies/peanut_butter_brownie",
+      "recipe2": "minecafe:foods/baked_goods/brownies/peppermint_brownie"
     }
   ]
 }

@@ -152,7 +152,11 @@
     {
       "type": "patchouli:crafting",
       "recipe": "minecafe:foods/baked_goods/cookies/macarons/snowman_macaron",
-      "recipe2": "minecafe:foods/baked_goods/cookies/macarons/oreo_macaron"
+      "recipe2": "minecafe:foods/baked_goods/cookies/macarons/peppermint_macaron"
+    },
+    {
+      "type": "patchouli:crafting",
+      "recipe": "minecafe:foods/baked_goods/cookies/macarons/oreo_macaron"
     }
   ]
 }

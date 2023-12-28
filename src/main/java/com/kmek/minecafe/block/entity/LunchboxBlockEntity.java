@@ -15,6 +15,8 @@ import net.minecraftforge.items.ItemStackHandler;
 import org.jetbrains.annotations.NotNull;
 import org.jetbrains.annotations.Nullable;
 
+import java.util.ArrayList;
+
 public class LunchboxBlockEntity extends CustomBaseBlockEntity {
     public LunchboxBlockEntity(BlockPos pPos, BlockState pBlockState) {
         super(pPos, pBlockState, ModBlockEntities.LUNCHBOX.get(), 12, 0, "Lunchbox");
@@ -53,5 +55,20 @@ public class LunchboxBlockEntity extends CustomBaseBlockEntity {
     @Override
     public AbstractContainerMenu createMenu(int pContainerId, Inventory pPlayerInventory, Player pPlayer) {
         return new LunchboxMenu(pContainerId, pPlayerInventory, this, this.data);
+    }
+
+    public String getInventoryString() {
+        ArrayList<String> items = new ArrayList<>();
+        for (int i = 0; i < this.itemHandler.getSlots(); i++) {
+            ItemStack iStack = this.itemHandler.getStackInSlot(i);
+            if (!iStack.isEmpty()) {
+                String itemName = iStack.getItem().getDescription().getString();
+                int itemCount = iStack.getCount();
+                items.add(itemCount + "x " + itemName);
+            }
+        }
+
+        String delimiter = "$$";
+        return String.join(delimiter, items);
     }
 }

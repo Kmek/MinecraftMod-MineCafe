@@ -6,6 +6,7 @@ import com.kmek.minecafe.block.custom.crop.*;
 import com.kmek.minecafe.datagen.FileDataLoader;
 import com.kmek.minecafe.fluid.ModFluids;
 import com.kmek.minecafe.item.ModItemsInit;
+import com.kmek.minecafe.item.custom.LunchboxItem;
 import com.kmek.minecafe.item.registery.CropsEnums;
 import net.minecraft.world.effect.MobEffects;
 import net.minecraft.world.item.BlockItem;
@@ -179,12 +180,17 @@ public class ModBlocksInit {
     /**
      * Lunchboxes
      */
-    public static final RegistryObject<Block> RED_LUNCHBOX = registerBlockItem("red_lunchbox",
-            () -> new LunchboxBlock(BlockBehaviour.Properties.of(Material.PLANT).noOcclusion().instabreak().sound(SoundType.METAL)));
-    public static final RegistryObject<Block> CREEPER_LUNCHBOX = registerBlockItem("creeper_lunchbox",
-            () -> new LunchboxBlock(BlockBehaviour.Properties.of(Material.PLANT).noOcclusion().instabreak().sound(SoundType.METAL)));
-    public static final RegistryObject<Block> END_LUNCHBOX = registerBlockItem("end_lunchbox",
-            () -> new LunchboxBlock(BlockBehaviour.Properties.of(Material.PLANT).noOcclusion().instabreak().sound(SoundType.METAL)));
+    public static RegistryObject<Block> registerLunchboxBlockItem(String name) {
+        RegistryObject<Block> toReturn = BLOCKS.register(name,
+                () -> new LunchboxBlock(BlockBehaviour.Properties.of(Material.PLANT).noOcclusion().instabreak().sound(SoundType.METAL)));
+        ITEMS.register(name,
+                () -> new LunchboxItem(toReturn.get(), new Item.Properties()));
+        return toReturn;
+    }
+
+    public static final RegistryObject<Block> RED_LUNCHBOX = registerLunchboxBlockItem("red_lunchbox");
+    public static final RegistryObject<Block> CREEPER_LUNCHBOX = registerLunchboxBlockItem("creeper_lunchbox");
+    public static final RegistryObject<Block> END_LUNCHBOX = registerLunchboxBlockItem("end_lunchbox");
 
     public static final List<RegistryObject<Block>> LUNCHBOXES = List.of(RED_LUNCHBOX, CREEPER_LUNCHBOX, END_LUNCHBOX);
 

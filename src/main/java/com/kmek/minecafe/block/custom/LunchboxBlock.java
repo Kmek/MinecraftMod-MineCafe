@@ -70,9 +70,13 @@ public class LunchboxBlock extends CustomVoxelMenuEntityBlock<LunchboxBlockEntit
             BlockEntity blockEntity = pLevel.getBlockEntity(pPos);
             if (isBlockEntity(blockEntity)) {
                 if (!pLevel.isClientSide()) {
-                    // Place item in player inventory
+                    // Create item stack
                     ItemStack stack = new ItemStack(this);
                     blockEntity.saveToItem(stack);
+                    CompoundTag invTag = stack.getTag();
+                    invTag.putString("InventoryString", ((LunchboxBlockEntity) blockEntity).getInventoryString());
+
+                    // Place item in player inventory
                     pPlayer.addItem(stack);
 
                     // Remove block
@@ -92,8 +96,12 @@ public class LunchboxBlock extends CustomVoxelMenuEntityBlock<LunchboxBlockEntit
         if (pState.getBlock() != pNewState.getBlock()) {
             BlockEntity blockEntity = pLevel.getBlockEntity(pPos);
             if (isBlockEntity(blockEntity)) {
+                // Create item stack
                 ItemStack stack = new ItemStack(this);
                 blockEntity.saveToItem(stack);
+                CompoundTag invTag = stack.getTag();
+                invTag.putString("InventoryString", ((LunchboxBlockEntity) blockEntity).getInventoryString());
+                // Drop item stack
                 Containers.dropItemStack(pLevel, pPos.getX(), pPos.getY(), pPos.getZ(), stack);
             }
         }

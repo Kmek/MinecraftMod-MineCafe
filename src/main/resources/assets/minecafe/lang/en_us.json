@@ -656,6 +656,7 @@
   "block.minecafe.boston_cream_pie": "Boston Cream Pie",
   "block.minecafe.red_velvet_cake": "Red Velvet Cake",
   "block.minecafe.blue_velvet_cake": "Blue Velvet Cake",
+  "block.minecafe.orange_velvet_cake": "Orange Velvet Cake",
   "block.minecafe.matcha_cake": "Matcha Cake",
   "block.minecafe.black_forest_cake": "Black Forest Cake",
   "block.minecafe.funfetti_cake": "Funfetti Cake",
@@ -664,6 +665,9 @@
   "block.minecafe.orange_cake": "Orange Cake",
   "block.minecafe.lime_cake": "Lime Cake",
   "block.minecafe.strawberry_cake": "Strawberry Cake",
+  "block.minecafe.lychee_cake": "Lychee Cake",
+  "block.minecafe.rose_cake": "Rose Cake",
+  "block.minecafe.banana_cake": "Banana Cake",
 
   "item.minecafe.apple_pie_slice": "Apple Pie",
   "item.minecafe.blueberry_pie_slice": "Blueberry Pie",

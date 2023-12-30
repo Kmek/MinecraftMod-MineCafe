@@ -1,9 +1,6 @@
 {
   "parent": "minecafe:block/cake/cake_slice5",
   "textures": {
-    "bottom": "minecafe:block/cake/boston_cream_pie_bottom",
-    "inner": "minecafe:block/cake/boston_cream_pie_inner",
-    "side": "minecafe:block/cake/boston_cream_pie_side",
-    "top": "minecafe:block/cake/boston_cream_pie_top"
+    "texture": "minecafe:block/cake/boston_cream_pie"
   }
 }

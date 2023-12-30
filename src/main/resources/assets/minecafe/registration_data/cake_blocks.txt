@@ -1,12 +1,16 @@
 carrot_cake
 
 // RED
-strawberry_cake
 red_velvet_cake
+lychee_cake
+rose_cake
+strawberry_cake
 strawberry_lemonade_cake
 // ORANGE
 orange_cake
+orange_velvet_cake
 // YELLOW
+banana_cake
 lemon_cake
 lemon_blueberry_cake
 // GREEN

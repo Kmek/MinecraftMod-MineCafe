@@ -1,9 +1,6 @@
 {
   "parent": "minecafe:block/cake/cake_slice4",
   "textures": {
-    "bottom": "minecafe:block/cake/lime_cake_bottom",
-    "inner": "minecafe:block/cake/lime_cake_inner",
-    "side": "minecafe:block/cake/lime_cake_side",
-    "top": "minecafe:block/cake/lime_cake_top"
+    "texture": "minecafe:block/cake/lime_cake"
   }
 }

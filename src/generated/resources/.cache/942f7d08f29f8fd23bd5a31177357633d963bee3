@@ -1,4 +1,4 @@
-// 1.19.3	2023-06-29T23:22:40.1947384	Item Models: minecafe
+// 1.19.3	2023-12-29T17:16:14.8611974	Item Models: minecafe
 cf5722ffb590e719bf0e5d9d9f9394c4e0417b0e assets/minecafe/models/item/acacia_wall_shelf.json
 9e44bbdc343de02d5e26df590228ba45cb7b88d5 assets/minecafe/models/item/acai.json
 3d7c4d99797e475007f2fe27fcc55f1d717371ee assets/minecafe/models/item/acai_cannoli.json
@@ -40,6 +40,7 @@ cae5247f12909e473bebea83f1edebf29a92d8cd assets/minecafe/models/item/apple_pie_s
 1500f7f68d84acb421d32675f51ad21e3f12834d assets/minecafe/models/item/baguette.json
 2bf2a2c3df454ab801fb5e0cc4e328564a51f3c7 assets/minecafe/models/item/banana.json
 eab95a97fc704dc20f379c84d767e4f8b3a2c1e3 assets/minecafe/models/item/banana_bread.json
+d9e29b76266b987210a436d0b570da83430bf610 assets/minecafe/models/item/banana_cake.json
 975eb0ccf8332468bb9a97db113b031696f69538 assets/minecafe/models/item/banana_cannoli.json
 8e480ebb596da00576fd26381fbab6672d78e4d7 assets/minecafe/models/item/banana_cheesecake_slice.json
 83561639d012d13c99b93d55d3ed35c6fbde05e3 assets/minecafe/models/item/banana_cream.json
@@ -455,6 +456,7 @@ cb45c9ddc610dd61d2433051a28d8191cbe92e68 assets/minecafe/models/item/lime_juice.
 0bd67b86129bd4dcb58de5f2ee9196a135fc0d79 assets/minecafe/models/item/lime_thumbprint_cookie.json
 37367df656acb9397b73794b812e965d5c3c47b1 assets/minecafe/models/item/lime_yogurt.json
 59deee7278807a848f80361110c570ba2d2c084f assets/minecafe/models/item/lychee.json
+8e68fb3a54ba2710d500ae313e81894fb97b8545 assets/minecafe/models/item/lychee_cake.json
 4ed587c231e19a5bd46bd1e0901402d31054a797 assets/minecafe/models/item/lychee_cannoli.json
 20a10fcc71f40c10dc952261b63f24307ee1fad8 assets/minecafe/models/item/lychee_cream.json
 e89f3e25739038c2224be487931196a94f562b4f assets/minecafe/models/item/lychee_jam.json
@@ -553,6 +555,7 @@ cb5c3c99c593d151a21facdbb268e75848cd5201 assets/minecafe/models/item/orange_pudd
 8f287d50d47da72ac2b14baa77810d16da8dc674 assets/minecafe/models/item/orange_seeds.json
 4c56f00a127801c78c89af46152c26f11fab75a4 assets/minecafe/models/item/orange_thumbprint_cookie.json
 fac9f4e1d9991b3d35472245ce56be0a488c933c assets/minecafe/models/item/orange_tulip_seeds.json
+979060ea08a9a6a63f58be917493420a4654acc5 assets/minecafe/models/item/orange_velvet_cake.json
 490bf36271219354f17a08f933e6aeeaa671bf5e assets/minecafe/models/item/orange_yogurt.json
 7efff65e5541bedec6477e7d446bab2e43e8029d assets/minecafe/models/item/oreo_cookie.json
 a7b221217a11431d0e3b9587ad3671104148ba3c assets/minecafe/models/item/oreo_macaron.json
@@ -718,6 +721,7 @@ c3db41b45386e08dc7906c361c60087ffa7c14f3 assets/minecafe/models/item/red_lunchbo
 3e3e4166456bebd97a8f661f7e1103ee90c2e677 assets/minecafe/models/item/red_velvet_cake.json
 1dfd191ff77a36090efe894ad8bf402aa72560b2 assets/minecafe/models/item/red_velvet_cookie.json
 a68323bd83802f43951a64dd3cbfd34a91221c78 assets/minecafe/models/item/red_velvet_crinkle_cookie.json
+554b4ac4269579992581ea36efa959c5faa78ed6 assets/minecafe/models/item/rose_cake.json
 50a3834ab2acc2015525a626d53d6b622e50b6ef assets/minecafe/models/item/rose_cannoli.json
 56ed30d7e477910f38337ac01433c2c8975cf4e2 assets/minecafe/models/item/rose_cream.json
 853eaea4a30d7051b5e6c47dcb3ea55981fe202e assets/minecafe/models/item/rose_macaron.json

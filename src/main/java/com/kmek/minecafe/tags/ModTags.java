@@ -29,6 +29,13 @@ public class ModTags {
         public static final TagKey<Item> SEEDS_FROM_LEAVES = tag("seeds_from_leaves");
         public static final TagKey<Item> CAKE_BLOCKS = tag("cake_blocks");
 
+        // Item tags for advancements
+        public static final TagKey<Item> CHEESECAKES = tag("cheesecakes");
+        public static final TagKey<Item> CREAMS = tag("creams");
+        public static final TagKey<Item> CREAM_PIES = tag("cream_pies");
+        public static final TagKey<Item> FRUIT_PIES = tag("fruit_pies");
+        public static final TagKey<Item> MEAT_PIES = tag("meat_pies");
+
         private static TagKey<Item> tag(String name) {
             return ItemTags.create(new ResourceLocation(MineCafeMod.MODID, name));
         }

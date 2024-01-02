@@ -1,0 +1,31 @@
+{
+  "parent": "minecafe:ingredients/cream",
+  "criteria": {
+    "has_item": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "tag": "minecafe:creams"
+          }
+        ]
+      }
+    }
+  },
+  "display": {
+    "announce_to_chat": true,
+    "show_toast": true,
+    "hidden": false,
+    "title": "Flavored Cream",
+    "description": "Craft a flavored cream",
+    "frame": "goal",
+    "icon": {
+      "item": "minecafe:rose_cream"
+    }
+  },
+  "requirements": [
+    [
+      "has_item"
+    ]
+  ]
+}

@@ -19,22 +19,19 @@ public class ModBlockModelProvider extends BlockModelProvider {
         ModBlocksInit.LUNCHBOXES.forEach(reg -> lunchboxModels(reg.getId().getPath(), "block/lunchbox/"));
     }
 
-    private BlockModelBuilder cakeModelSingleFile(String name, String appendFileName, String textureFolder, String parent) {
+    private BlockModelBuilder cakeModelSingleTextureFile(String name, String appendFileName, String textureFolder, String parent) {
         return withExistingParent("block/cake/" + name + appendFileName, new ResourceLocation(MineCafeMod.MODID, parent))
-                .texture("bottom", new ResourceLocation(MineCafeMod.MODID, textureFolder + name + "_bottom"))
-                .texture("top", new ResourceLocation(MineCafeMod.MODID, textureFolder + name + "_top"))
-                .texture("side", new ResourceLocation(MineCafeMod.MODID, textureFolder + name + "_side"))
-                .texture("inner", new ResourceLocation(MineCafeMod.MODID, textureFolder + name + "_inner"));
+                .texture("texture", new ResourceLocation(MineCafeMod.MODID, textureFolder + name));
     }
 
     private void cakeModels(String name, String textureFolder) {
-        cakeModelSingleFile(name, "", textureFolder, "block/cake/cake");
-        cakeModelSingleFile(name, "_slice1", textureFolder, "block/cake/cake_slice1");
-        cakeModelSingleFile(name, "_slice2", textureFolder, "block/cake/cake_slice2");
-        cakeModelSingleFile(name, "_slice3", textureFolder, "block/cake/cake_slice3");
-        cakeModelSingleFile(name, "_slice4", textureFolder, "block/cake/cake_slice4");
-        cakeModelSingleFile(name, "_slice5", textureFolder, "block/cake/cake_slice5");
-        cakeModelSingleFile(name, "_slice6", textureFolder, "block/cake/cake_slice6");
+        cakeModelSingleTextureFile(name, "", textureFolder, "block/cake/cake");
+        cakeModelSingleTextureFile(name, "_slice1", textureFolder, "block/cake/cake_slice1");
+        cakeModelSingleTextureFile(name, "_slice2", textureFolder, "block/cake/cake_slice2");
+        cakeModelSingleTextureFile(name, "_slice3", textureFolder, "block/cake/cake_slice3");
+        cakeModelSingleTextureFile(name, "_slice4", textureFolder, "block/cake/cake_slice4");
+        cakeModelSingleTextureFile(name, "_slice5", textureFolder, "block/cake/cake_slice5");
+        cakeModelSingleTextureFile(name, "_slice6", textureFolder, "block/cake/cake_slice6");
     }
 
     private void lunchboxModels(String name, String textureFolder) {

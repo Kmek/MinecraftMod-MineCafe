@@ -1,9 +1,6 @@
 {
   "parent": "minecafe:block/cake/cake_slice5",
   "textures": {
-    "bottom": "minecafe:block/cake/pineapple_upside_down_cake_bottom",
-    "inner": "minecafe:block/cake/pineapple_upside_down_cake_inner",
-    "side": "minecafe:block/cake/pineapple_upside_down_cake_side",
-    "top": "minecafe:block/cake/pineapple_upside_down_cake_top"
+    "texture": "minecafe:block/cake/pineapple_upside_down_cake"
   }
 }

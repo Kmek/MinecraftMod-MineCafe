@@ -1,0 +1,33 @@
+{
+  "parent": "minecafe:coffee/coffee_cherries",
+  "criteria": {
+    "has_item": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecafe:coffee_beans_unroasted"
+            ]
+          }
+        ]
+      }
+    }
+  },
+  "display": {
+    "announce_to_chat": true,
+    "show_toast": true,
+    "hidden": false,
+    "title": "Raw Beans",
+    "description": "Process coffee cherries into raw coffee beans",
+    "frame": "task",
+    "icon": {
+      "item": "minecafe:coffee_beans_unroasted"
+    }
+  },
+  "requirements": [
+    [
+      "has_item"
+    ]
+  ]
+}

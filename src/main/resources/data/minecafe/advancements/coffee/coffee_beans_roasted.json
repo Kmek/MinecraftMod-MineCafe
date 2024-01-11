@@ -1,0 +1,33 @@
+{
+  "parent": "minecafe:coffee/coffee_beans_unroasted",
+  "criteria": {
+    "has_item": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecafe:coffee_beans_roasted"
+            ]
+          }
+        ]
+      }
+    }
+  },
+  "display": {
+    "announce_to_chat": true,
+    "show_toast": true,
+    "hidden": false,
+    "title": "Roasted Beans",
+    "description": "Roast raw coffee beans",
+    "frame": "task",
+    "icon": {
+      "item": "minecafe:coffee_beans_roasted"
+    }
+  },
+  "requirements": [
+    [
+      "has_item"
+    ]
+  ]
+}

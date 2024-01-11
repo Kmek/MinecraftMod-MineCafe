@@ -1,0 +1,33 @@
+{
+  "parent": "minecafe:smores/marshmallow_puff",
+  "criteria": {
+    "has_item": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecafe:marshmallow_on_stick"
+            ]
+          }
+        ]
+      }
+    }
+  },
+  "display": {
+    "announce_to_chat": true,
+    "show_toast": true,
+    "hidden": false,
+    "title": "Sticked Marshmallow",
+    "description": "Craft a marshmallow on a stick",
+    "frame": "task",
+    "icon": {
+      "item": "minecafe:marshmallow_on_stick"
+    }
+  },
+  "requirements": [
+    [
+      "has_item"
+    ]
+  ]
+}

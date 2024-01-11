@@ -1,0 +1,19 @@
+{
+  "criteria": {
+    "tick": {
+      "trigger": "minecraft:tick"
+    }
+  },
+  "display": {
+    "announce_to_chat": false,
+    "background": "minecraft:textures/gui/advancements/backgrounds/husbandry.png",
+    "description": "Ready to bake",
+    "frame": "task",
+    "hidden": false,
+    "icon": {
+      "item": "minecafe:brown_sugar_milk_tea"
+    },
+    "show_toast": false,
+    "title": "MineCafe"
+  }
+}

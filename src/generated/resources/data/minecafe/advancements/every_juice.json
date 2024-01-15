@@ -1,504 +1,504 @@
 {
-  "parent": "minecafe:food/cannoli/any_cannoli",
+  "parent": "minecafe:root_drinks",
   "criteria": {
-    "trigger_acai_cannoli": {
+    "trigger_acai_juice": {
       "conditions": {
         "items": [
           {
             "items": [
-              "minecafe:acai_cannoli"
+              "minecafe:acai_juice"
             ]
           }
         ]
       },
       "trigger": "minecraft:inventory_changed"
     },
-    "trigger_apple_cannoli": {
+    "trigger_apple_juice": {
       "conditions": {
         "items": [
           {
             "items": [
-              "minecafe:apple_cannoli"
+              "minecafe:apple_juice"
             ]
           }
         ]
       },
       "trigger": "minecraft:inventory_changed"
     },
-    "trigger_banana_cannoli": {
+    "trigger_banana_juice": {
       "conditions": {
         "items": [
           {
             "items": [
-              "minecafe:banana_cannoli"
+              "minecafe:banana_juice"
             ]
           }
         ]
       },
       "trigger": "minecraft:inventory_changed"
     },
-    "trigger_blackberry_cannoli": {
+    "trigger_beetroot_juice": {
       "conditions": {
         "items": [
           {
             "items": [
-              "minecafe:blackberry_cannoli"
+              "minecafe:beetroot_juice"
             ]
           }
         ]
       },
       "trigger": "minecraft:inventory_changed"
     },
-    "trigger_blueberry_cannoli": {
+    "trigger_blackberry_juice": {
       "conditions": {
         "items": [
           {
             "items": [
-              "minecafe:blueberry_cannoli"
+              "minecafe:blackberry_juice"
             ]
           }
         ]
       },
       "trigger": "minecraft:inventory_changed"
     },
-    "trigger_caramel_cannoli": {
+    "trigger_blueberry_juice": {
       "conditions": {
         "items": [
           {
             "items": [
-              "minecafe:caramel_cannoli"
+              "minecafe:blueberry_juice"
             ]
           }
         ]
       },
       "trigger": "minecraft:inventory_changed"
     },
-    "trigger_cherry_cannoli": {
+    "trigger_blueberry_lemonade": {
       "conditions": {
         "items": [
           {
             "items": [
-              "minecafe:cherry_cannoli"
+              "minecafe:blueberry_lemonade"
             ]
           }
         ]
       },
       "trigger": "minecraft:inventory_changed"
     },
-    "trigger_chocolate_cannoli": {
+    "trigger_carrot_juice": {
       "conditions": {
         "items": [
           {
             "items": [
-              "minecafe:chocolate_cannoli"
+              "minecafe:carrot_juice"
             ]
           }
         ]
       },
       "trigger": "minecraft:inventory_changed"
     },
-    "trigger_chorus_fruit_cannoli": {
+    "trigger_cherry_juice": {
       "conditions": {
         "items": [
           {
             "items": [
-              "minecafe:chorus_fruit_cannoli"
+              "minecafe:cherry_juice"
             ]
           }
         ]
       },
       "trigger": "minecraft:inventory_changed"
     },
-    "trigger_cinnamon_cannoli": {
+    "trigger_chorus_fruit_juice": {
       "conditions": {
         "items": [
           {
             "items": [
-              "minecafe:cinnamon_cannoli"
+              "minecafe:chorus_fruit_juice"
             ]
           }
         ]
       },
       "trigger": "minecraft:inventory_changed"
     },
-    "trigger_coconut_cannoli": {
+    "trigger_coconut_juice": {
       "conditions": {
         "items": [
           {
             "items": [
-              "minecafe:coconut_cannoli"
+              "minecafe:coconut_juice"
             ]
           }
         ]
       },
       "trigger": "minecraft:inventory_changed"
     },
-    "trigger_coffee_cannoli": {
+    "trigger_cranberry_juice": {
       "conditions": {
         "items": [
           {
             "items": [
-              "minecafe:coffee_cannoli"
+              "minecafe:cranberry_juice"
             ]
           }
         ]
       },
       "trigger": "minecraft:inventory_changed"
     },
-    "trigger_cranberry_cannoli": {
+    "trigger_dragon_fruit_juice": {
       "conditions": {
         "items": [
           {
             "items": [
-              "minecafe:cranberry_cannoli"
+              "minecafe:dragon_fruit_juice"
             ]
           }
         ]
       },
       "trigger": "minecraft:inventory_changed"
     },
-    "trigger_dragon_fruit_cannoli": {
+    "trigger_fig_juice": {
       "conditions": {
         "items": [
           {
             "items": [
-              "minecafe:dragon_fruit_cannoli"
+              "minecafe:fig_juice"
             ]
           }
         ]
       },
       "trigger": "minecraft:inventory_changed"
     },
-    "trigger_fig_cannoli": {
+    "trigger_glow_berry_juice": {
       "conditions": {
         "items": [
           {
             "items": [
-              "minecafe:fig_cannoli"
+              "minecafe:glow_berry_juice"
             ]
           }
         ]
       },
       "trigger": "minecraft:inventory_changed"
     },
-    "trigger_glow_berry_cannoli": {
+    "trigger_gooseberry_juice": {
       "conditions": {
         "items": [
           {
             "items": [
-              "minecafe:glow_berry_cannoli"
+              "minecafe:gooseberry_juice"
             ]
           }
         ]
       },
       "trigger": "minecraft:inventory_changed"
     },
-    "trigger_gooseberry_cannoli": {
+    "trigger_grape_juice": {
       "conditions": {
         "items": [
           {
             "items": [
-              "minecafe:gooseberry_cannoli"
+              "minecafe:grape_juice"
             ]
           }
         ]
       },
       "trigger": "minecraft:inventory_changed"
     },
-    "trigger_grape_cannoli": {
+    "trigger_kiwi_juice": {
       "conditions": {
         "items": [
           {
             "items": [
-              "minecafe:grape_cannoli"
+              "minecafe:kiwi_juice"
             ]
           }
         ]
       },
       "trigger": "minecraft:inventory_changed"
     },
-    "trigger_honey_cannoli": {
+    "trigger_lemon_juice": {
       "conditions": {
         "items": [
           {
             "items": [
-              "minecafe:honey_cannoli"
+              "minecafe:lemon_juice"
             ]
           }
         ]
       },
       "trigger": "minecraft:inventory_changed"
     },
-    "trigger_kiwi_cannoli": {
+    "trigger_lemonade": {
       "conditions": {
         "items": [
           {
             "items": [
-              "minecafe:kiwi_cannoli"
+              "minecafe:lemonade"
             ]
           }
         ]
       },
       "trigger": "minecraft:inventory_changed"
     },
-    "trigger_lemon_cannoli": {
+    "trigger_lime_juice": {
       "conditions": {
         "items": [
           {
             "items": [
-              "minecafe:lemon_cannoli"
+              "minecafe:lime_juice"
             ]
           }
         ]
       },
       "trigger": "minecraft:inventory_changed"
     },
-    "trigger_lime_cannoli": {
+    "trigger_limeade": {
       "conditions": {
         "items": [
           {
             "items": [
-              "minecafe:lime_cannoli"
+              "minecafe:limeade"
             ]
           }
         ]
       },
       "trigger": "minecraft:inventory_changed"
     },
-    "trigger_lychee_cannoli": {
+    "trigger_lychee_juice": {
       "conditions": {
         "items": [
           {
             "items": [
-              "minecafe:lychee_cannoli"
+              "minecafe:lychee_juice"
             ]
           }
         ]
       },
       "trigger": "minecraft:inventory_changed"
     },
-    "trigger_mango_cannoli": {
+    "trigger_mango_juice": {
       "conditions": {
         "items": [
           {
             "items": [
-              "minecafe:mango_cannoli"
+              "minecafe:mango_juice"
             ]
           }
         ]
       },
       "trigger": "minecraft:inventory_changed"
     },
-    "trigger_mangosteen_cannoli": {
+    "trigger_mango_lemonade": {
       "conditions": {
         "items": [
           {
             "items": [
-              "minecafe:mangosteen_cannoli"
+              "minecafe:mango_lemonade"
             ]
           }
         ]
       },
       "trigger": "minecraft:inventory_changed"
     },
-    "trigger_matcha_cannoli": {
+    "trigger_mangosteen_juice": {
       "conditions": {
         "items": [
           {
             "items": [
-              "minecafe:matcha_cannoli"
+              "minecafe:mangosteen_juice"
             ]
           }
         ]
       },
       "trigger": "minecraft:inventory_changed"
     },
-    "trigger_mint_cannoli": {
+    "trigger_orange_juice": {
       "conditions": {
         "items": [
           {
             "items": [
-              "minecafe:mint_cannoli"
+              "minecafe:orange_juice"
             ]
           }
         ]
       },
       "trigger": "minecraft:inventory_changed"
     },
-    "trigger_orange_cannoli": {
+    "trigger_passion_fruit_juice": {
       "conditions": {
         "items": [
           {
             "items": [
-              "minecafe:orange_cannoli"
+              "minecafe:passion_fruit_juice"
             ]
           }
         ]
       },
       "trigger": "minecraft:inventory_changed"
     },
-    "trigger_passion_fruit_cannoli": {
+    "trigger_peach_juice": {
       "conditions": {
         "items": [
           {
             "items": [
-              "minecafe:passion_fruit_cannoli"
+              "minecafe:peach_juice"
             ]
           }
         ]
       },
       "trigger": "minecraft:inventory_changed"
     },
-    "trigger_peach_cannoli": {
+    "trigger_pear_juice": {
       "conditions": {
         "items": [
           {
             "items": [
-              "minecafe:peach_cannoli"
+              "minecafe:pear_juice"
             ]
           }
         ]
       },
       "trigger": "minecraft:inventory_changed"
     },
-    "trigger_peanut_cannoli": {
+    "trigger_pineapple_juice": {
       "conditions": {
         "items": [
           {
             "items": [
-              "minecafe:peanut_cannoli"
+              "minecafe:pineapple_juice"
             ]
           }
         ]
       },
       "trigger": "minecraft:inventory_changed"
     },
-    "trigger_pear_cannoli": {
+    "trigger_pineapple_lemonade": {
       "conditions": {
         "items": [
           {
             "items": [
-              "minecafe:pear_cannoli"
+              "minecafe:pineapple_lemonade"
             ]
           }
         ]
       },
       "trigger": "minecraft:inventory_changed"
     },
-    "trigger_pineapple_cannoli": {
+    "trigger_plum_juice": {
       "conditions": {
         "items": [
           {
             "items": [
-              "minecafe:pineapple_cannoli"
+              "minecafe:plum_juice"
             ]
           }
         ]
       },
       "trigger": "minecraft:inventory_changed"
     },
-    "trigger_plum_cannoli": {
+    "trigger_pomegranate_juice": {
       "conditions": {
         "items": [
           {
             "items": [
-              "minecafe:plum_cannoli"
+              "minecafe:pomegranate_juice"
             ]
           }
         ]
       },
       "trigger": "minecraft:inventory_changed"
     },
-    "trigger_pomegranate_cannoli": {
+    "trigger_potato_juice": {
       "conditions": {
         "items": [
           {
             "items": [
-              "minecafe:pomegranate_cannoli"
+              "minecafe:potato_juice"
             ]
           }
         ]
       },
       "trigger": "minecraft:inventory_changed"
     },
-    "trigger_raspberry_cannoli": {
+    "trigger_raspberry_juice": {
       "conditions": {
         "items": [
           {
             "items": [
-              "minecafe:raspberry_cannoli"
+              "minecafe:raspberry_juice"
             ]
           }
         ]
       },
       "trigger": "minecraft:inventory_changed"
     },
-    "trigger_rose_cannoli": {
+    "trigger_raspberry_lemonade": {
       "conditions": {
         "items": [
           {
             "items": [
-              "minecafe:rose_cannoli"
+              "minecafe:raspberry_lemonade"
             ]
           }
         ]
       },
       "trigger": "minecraft:inventory_changed"
     },
-    "trigger_starfruit_cannoli": {
+    "trigger_starfruit_juice": {
       "conditions": {
         "items": [
           {
             "items": [
-              "minecafe:starfruit_cannoli"
+              "minecafe:starfruit_juice"
             ]
           }
         ]
       },
       "trigger": "minecraft:inventory_changed"
     },
-    "trigger_strawberry_cannoli": {
+    "trigger_strawberry_juice": {
       "conditions": {
         "items": [
           {
             "items": [
-              "minecafe:strawberry_cannoli"
+              "minecafe:strawberry_juice"
             ]
           }
         ]
       },
       "trigger": "minecraft:inventory_changed"
     },
-    "trigger_sweet_berry_cannoli": {
+    "trigger_strawberry_lemonade": {
       "conditions": {
         "items": [
           {
             "items": [
-              "minecafe:sweet_berry_cannoli"
+              "minecafe:strawberry_lemonade"
             ]
           }
         ]
       },
       "trigger": "minecraft:inventory_changed"
     },
-    "trigger_vanilla_cannoli": {
+    "trigger_sweet_berry_juice": {
       "conditions": {
         "items": [
           {
             "items": [
-              "minecafe:vanilla_cannoli"
+              "minecafe:sweet_berry_juice"
             ]
           }
         ]
       },
       "trigger": "minecraft:inventory_changed"
     },
-    "trigger_watermelon_cannoli": {
+    "trigger_watermelon_juice": {
       "conditions": {
         "items": [
           {
             "items": [
-              "minecafe:watermelon_cannoli"
+              "minecafe:watermelon_juice"
             ]
           }
         ]
@@ -509,144 +509,144 @@
   "display": {
     "announce_to_chat": true,
     "description": {
-      "text": "Craft every type of cannoli"
+      "text": "Craft every type of juice"
     },
     "frame": "challenge",
     "hidden": false,
     "icon": {
-      "item": "minecafe:honey_cannoli"
+      "item": "minecafe:mango_juice"
     },
     "show_toast": true,
     "title": {
-      "text": "Every Cannoli"
+      "text": "Every Juice"
     }
   },
   "requirements": [
     [
-      "trigger_rose_cannoli"
+      "trigger_mangosteen_juice"
     ],
     [
-      "trigger_raspberry_cannoli"
+      "trigger_acai_juice"
     ],
     [
-      "trigger_strawberry_cannoli"
+      "trigger_blackberry_juice"
     ],
     [
-      "trigger_apple_cannoli"
+      "trigger_blueberry_juice"
     ],
     [
-      "trigger_cherry_cannoli"
+      "trigger_pomegranate_juice"
     ],
     [
-      "trigger_watermelon_cannoli"
+      "trigger_beetroot_juice"
     ],
     [
-      "trigger_sweet_berry_cannoli"
+      "trigger_sweet_berry_juice"
     ],
     [
-      "trigger_pomegranate_cannoli"
+      "trigger_raspberry_juice"
     ],
     [
-      "trigger_cranberry_cannoli"
+      "trigger_fig_juice"
     ],
     [
-      "trigger_orange_cannoli"
+      "trigger_cherry_juice"
     ],
     [
-      "trigger_peach_cannoli"
+      "trigger_cranberry_juice"
     ],
     [
-      "trigger_glow_berry_cannoli"
+      "trigger_plum_juice"
     ],
     [
-      "trigger_gooseberry_cannoli"
+      "trigger_strawberry_juice"
     ],
     [
-      "trigger_mango_cannoli"
+      "trigger_watermelon_juice"
     ],
     [
-      "trigger_passion_fruit_cannoli"
+      "trigger_carrot_juice"
     ],
     [
-      "trigger_banana_cannoli"
+      "trigger_passion_fruit_juice"
     ],
     [
-      "trigger_lemon_cannoli"
+      "trigger_glow_berry_juice"
     ],
     [
-      "trigger_honey_cannoli"
+      "trigger_mango_juice"
     ],
     [
-      "trigger_pineapple_cannoli"
+      "trigger_apple_juice"
     ],
     [
-      "trigger_starfruit_cannoli"
+      "trigger_gooseberry_juice"
     ],
     [
-      "trigger_kiwi_cannoli"
+      "trigger_orange_juice"
     ],
     [
-      "trigger_grape_cannoli"
+      "trigger_lemon_juice"
     ],
     [
-      "trigger_lime_cannoli"
+      "trigger_pineapple_juice"
     ],
     [
-      "trigger_mint_cannoli"
+      "trigger_starfruit_juice"
     ],
     [
-      "trigger_matcha_cannoli"
+      "trigger_potato_juice"
     ],
     [
-      "trigger_blueberry_cannoli"
+      "trigger_grape_juice"
     ],
     [
-      "trigger_chorus_fruit_cannoli"
+      "trigger_kiwi_juice"
     ],
     [
-      "trigger_plum_cannoli"
+      "trigger_lime_juice"
     ],
     [
-      "trigger_fig_cannoli"
+      "trigger_chorus_fruit_juice"
     ],
     [
-      "trigger_acai_cannoli"
+      "trigger_dragon_fruit_juice"
     ],
     [
-      "trigger_blackberry_cannoli"
+      "trigger_lychee_juice"
     ],
     [
-      "trigger_chocolate_cannoli"
+      "trigger_coconut_juice"
     ],
     [
-      "trigger_coffee_cannoli"
+      "trigger_banana_juice"
     ],
     [
-      "trigger_cinnamon_cannoli"
+      "trigger_pear_juice"
     ],
     [
-      "trigger_caramel_cannoli"
+      "trigger_peach_juice"
     ],
     [
-      "trigger_peanut_cannoli"
+      "trigger_raspberry_lemonade"
     ],
     [
-      "trigger_pear_cannoli"
+      "trigger_strawberry_lemonade"
     ],
     [
-      "trigger_dragon_fruit_cannoli"
+      "trigger_mango_lemonade"
     ],
     [
-      "trigger_vanilla_cannoli"
+      "trigger_pineapple_lemonade"
     ],
     [
-      "trigger_coconut_cannoli"
+      "trigger_lemonade"
     ],
     [
-      "trigger_lychee_cannoli"
+      "trigger_limeade"
     ],
     [
-      "trigger_mangosteen_cannoli"
+      "trigger_blueberry_lemonade"
     ]
   ]
 }

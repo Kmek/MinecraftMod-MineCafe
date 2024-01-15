@@ -1,12 +1,14 @@
 {
-  "parent": "minecafe:root_ingredients",
+  "parent": "minecafe:root_dishes",
   "criteria": {
-    "has_item": {
+    "has_block": {
       "trigger": "minecraft:inventory_changed",
       "conditions": {
         "items": [
           {
-            "tag": "minecafe:creams"
+            "items": [
+              "minecafe:waffle_iron"
+            ]
           }
         ]
       }
@@ -16,16 +18,16 @@
     "announce_to_chat": true,
     "show_toast": true,
     "hidden": false,
-    "title": "Flavored Cream",
-    "description": "Craft a flavored cream",
-    "frame": "goal",
+    "title": "Waffle Iron",
+    "description": "Craft a Waffle Iron",
+    "frame": "task",
     "icon": {
-      "item": "minecafe:rose_cream"
+      "item": "minecafe:waffle_iron"
     }
   },
   "requirements": [
     [
-      "has_item"
+      "has_block"
     ]
   ]
 }

@@ -118,6 +118,13 @@ public class ModItemsInit {
                     .effect(() -> new MobEffectInstance(MobEffects.HUNGER, 200, 0), 1.0f)
                     .build())));
     // Breads
+    public static final List<RegistryObject<Item>> BREADS_TOASTS =
+            new FileDataLoader("registration_data/breads_toasts.txt").read().stream()
+                    .map(args -> ITEMS.register(args.get(0), () -> new Item(new Item.Properties().food(
+                            new FoodProperties.Builder()
+                                    .nutrition(Integer.parseInt(args.get(1)))
+                                    .saturationMod(Float.parseFloat(args.get(2))).build())))
+                    ).toList();
     public static final List<RegistryObject<Item>> BREADS =
             new FileDataLoader("registration_data/breads.txt").read().stream()
                     .map(args -> ITEMS.register(args.get(0), () -> new Item(new Item.Properties().food(

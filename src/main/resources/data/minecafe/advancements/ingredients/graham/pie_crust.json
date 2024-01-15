@@ -1,12 +1,14 @@
 {
-  "parent": "minecafe:root_ingredients",
+  "parent": "minecafe:ingredients/graham/graham_cracker",
   "criteria": {
     "has_item": {
       "trigger": "minecraft:inventory_changed",
       "conditions": {
         "items": [
           {
-            "tag": "minecafe:creams"
+            "items": [
+              "minecafe:pie_crust"
+            ]
           }
         ]
       }
@@ -16,11 +18,11 @@
     "announce_to_chat": true,
     "show_toast": true,
     "hidden": false,
-    "title": "Flavored Cream",
-    "description": "Craft a flavored cream",
-    "frame": "goal",
+    "title": "Crusty",
+    "description": "Craft a pie crust",
+    "frame": "task",
     "icon": {
-      "item": "minecafe:rose_cream"
+      "item": "minecafe:pie_crust"
     }
   },
   "requirements": [

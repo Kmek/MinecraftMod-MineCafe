@@ -1,504 +1,576 @@
 {
-  "parent": "minecafe:food/cannoli/any_cannoli",
+  "parent": "minecafe:root_drinks",
   "criteria": {
-    "trigger_acai_cannoli": {
+    "trigger_acai_milk_tea": {
       "conditions": {
         "items": [
           {
             "items": [
-              "minecafe:acai_cannoli"
+              "minecafe:acai_milk_tea"
             ]
           }
         ]
       },
       "trigger": "minecraft:inventory_changed"
     },
-    "trigger_apple_cannoli": {
+    "trigger_apple_milk_tea": {
       "conditions": {
         "items": [
           {
             "items": [
-              "minecafe:apple_cannoli"
+              "minecafe:apple_milk_tea"
             ]
           }
         ]
       },
       "trigger": "minecraft:inventory_changed"
     },
-    "trigger_banana_cannoli": {
+    "trigger_banana_milk_tea": {
       "conditions": {
         "items": [
           {
             "items": [
-              "minecafe:banana_cannoli"
+              "minecafe:banana_milk_tea"
             ]
           }
         ]
       },
       "trigger": "minecraft:inventory_changed"
     },
-    "trigger_blackberry_cannoli": {
+    "trigger_beetroot_milk_tea": {
       "conditions": {
         "items": [
           {
             "items": [
-              "minecafe:blackberry_cannoli"
+              "minecafe:beetroot_milk_tea"
             ]
           }
         ]
       },
       "trigger": "minecraft:inventory_changed"
     },
-    "trigger_blueberry_cannoli": {
+    "trigger_blackberry_milk_tea": {
       "conditions": {
         "items": [
           {
             "items": [
-              "minecafe:blueberry_cannoli"
+              "minecafe:blackberry_milk_tea"
             ]
           }
         ]
       },
       "trigger": "minecraft:inventory_changed"
     },
-    "trigger_caramel_cannoli": {
+    "trigger_blueberry_milk_tea": {
       "conditions": {
         "items": [
           {
             "items": [
-              "minecafe:caramel_cannoli"
+              "minecafe:blueberry_milk_tea"
             ]
           }
         ]
       },
       "trigger": "minecraft:inventory_changed"
     },
-    "trigger_cherry_cannoli": {
+    "trigger_brown_sugar_milk_tea": {
       "conditions": {
         "items": [
           {
             "items": [
-              "minecafe:cherry_cannoli"
+              "minecafe:brown_sugar_milk_tea"
             ]
           }
         ]
       },
       "trigger": "minecraft:inventory_changed"
     },
-    "trigger_chocolate_cannoli": {
+    "trigger_butterfly_pea_flower_milk_tea": {
       "conditions": {
         "items": [
           {
             "items": [
-              "minecafe:chocolate_cannoli"
+              "minecafe:butterfly_pea_flower_milk_tea"
             ]
           }
         ]
       },
       "trigger": "minecraft:inventory_changed"
     },
-    "trigger_chorus_fruit_cannoli": {
+    "trigger_cake_milk_tea": {
       "conditions": {
         "items": [
           {
             "items": [
-              "minecafe:chorus_fruit_cannoli"
+              "minecafe:cake_milk_tea"
             ]
           }
         ]
       },
       "trigger": "minecraft:inventory_changed"
     },
-    "trigger_cinnamon_cannoli": {
+    "trigger_carrot_milk_tea": {
       "conditions": {
         "items": [
           {
             "items": [
-              "minecafe:cinnamon_cannoli"
+              "minecafe:carrot_milk_tea"
             ]
           }
         ]
       },
       "trigger": "minecraft:inventory_changed"
     },
-    "trigger_coconut_cannoli": {
+    "trigger_cherry_milk_tea": {
       "conditions": {
         "items": [
           {
             "items": [
-              "minecafe:coconut_cannoli"
+              "minecafe:cherry_milk_tea"
             ]
           }
         ]
       },
       "trigger": "minecraft:inventory_changed"
     },
-    "trigger_coffee_cannoli": {
+    "trigger_chocolate_milk_tea": {
       "conditions": {
         "items": [
           {
             "items": [
-              "minecafe:coffee_cannoli"
+              "minecafe:chocolate_milk_tea"
             ]
           }
         ]
       },
       "trigger": "minecraft:inventory_changed"
     },
-    "trigger_cranberry_cannoli": {
+    "trigger_chorus_fruit_milk_tea": {
       "conditions": {
         "items": [
           {
             "items": [
-              "minecafe:cranberry_cannoli"
+              "minecafe:chorus_fruit_milk_tea"
             ]
           }
         ]
       },
       "trigger": "minecraft:inventory_changed"
     },
-    "trigger_dragon_fruit_cannoli": {
+    "trigger_coconut_milk_tea": {
       "conditions": {
         "items": [
           {
             "items": [
-              "minecafe:dragon_fruit_cannoli"
+              "minecafe:coconut_milk_tea"
             ]
           }
         ]
       },
       "trigger": "minecraft:inventory_changed"
     },
-    "trigger_fig_cannoli": {
+    "trigger_cookie_milk_tea": {
       "conditions": {
         "items": [
           {
             "items": [
-              "minecafe:fig_cannoli"
+              "minecafe:cookie_milk_tea"
             ]
           }
         ]
       },
       "trigger": "minecraft:inventory_changed"
     },
-    "trigger_glow_berry_cannoli": {
+    "trigger_cranberry_milk_tea": {
       "conditions": {
         "items": [
           {
             "items": [
-              "minecafe:glow_berry_cannoli"
+              "minecafe:cranberry_milk_tea"
             ]
           }
         ]
       },
       "trigger": "minecraft:inventory_changed"
     },
-    "trigger_gooseberry_cannoli": {
+    "trigger_dragon_fruit_milk_tea": {
       "conditions": {
         "items": [
           {
             "items": [
-              "minecafe:gooseberry_cannoli"
+              "minecafe:dragon_fruit_milk_tea"
             ]
           }
         ]
       },
       "trigger": "minecraft:inventory_changed"
     },
-    "trigger_grape_cannoli": {
+    "trigger_egg_custard_milk_tea": {
       "conditions": {
         "items": [
           {
             "items": [
-              "minecafe:grape_cannoli"
+              "minecafe:egg_custard_milk_tea"
             ]
           }
         ]
       },
       "trigger": "minecraft:inventory_changed"
     },
-    "trigger_honey_cannoli": {
+    "trigger_fig_milk_tea": {
       "conditions": {
         "items": [
           {
             "items": [
-              "minecafe:honey_cannoli"
+              "minecafe:fig_milk_tea"
             ]
           }
         ]
       },
       "trigger": "minecraft:inventory_changed"
     },
-    "trigger_kiwi_cannoli": {
+    "trigger_gooseberry_milk_tea": {
       "conditions": {
         "items": [
           {
             "items": [
-              "minecafe:kiwi_cannoli"
+              "minecafe:gooseberry_milk_tea"
             ]
           }
         ]
       },
       "trigger": "minecraft:inventory_changed"
     },
-    "trigger_lemon_cannoli": {
+    "trigger_grape_milk_tea": {
       "conditions": {
         "items": [
           {
             "items": [
-              "minecafe:lemon_cannoli"
+              "minecafe:grape_milk_tea"
             ]
           }
         ]
       },
       "trigger": "minecraft:inventory_changed"
     },
-    "trigger_lime_cannoli": {
+    "trigger_honey_milk_tea": {
       "conditions": {
         "items": [
           {
             "items": [
-              "minecafe:lime_cannoli"
+              "minecafe:honey_milk_tea"
             ]
           }
         ]
       },
       "trigger": "minecraft:inventory_changed"
     },
-    "trigger_lychee_cannoli": {
+    "trigger_kelp_milk_tea": {
       "conditions": {
         "items": [
           {
             "items": [
-              "minecafe:lychee_cannoli"
+              "minecafe:kelp_milk_tea"
             ]
           }
         ]
       },
       "trigger": "minecraft:inventory_changed"
     },
-    "trigger_mango_cannoli": {
+    "trigger_kiwi_milk_tea": {
       "conditions": {
         "items": [
           {
             "items": [
-              "minecafe:mango_cannoli"
+              "minecafe:kiwi_milk_tea"
             ]
           }
         ]
       },
       "trigger": "minecraft:inventory_changed"
     },
-    "trigger_mangosteen_cannoli": {
+    "trigger_lavender_milk_tea": {
       "conditions": {
         "items": [
           {
             "items": [
-              "minecafe:mangosteen_cannoli"
+              "minecafe:lavender_milk_tea"
             ]
           }
         ]
       },
       "trigger": "minecraft:inventory_changed"
     },
-    "trigger_matcha_cannoli": {
+    "trigger_lemon_milk_tea": {
       "conditions": {
         "items": [
           {
             "items": [
-              "minecafe:matcha_cannoli"
+              "minecafe:lemon_milk_tea"
             ]
           }
         ]
       },
       "trigger": "minecraft:inventory_changed"
     },
-    "trigger_mint_cannoli": {
+    "trigger_lime_milk_tea": {
       "conditions": {
         "items": [
           {
             "items": [
-              "minecafe:mint_cannoli"
+              "minecafe:lime_milk_tea"
             ]
           }
         ]
       },
       "trigger": "minecraft:inventory_changed"
     },
-    "trigger_orange_cannoli": {
+    "trigger_lychee_milk_tea": {
       "conditions": {
         "items": [
           {
             "items": [
-              "minecafe:orange_cannoli"
+              "minecafe:lychee_milk_tea"
             ]
           }
         ]
       },
       "trigger": "minecraft:inventory_changed"
     },
-    "trigger_passion_fruit_cannoli": {
+    "trigger_mango_milk_tea": {
       "conditions": {
         "items": [
           {
             "items": [
-              "minecafe:passion_fruit_cannoli"
+              "minecafe:mango_milk_tea"
             ]
           }
         ]
       },
       "trigger": "minecraft:inventory_changed"
     },
-    "trigger_peach_cannoli": {
+    "trigger_mangosteen_milk_tea": {
       "conditions": {
         "items": [
           {
             "items": [
-              "minecafe:peach_cannoli"
+              "minecafe:mangosteen_milk_tea"
             ]
           }
         ]
       },
       "trigger": "minecraft:inventory_changed"
     },
-    "trigger_peanut_cannoli": {
+    "trigger_matcha_milk_tea": {
       "conditions": {
         "items": [
           {
             "items": [
-              "minecafe:peanut_cannoli"
+              "minecafe:matcha_milk_tea"
             ]
           }
         ]
       },
       "trigger": "minecraft:inventory_changed"
     },
-    "trigger_pear_cannoli": {
+    "trigger_orange_milk_tea": {
       "conditions": {
         "items": [
           {
             "items": [
-              "minecafe:pear_cannoli"
+              "minecafe:orange_milk_tea"
             ]
           }
         ]
       },
       "trigger": "minecraft:inventory_changed"
     },
-    "trigger_pineapple_cannoli": {
+    "trigger_passion_fruit_milk_tea": {
       "conditions": {
         "items": [
           {
             "items": [
-              "minecafe:pineapple_cannoli"
+              "minecafe:passion_fruit_milk_tea"
             ]
           }
         ]
       },
       "trigger": "minecraft:inventory_changed"
     },
-    "trigger_plum_cannoli": {
+    "trigger_peach_milk_tea": {
       "conditions": {
         "items": [
           {
             "items": [
-              "minecafe:plum_cannoli"
+              "minecafe:peach_milk_tea"
             ]
           }
         ]
       },
       "trigger": "minecraft:inventory_changed"
     },
-    "trigger_pomegranate_cannoli": {
+    "trigger_pear_milk_tea": {
       "conditions": {
         "items": [
           {
             "items": [
-              "minecafe:pomegranate_cannoli"
+              "minecafe:pear_milk_tea"
             ]
           }
         ]
       },
       "trigger": "minecraft:inventory_changed"
     },
-    "trigger_raspberry_cannoli": {
+    "trigger_pineapple_milk_tea": {
       "conditions": {
         "items": [
           {
             "items": [
-              "minecafe:raspberry_cannoli"
+              "minecafe:pineapple_milk_tea"
             ]
           }
         ]
       },
       "trigger": "minecraft:inventory_changed"
     },
-    "trigger_rose_cannoli": {
+    "trigger_plum_milk_tea": {
       "conditions": {
         "items": [
           {
             "items": [
-              "minecafe:rose_cannoli"
+              "minecafe:plum_milk_tea"
             ]
           }
         ]
       },
       "trigger": "minecraft:inventory_changed"
     },
-    "trigger_starfruit_cannoli": {
+    "trigger_pomegranate_milk_tea": {
       "conditions": {
         "items": [
           {
             "items": [
-              "minecafe:starfruit_cannoli"
+              "minecafe:pomegranate_milk_tea"
             ]
           }
         ]
       },
       "trigger": "minecraft:inventory_changed"
     },
-    "trigger_strawberry_cannoli": {
+    "trigger_pumpkin_spice_milk_tea": {
       "conditions": {
         "items": [
           {
             "items": [
-              "minecafe:strawberry_cannoli"
+              "minecafe:pumpkin_spice_milk_tea"
             ]
           }
         ]
       },
       "trigger": "minecraft:inventory_changed"
     },
-    "trigger_sweet_berry_cannoli": {
+    "trigger_raspberry_milk_tea": {
       "conditions": {
         "items": [
           {
             "items": [
-              "minecafe:sweet_berry_cannoli"
+              "minecafe:raspberry_milk_tea"
             ]
           }
         ]
       },
       "trigger": "minecraft:inventory_changed"
     },
-    "trigger_vanilla_cannoli": {
+    "trigger_rose_milk_tea": {
       "conditions": {
         "items": [
           {
             "items": [
-              "minecafe:vanilla_cannoli"
+              "minecafe:rose_milk_tea"
             ]
           }
         ]
       },
       "trigger": "minecraft:inventory_changed"
     },
-    "trigger_watermelon_cannoli": {
+    "trigger_starfruit_milk_tea": {
       "conditions": {
         "items": [
           {
             "items": [
-              "minecafe:watermelon_cannoli"
+              "minecafe:starfruit_milk_tea"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "trigger_strawberry_milk_tea": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecafe:strawberry_milk_tea"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "trigger_sweet_berry_milk_tea": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecafe:sweet_berry_milk_tea"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "trigger_thai_milk_tea": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecafe:thai_milk_tea"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "trigger_tiger_milk_tea": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecafe:tiger_milk_tea"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "trigger_vanilla_milk_tea": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecafe:vanilla_milk_tea"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "trigger_watermelon_milk_tea": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecafe:watermelon_milk_tea"
             ]
           }
         ]
@@ -509,144 +581,162 @@
   "display": {
     "announce_to_chat": true,
     "description": {
-      "text": "Craft every type of cannoli"
+      "text": "Craft every type of boba milk tea"
     },
     "frame": "challenge",
     "hidden": false,
     "icon": {
-      "item": "minecafe:honey_cannoli"
+      "item": "minecafe:butterfly_pea_flower_milk_tea"
     },
     "show_toast": true,
     "title": {
-      "text": "Every Cannoli"
+      "text": "Every Boba Milk Tea"
     }
   },
   "requirements": [
     [
-      "trigger_rose_cannoli"
+      "trigger_rose_milk_tea"
     ],
     [
-      "trigger_raspberry_cannoli"
+      "trigger_raspberry_milk_tea"
     ],
     [
-      "trigger_strawberry_cannoli"
+      "trigger_strawberry_milk_tea"
     ],
     [
-      "trigger_apple_cannoli"
+      "trigger_cherry_milk_tea"
     ],
     [
-      "trigger_cherry_cannoli"
+      "trigger_sweet_berry_milk_tea"
     ],
     [
-      "trigger_watermelon_cannoli"
+      "trigger_apple_milk_tea"
     ],
     [
-      "trigger_sweet_berry_cannoli"
+      "trigger_watermelon_milk_tea"
     ],
     [
-      "trigger_pomegranate_cannoli"
+      "trigger_beetroot_milk_tea"
     ],
     [
-      "trigger_cranberry_cannoli"
+      "trigger_pomegranate_milk_tea"
     ],
     [
-      "trigger_orange_cannoli"
+      "trigger_cranberry_milk_tea"
     ],
     [
-      "trigger_peach_cannoli"
+      "trigger_fig_milk_tea"
     ],
     [
-      "trigger_glow_berry_cannoli"
+      "trigger_peach_milk_tea"
     ],
     [
-      "trigger_gooseberry_cannoli"
+      "trigger_orange_milk_tea"
     ],
     [
-      "trigger_mango_cannoli"
+      "trigger_pumpkin_spice_milk_tea"
     ],
     [
-      "trigger_passion_fruit_cannoli"
+      "trigger_thai_milk_tea"
     ],
     [
-      "trigger_banana_cannoli"
+      "trigger_tiger_milk_tea"
     ],
     [
-      "trigger_lemon_cannoli"
+      "trigger_gooseberry_milk_tea"
     ],
     [
-      "trigger_honey_cannoli"
+      "trigger_carrot_milk_tea"
     ],
     [
-      "trigger_pineapple_cannoli"
+      "trigger_mango_milk_tea"
     ],
     [
-      "trigger_starfruit_cannoli"
+      "trigger_passion_fruit_milk_tea"
     ],
     [
-      "trigger_kiwi_cannoli"
+      "trigger_pineapple_milk_tea"
     ],
     [
-      "trigger_grape_cannoli"
+      "trigger_starfruit_milk_tea"
     ],
     [
-      "trigger_lime_cannoli"
+      "trigger_egg_custard_milk_tea"
     ],
     [
-      "trigger_mint_cannoli"
+      "trigger_honey_milk_tea"
     ],
     [
-      "trigger_matcha_cannoli"
+      "trigger_banana_milk_tea"
     ],
     [
-      "trigger_blueberry_cannoli"
+      "trigger_lemon_milk_tea"
     ],
     [
-      "trigger_chorus_fruit_cannoli"
+      "trigger_pear_milk_tea"
     ],
     [
-      "trigger_plum_cannoli"
+      "trigger_lime_milk_tea"
     ],
     [
-      "trigger_fig_cannoli"
+      "trigger_matcha_milk_tea"
     ],
     [
-      "trigger_acai_cannoli"
+      "trigger_kiwi_milk_tea"
     ],
     [
-      "trigger_blackberry_cannoli"
+      "trigger_grape_milk_tea"
     ],
     [
-      "trigger_chocolate_cannoli"
+      "trigger_kelp_milk_tea"
     ],
     [
-      "trigger_coffee_cannoli"
+      "trigger_butterfly_pea_flower_milk_tea"
     ],
     [
-      "trigger_cinnamon_cannoli"
+      "trigger_blueberry_milk_tea"
     ],
     [
-      "trigger_caramel_cannoli"
+      "trigger_blackberry_milk_tea"
     ],
     [
-      "trigger_peanut_cannoli"
+      "trigger_plum_milk_tea"
     ],
     [
-      "trigger_pear_cannoli"
+      "trigger_mangosteen_milk_tea"
     ],
     [
-      "trigger_dragon_fruit_cannoli"
+      "trigger_acai_milk_tea"
     ],
     [
-      "trigger_vanilla_cannoli"
+      "trigger_chorus_fruit_milk_tea"
     ],
     [
-      "trigger_coconut_cannoli"
+      "trigger_lavender_milk_tea"
     ],
     [
-      "trigger_lychee_cannoli"
+      "trigger_coconut_milk_tea"
     ],
     [
-      "trigger_mangosteen_cannoli"
+      "trigger_vanilla_milk_tea"
+    ],
+    [
+      "trigger_lychee_milk_tea"
+    ],
+    [
+      "trigger_dragon_fruit_milk_tea"
+    ],
+    [
+      "trigger_cake_milk_tea"
+    ],
+    [
+      "trigger_chocolate_milk_tea"
+    ],
+    [
+      "trigger_cookie_milk_tea"
+    ],
+    [
+      "trigger_brown_sugar_milk_tea"
     ]
   ]
 }

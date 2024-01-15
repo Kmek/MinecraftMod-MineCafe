@@ -1,12 +1,14 @@
 {
-  "parent": "minecafe:root_ingredients",
+  "parent": "minecafe:root_misc",
   "criteria": {
-    "has_item": {
+    "has_block": {
       "trigger": "minecraft:inventory_changed",
       "conditions": {
         "items": [
           {
-            "tag": "minecafe:creams"
+            "items": [
+              "minecafe:burnt_crisp"
+            ]
           }
         ]
       }
@@ -16,16 +18,16 @@
     "announce_to_chat": true,
     "show_toast": true,
     "hidden": false,
-    "title": "Flavored Cream",
-    "description": "Craft a flavored cream",
-    "frame": "goal",
+    "title": "Burnt Crisp",
+    "description": "Burn a waffle",
+    "frame": "task",
     "icon": {
-      "item": "minecafe:rose_cream"
+      "item": "minecafe:burnt_crisp"
     }
   },
   "requirements": [
     [
-      "has_item"
+      "has_block"
     ]
   ]
 }

@@ -30,6 +30,7 @@ public class ModItemModelProvider extends ItemModelProvider {
         ModItemsInit.CREAMS.forEach(e -> simpleItem(e, "creams/"));
         ModItemsInit.JAMS.forEach(e -> simpleItem(e, "jams/"));
         ModItemsInit.BREADS.forEach(e -> simpleItem(e, "breads/"));
+        ModItemsInit.BREADS_TOASTS.forEach(e -> simpleItem(e, "breads/"));
         ModItemsInit.CAKES.forEach(e -> simpleItem(e, "cakes/"));
         ModItemsInit.PIES.forEach(e -> simpleItem(e, "pies/"));
         ModItemsInit.PUDDINGS.forEach(e -> simpleItem(e, "puddings/"));

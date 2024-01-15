@@ -1,348 +1,336 @@
 {
-  "parent": "minecafe:ingredients/jams/any_jam",
+  "parent": "minecafe:root_food",
   "criteria": {
-    "trigger_acai_jam": {
+    "trigger_almond_bread": {
       "conditions": {
         "items": [
           {
             "items": [
-              "minecafe:acai_jam"
+              "minecafe:almond_bread"
             ]
           }
         ]
       },
       "trigger": "minecraft:inventory_changed"
     },
-    "trigger_apple_jam": {
+    "trigger_apple_bread": {
       "conditions": {
         "items": [
           {
             "items": [
-              "minecafe:apple_jam"
+              "minecafe:apple_bread"
             ]
           }
         ]
       },
       "trigger": "minecraft:inventory_changed"
     },
-    "trigger_blackberry_jam": {
+    "trigger_baguette": {
       "conditions": {
         "items": [
           {
             "items": [
-              "minecafe:blackberry_jam"
+              "minecafe:baguette"
             ]
           }
         ]
       },
       "trigger": "minecraft:inventory_changed"
     },
-    "trigger_blueberry_jam": {
+    "trigger_banana_bread": {
       "conditions": {
         "items": [
           {
             "items": [
-              "minecafe:blueberry_jam"
+              "minecafe:banana_bread"
             ]
           }
         ]
       },
       "trigger": "minecraft:inventory_changed"
     },
-    "trigger_cherry_jam": {
+    "trigger_blueberry_bread": {
       "conditions": {
         "items": [
           {
             "items": [
-              "minecafe:cherry_jam"
+              "minecafe:blueberry_bread"
             ]
           }
         ]
       },
       "trigger": "minecraft:inventory_changed"
     },
-    "trigger_chorus_fruit_jam": {
+    "trigger_butter_bread": {
       "conditions": {
         "items": [
           {
             "items": [
-              "minecafe:chorus_fruit_jam"
+              "minecafe:butter_bread"
             ]
           }
         ]
       },
       "trigger": "minecraft:inventory_changed"
     },
-    "trigger_cranberry_jam": {
+    "trigger_caramel_apple_bread": {
       "conditions": {
         "items": [
           {
             "items": [
-              "minecafe:cranberry_jam"
+              "minecafe:caramel_apple_bread"
             ]
           }
         ]
       },
       "trigger": "minecraft:inventory_changed"
     },
-    "trigger_dragon_fruit_jam": {
+    "trigger_caramel_bread": {
       "conditions": {
         "items": [
           {
             "items": [
-              "minecafe:dragon_fruit_jam"
+              "minecafe:caramel_bread"
             ]
           }
         ]
       },
       "trigger": "minecraft:inventory_changed"
     },
-    "trigger_fig_jam": {
+    "trigger_carrot_bread": {
       "conditions": {
         "items": [
           {
             "items": [
-              "minecafe:fig_jam"
+              "minecafe:carrot_bread"
             ]
           }
         ]
       },
       "trigger": "minecraft:inventory_changed"
     },
-    "trigger_glow_berry_jam": {
+    "trigger_chocolate_bread": {
       "conditions": {
         "items": [
           {
             "items": [
-              "minecafe:glow_berry_jam"
+              "minecafe:chocolate_bread"
             ]
           }
         ]
       },
       "trigger": "minecraft:inventory_changed"
     },
-    "trigger_gooseberry_jam": {
+    "trigger_chocolate_croissant": {
       "conditions": {
         "items": [
           {
             "items": [
-              "minecafe:gooseberry_jam"
+              "minecafe:chocolate_croissant"
             ]
           }
         ]
       },
       "trigger": "minecraft:inventory_changed"
     },
-    "trigger_grape_jam": {
+    "trigger_chorus_fruit_bread": {
       "conditions": {
         "items": [
           {
             "items": [
-              "minecafe:grape_jam"
+              "minecafe:chorus_fruit_bread"
             ]
           }
         ]
       },
       "trigger": "minecraft:inventory_changed"
     },
-    "trigger_kiwi_jam": {
+    "trigger_cinnamon_raisin_bread": {
       "conditions": {
         "items": [
           {
             "items": [
-              "minecafe:kiwi_jam"
+              "minecafe:cinnamon_raisin_bread"
             ]
           }
         ]
       },
       "trigger": "minecraft:inventory_changed"
     },
-    "trigger_lemon_jam": {
+    "trigger_cinnamon_roll": {
       "conditions": {
         "items": [
           {
             "items": [
-              "minecafe:lemon_jam"
+              "minecafe:cinnamon_roll"
             ]
           }
         ]
       },
       "trigger": "minecraft:inventory_changed"
     },
-    "trigger_lime_jam": {
+    "trigger_coffee_bread": {
       "conditions": {
         "items": [
           {
             "items": [
-              "minecafe:lime_jam"
+              "minecafe:coffee_bread"
             ]
           }
         ]
       },
       "trigger": "minecraft:inventory_changed"
     },
-    "trigger_lychee_jam": {
+    "trigger_croissant": {
       "conditions": {
         "items": [
           {
             "items": [
-              "minecafe:lychee_jam"
+              "minecafe:croissant"
             ]
           }
         ]
       },
       "trigger": "minecraft:inventory_changed"
     },
-    "trigger_mango_jam": {
+    "trigger_gingerbread_square": {
       "conditions": {
         "items": [
           {
             "items": [
-              "minecafe:mango_jam"
+              "minecafe:gingerbread_square"
             ]
           }
         ]
       },
       "trigger": "minecraft:inventory_changed"
     },
-    "trigger_mangosteen_jam": {
+    "trigger_honey_bread": {
       "conditions": {
         "items": [
           {
             "items": [
-              "minecafe:mangosteen_jam"
+              "minecafe:honey_bread"
             ]
           }
         ]
       },
       "trigger": "minecraft:inventory_changed"
     },
-    "trigger_orange_jam": {
+    "trigger_iced_cinnamon_roll": {
       "conditions": {
         "items": [
           {
             "items": [
-              "minecafe:orange_jam"
+              "minecafe:iced_cinnamon_roll"
             ]
           }
         ]
       },
       "trigger": "minecraft:inventory_changed"
     },
-    "trigger_passion_fruit_jam": {
+    "trigger_lemon_bread": {
       "conditions": {
         "items": [
           {
             "items": [
-              "minecafe:passion_fruit_jam"
+              "minecafe:lemon_bread"
             ]
           }
         ]
       },
       "trigger": "minecraft:inventory_changed"
     },
-    "trigger_peach_jam": {
+    "trigger_matcha_bread": {
       "conditions": {
         "items": [
           {
             "items": [
-              "minecafe:peach_jam"
+              "minecafe:matcha_bread"
             ]
           }
         ]
       },
       "trigger": "minecraft:inventory_changed"
     },
-    "trigger_pear_jam": {
+    "trigger_peach_bread": {
       "conditions": {
         "items": [
           {
             "items": [
-              "minecafe:pear_jam"
+              "minecafe:peach_bread"
             ]
           }
         ]
       },
       "trigger": "minecraft:inventory_changed"
     },
-    "trigger_pineapple_jam": {
+    "trigger_peanut_butter_bread": {
       "conditions": {
         "items": [
           {
             "items": [
-              "minecafe:pineapple_jam"
+              "minecafe:peanut_butter_bread"
             ]
           }
         ]
       },
       "trigger": "minecraft:inventory_changed"
     },
-    "trigger_plum_jam": {
+    "trigger_potato_bread": {
       "conditions": {
         "items": [
           {
             "items": [
-              "minecafe:plum_jam"
+              "minecafe:potato_bread"
             ]
           }
         ]
       },
       "trigger": "minecraft:inventory_changed"
     },
-    "trigger_pomegranate_jam": {
+    "trigger_pumpkin_bread": {
       "conditions": {
         "items": [
           {
             "items": [
-              "minecafe:pomegranate_jam"
+              "minecafe:pumpkin_bread"
             ]
           }
         ]
       },
       "trigger": "minecraft:inventory_changed"
     },
-    "trigger_raspberry_jam": {
+    "trigger_raspberry_bread": {
       "conditions": {
         "items": [
           {
             "items": [
-              "minecafe:raspberry_jam"
+              "minecafe:raspberry_bread"
             ]
           }
         ]
       },
       "trigger": "minecraft:inventory_changed"
     },
-    "trigger_strawberry_jam": {
+    "trigger_raspberry_chocolate_bread": {
       "conditions": {
         "items": [
           {
             "items": [
-              "minecafe:strawberry_jam"
+              "minecafe:raspberry_chocolate_bread"
             ]
           }
         ]
       },
       "trigger": "minecraft:inventory_changed"
     },
-    "trigger_sweet_berry_jam": {
+    "trigger_strawberry_bread": {
       "conditions": {
         "items": [
           {
             "items": [
-              "minecafe:sweet_berry_jam"
-            ]
-          }
-        ]
-      },
-      "trigger": "minecraft:inventory_changed"
-    },
-    "trigger_watermelon_jam": {
-      "conditions": {
-        "items": [
-          {
-            "items": [
-              "minecafe:watermelon_jam"
+              "minecafe:strawberry_bread"
             ]
           }
         ]
@@ -353,105 +341,102 @@
   "display": {
     "announce_to_chat": true,
     "description": {
-      "text": "Craft every type of jam"
+      "text": "Craft every type of bread loaf"
     },
     "frame": "challenge",
     "hidden": false,
     "icon": {
-      "item": "minecafe:passion_fruit_jam"
+      "item": "minecafe:strawberry_bread"
     },
     "show_toast": true,
     "title": {
-      "text": "Every Jam"
+      "text": "Every Bread"
     }
   },
   "requirements": [
     [
-      "trigger_watermelon_jam"
+      "trigger_croissant"
     ],
     [
-      "trigger_strawberry_jam"
+      "trigger_chocolate_croissant"
     ],
     [
-      "trigger_sweet_berry_jam"
+      "trigger_cinnamon_roll"
     ],
     [
-      "trigger_cherry_jam"
+      "trigger_iced_cinnamon_roll"
     ],
     [
-      "trigger_plum_jam"
+      "trigger_gingerbread_square"
     ],
     [
-      "trigger_pomegranate_jam"
+      "trigger_baguette"
     ],
     [
-      "trigger_mangosteen_jam"
+      "trigger_carrot_bread"
     ],
     [
-      "trigger_acai_jam"
+      "trigger_potato_bread"
     ],
     [
-      "trigger_cranberry_jam"
+      "trigger_butter_bread"
     ],
     [
-      "trigger_raspberry_jam"
+      "trigger_honey_bread"
     ],
     [
-      "trigger_fig_jam"
+      "trigger_lemon_bread"
     ],
     [
-      "trigger_gooseberry_jam"
+      "trigger_coffee_bread"
     ],
     [
-      "trigger_peach_jam"
+      "trigger_peanut_butter_bread"
     ],
     [
-      "trigger_orange_jam"
+      "trigger_banana_bread"
     ],
     [
-      "trigger_apple_jam"
+      "trigger_pumpkin_bread"
     ],
     [
-      "trigger_pear_jam"
+      "trigger_blueberry_bread"
     ],
     [
-      "trigger_mango_jam"
+      "trigger_strawberry_bread"
     ],
     [
-      "trigger_passion_fruit_jam"
+      "trigger_raspberry_bread"
     ],
     [
-      "trigger_pineapple_jam"
+      "trigger_raspberry_chocolate_bread"
     ],
     [
-      "trigger_glow_berry_jam"
+      "trigger_peach_bread"
     ],
     [
-      "trigger_lemon_jam"
+      "trigger_apple_bread"
     ],
     [
-      "trigger_lime_jam"
+      "trigger_caramel_apple_bread"
     ],
     [
-      "trigger_kiwi_jam"
+      "trigger_caramel_bread"
     ],
     [
-      "trigger_grape_jam"
+      "trigger_chocolate_bread"
     ],
     [
-      "trigger_blueberry_jam"
+      "trigger_cinnamon_raisin_bread"
     ],
     [
-      "trigger_chorus_fruit_jam"
+      "trigger_almond_bread"
     ],
     [
-      "trigger_blackberry_jam"
+      "trigger_chorus_fruit_bread"
     ],
     [
-      "trigger_dragon_fruit_jam"
-    ],
-    [
-      "trigger_lychee_jam"
+      "trigger_matcha_bread"
     ]
   ]
 }

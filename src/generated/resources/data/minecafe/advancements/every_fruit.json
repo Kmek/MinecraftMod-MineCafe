@@ -1,348 +1,396 @@
 {
-  "parent": "minecafe:ingredients/jams/any_jam",
+  "parent": "minecafe:root_ingredients",
   "criteria": {
-    "trigger_acai_jam": {
+    "trigger_acai": {
       "conditions": {
         "items": [
           {
             "items": [
-              "minecafe:acai_jam"
+              "minecafe:acai"
             ]
           }
         ]
       },
       "trigger": "minecraft:inventory_changed"
     },
-    "trigger_apple_jam": {
+    "trigger_avocado": {
       "conditions": {
         "items": [
           {
             "items": [
-              "minecafe:apple_jam"
+              "minecafe:avocado"
             ]
           }
         ]
       },
       "trigger": "minecraft:inventory_changed"
     },
-    "trigger_blackberry_jam": {
+    "trigger_banana": {
       "conditions": {
         "items": [
           {
             "items": [
-              "minecafe:blackberry_jam"
+              "minecafe:banana"
             ]
           }
         ]
       },
       "trigger": "minecraft:inventory_changed"
     },
-    "trigger_blueberry_jam": {
+    "trigger_blackberry": {
       "conditions": {
         "items": [
           {
             "items": [
-              "minecafe:blueberry_jam"
+              "minecafe:blackberry"
             ]
           }
         ]
       },
       "trigger": "minecraft:inventory_changed"
     },
-    "trigger_cherry_jam": {
+    "trigger_blueberry": {
       "conditions": {
         "items": [
           {
             "items": [
-              "minecafe:cherry_jam"
+              "minecafe:blueberry"
             ]
           }
         ]
       },
       "trigger": "minecraft:inventory_changed"
     },
-    "trigger_chorus_fruit_jam": {
+    "trigger_cassava": {
       "conditions": {
         "items": [
           {
             "items": [
-              "minecafe:chorus_fruit_jam"
+              "minecafe:cassava"
             ]
           }
         ]
       },
       "trigger": "minecraft:inventory_changed"
     },
-    "trigger_cranberry_jam": {
+    "trigger_cherry": {
       "conditions": {
         "items": [
           {
             "items": [
-              "minecafe:cranberry_jam"
+              "minecafe:cherry"
             ]
           }
         ]
       },
       "trigger": "minecraft:inventory_changed"
     },
-    "trigger_dragon_fruit_jam": {
+    "trigger_coconut": {
       "conditions": {
         "items": [
           {
             "items": [
-              "minecafe:dragon_fruit_jam"
+              "minecafe:coconut"
             ]
           }
         ]
       },
       "trigger": "minecraft:inventory_changed"
     },
-    "trigger_fig_jam": {
+    "trigger_coffee_cherries": {
       "conditions": {
         "items": [
           {
             "items": [
-              "minecafe:fig_jam"
+              "minecafe:coffee_cherries"
             ]
           }
         ]
       },
       "trigger": "minecraft:inventory_changed"
     },
-    "trigger_glow_berry_jam": {
+    "trigger_cranberry": {
       "conditions": {
         "items": [
           {
             "items": [
-              "minecafe:glow_berry_jam"
+              "minecafe:cranberry"
             ]
           }
         ]
       },
       "trigger": "minecraft:inventory_changed"
     },
-    "trigger_gooseberry_jam": {
+    "trigger_dragon_fruit": {
       "conditions": {
         "items": [
           {
             "items": [
-              "minecafe:gooseberry_jam"
+              "minecafe:dragon_fruit"
             ]
           }
         ]
       },
       "trigger": "minecraft:inventory_changed"
     },
-    "trigger_grape_jam": {
+    "trigger_fig": {
       "conditions": {
         "items": [
           {
             "items": [
-              "minecafe:grape_jam"
+              "minecafe:fig"
             ]
           }
         ]
       },
       "trigger": "minecraft:inventory_changed"
     },
-    "trigger_kiwi_jam": {
+    "trigger_gooseberry": {
       "conditions": {
         "items": [
           {
             "items": [
-              "minecafe:kiwi_jam"
+              "minecafe:gooseberry"
             ]
           }
         ]
       },
       "trigger": "minecraft:inventory_changed"
     },
-    "trigger_lemon_jam": {
+    "trigger_grape": {
       "conditions": {
         "items": [
           {
             "items": [
-              "minecafe:lemon_jam"
+              "minecafe:grape"
             ]
           }
         ]
       },
       "trigger": "minecraft:inventory_changed"
     },
-    "trigger_lime_jam": {
+    "trigger_kiwi": {
       "conditions": {
         "items": [
           {
             "items": [
-              "minecafe:lime_jam"
+              "minecafe:kiwi"
             ]
           }
         ]
       },
       "trigger": "minecraft:inventory_changed"
     },
-    "trigger_lychee_jam": {
+    "trigger_kiwiberry": {
       "conditions": {
         "items": [
           {
             "items": [
-              "minecafe:lychee_jam"
+              "minecafe:kiwiberry"
             ]
           }
         ]
       },
       "trigger": "minecraft:inventory_changed"
     },
-    "trigger_mango_jam": {
+    "trigger_lemon": {
       "conditions": {
         "items": [
           {
             "items": [
-              "minecafe:mango_jam"
+              "minecafe:lemon"
             ]
           }
         ]
       },
       "trigger": "minecraft:inventory_changed"
     },
-    "trigger_mangosteen_jam": {
+    "trigger_lime": {
       "conditions": {
         "items": [
           {
             "items": [
-              "minecafe:mangosteen_jam"
+              "minecafe:lime"
             ]
           }
         ]
       },
       "trigger": "minecraft:inventory_changed"
     },
-    "trigger_orange_jam": {
+    "trigger_lychee": {
       "conditions": {
         "items": [
           {
             "items": [
-              "minecafe:orange_jam"
+              "minecafe:lychee"
             ]
           }
         ]
       },
       "trigger": "minecraft:inventory_changed"
     },
-    "trigger_passion_fruit_jam": {
+    "trigger_mango": {
       "conditions": {
         "items": [
           {
             "items": [
-              "minecafe:passion_fruit_jam"
+              "minecafe:mango"
             ]
           }
         ]
       },
       "trigger": "minecraft:inventory_changed"
     },
-    "trigger_peach_jam": {
+    "trigger_mangosteen": {
       "conditions": {
         "items": [
           {
             "items": [
-              "minecafe:peach_jam"
+              "minecafe:mangosteen"
             ]
           }
         ]
       },
       "trigger": "minecraft:inventory_changed"
     },
-    "trigger_pear_jam": {
+    "trigger_monkfruit": {
       "conditions": {
         "items": [
           {
             "items": [
-              "minecafe:pear_jam"
+              "minecafe:monkfruit"
             ]
           }
         ]
       },
       "trigger": "minecraft:inventory_changed"
     },
-    "trigger_pineapple_jam": {
+    "trigger_orange": {
       "conditions": {
         "items": [
           {
             "items": [
-              "minecafe:pineapple_jam"
+              "minecafe:orange"
             ]
           }
         ]
       },
       "trigger": "minecraft:inventory_changed"
     },
-    "trigger_plum_jam": {
+    "trigger_passion_fruit": {
       "conditions": {
         "items": [
           {
             "items": [
-              "minecafe:plum_jam"
+              "minecafe:passion_fruit"
             ]
           }
         ]
       },
       "trigger": "minecraft:inventory_changed"
     },
-    "trigger_pomegranate_jam": {
+    "trigger_peach": {
       "conditions": {
         "items": [
           {
             "items": [
-              "minecafe:pomegranate_jam"
+              "minecafe:peach"
             ]
           }
         ]
       },
       "trigger": "minecraft:inventory_changed"
     },
-    "trigger_raspberry_jam": {
+    "trigger_pear": {
       "conditions": {
         "items": [
           {
             "items": [
-              "minecafe:raspberry_jam"
+              "minecafe:pear"
             ]
           }
         ]
       },
       "trigger": "minecraft:inventory_changed"
     },
-    "trigger_strawberry_jam": {
+    "trigger_pineapple": {
       "conditions": {
         "items": [
           {
             "items": [
-              "minecafe:strawberry_jam"
+              "minecafe:pineapple"
             ]
           }
         ]
       },
       "trigger": "minecraft:inventory_changed"
     },
-    "trigger_sweet_berry_jam": {
+    "trigger_plum": {
       "conditions": {
         "items": [
           {
             "items": [
-              "minecafe:sweet_berry_jam"
+              "minecafe:plum"
             ]
           }
         ]
       },
       "trigger": "minecraft:inventory_changed"
     },
-    "trigger_watermelon_jam": {
+    "trigger_pomegranate": {
       "conditions": {
         "items": [
           {
             "items": [
-              "minecafe:watermelon_jam"
+              "minecafe:pomegranate"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "trigger_raspberry": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecafe:raspberry"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "trigger_starfruit": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecafe:starfruit"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "trigger_strawberry": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecafe:strawberry"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "trigger_white_strawberry": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecafe:white_strawberry"
             ]
           }
         ]
@@ -353,105 +401,117 @@
   "display": {
     "announce_to_chat": true,
     "description": {
-      "text": "Craft every type of jam"
+      "text": "Craft every type of fruit"
     },
     "frame": "challenge",
     "hidden": false,
     "icon": {
-      "item": "minecafe:passion_fruit_jam"
+      "item": "minecafe:cherry"
     },
     "show_toast": true,
     "title": {
-      "text": "Every Jam"
+      "text": "Every Fruit"
     }
   },
   "requirements": [
     [
-      "trigger_watermelon_jam"
+      "trigger_orange"
     ],
     [
-      "trigger_strawberry_jam"
+      "trigger_lemon"
     ],
     [
-      "trigger_sweet_berry_jam"
+      "trigger_lime"
     ],
     [
-      "trigger_cherry_jam"
+      "trigger_avocado"
     ],
     [
-      "trigger_plum_jam"
+      "trigger_lychee"
     ],
     [
-      "trigger_pomegranate_jam"
+      "trigger_banana"
     ],
     [
-      "trigger_mangosteen_jam"
+      "trigger_mango"
     ],
     [
-      "trigger_acai_jam"
+      "trigger_cherry"
     ],
     [
-      "trigger_cranberry_jam"
+      "trigger_peach"
     ],
     [
-      "trigger_raspberry_jam"
+      "trigger_pear"
     ],
     [
-      "trigger_fig_jam"
+      "trigger_plum"
     ],
     [
-      "trigger_gooseberry_jam"
+      "trigger_fig"
     ],
     [
-      "trigger_peach_jam"
+      "trigger_grape"
     ],
     [
-      "trigger_orange_jam"
+      "trigger_kiwi"
     ],
     [
-      "trigger_apple_jam"
+      "trigger_pineapple"
     ],
     [
-      "trigger_pear_jam"
+      "trigger_dragon_fruit"
     ],
     [
-      "trigger_mango_jam"
+      "trigger_passion_fruit"
     ],
     [
-      "trigger_passion_fruit_jam"
+      "trigger_pomegranate"
     ],
     [
-      "trigger_pineapple_jam"
+      "trigger_coconut"
     ],
     [
-      "trigger_glow_berry_jam"
+      "trigger_mangosteen"
     ],
     [
-      "trigger_lemon_jam"
+      "trigger_monkfruit"
     ],
     [
-      "trigger_lime_jam"
+      "trigger_acai"
     ],
     [
-      "trigger_kiwi_jam"
+      "trigger_starfruit"
     ],
     [
-      "trigger_grape_jam"
+      "trigger_strawberry"
     ],
     [
-      "trigger_blueberry_jam"
+      "trigger_white_strawberry"
     ],
     [
-      "trigger_chorus_fruit_jam"
+      "trigger_raspberry"
     ],
     [
-      "trigger_blackberry_jam"
+      "trigger_blueberry"
     ],
     [
-      "trigger_dragon_fruit_jam"
+      "trigger_blackberry"
     ],
     [
-      "trigger_lychee_jam"
+      "trigger_cranberry"
+    ],
+    [
+      "trigger_gooseberry"
+    ],
+    [
+      "trigger_kiwiberry"
+    ],
+    [
+      "trigger_coffee_cherries"
+    ],
+    [
+      "trigger_cassava"
     ]
   ]
 }

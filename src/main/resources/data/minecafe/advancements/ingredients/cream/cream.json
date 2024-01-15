@@ -6,7 +6,9 @@
       "conditions": {
         "items": [
           {
-            "tag": "minecafe:creams"
+            "items": [
+              "minecafe:cream"
+            ]
           }
         ]
       }
@@ -16,11 +18,11 @@
     "announce_to_chat": true,
     "show_toast": true,
     "hidden": false,
-    "title": "Flavored Cream",
-    "description": "Craft a flavored cream",
-    "frame": "goal",
+    "title": "Creamy",
+    "description": "Craft cream from milk",
+    "frame": "task",
     "icon": {
-      "item": "minecafe:rose_cream"
+      "item": "minecafe:cream"
     }
   },
   "requirements": [

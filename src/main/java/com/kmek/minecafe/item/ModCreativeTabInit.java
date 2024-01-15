@@ -188,6 +188,7 @@ public class ModCreativeTabInit {
 
     private void acceptBreads(CreativeModeTab.Output output) {
         ModItemsInit.BREADS.forEach(reg -> output.accept(reg.get()));
+        ModItemsInit.BREADS_TOASTS.forEach(reg -> output.accept(reg.get()));
     }
 
     private void acceptWaffles(CreativeModeTab.Output output) {

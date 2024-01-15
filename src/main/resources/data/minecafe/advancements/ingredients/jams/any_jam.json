@@ -6,7 +6,7 @@
       "conditions": {
         "items": [
           {
-            "tag": "minecafe:creams"
+            "tag": "minecafe:jams"
           }
         ]
       }
@@ -16,11 +16,11 @@
     "announce_to_chat": true,
     "show_toast": true,
     "hidden": false,
-    "title": "Flavored Cream",
-    "description": "Craft a flavored cream",
+    "title": "That's My Jam!",
+    "description": "Craft a jam",
     "frame": "goal",
     "icon": {
-      "item": "minecafe:rose_cream"
+      "item": "minecafe:sweet_berry_jam"
     }
   },
   "requirements": [

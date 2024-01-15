@@ -1,12 +1,12 @@
 {
-  "parent": "minecafe:root_ingredients",
+  "parent": "minecafe:root_food",
   "criteria": {
     "has_item": {
       "trigger": "minecraft:inventory_changed",
       "conditions": {
         "items": [
           {
-            "tag": "minecafe:creams"
+            "tag": "minecafe:cheesecakes"
           }
         ]
       }
@@ -16,11 +16,11 @@
     "announce_to_chat": true,
     "show_toast": true,
     "hidden": false,
-    "title": "Flavored Cream",
-    "description": "Craft a flavored cream",
+    "title": "Cheese In Cake Form",
+    "description": "Craft a cheesecake",
     "frame": "goal",
     "icon": {
-      "item": "minecafe:rose_cream"
+      "item": "minecafe:cheesecake_slice"
     }
   },
   "requirements": [

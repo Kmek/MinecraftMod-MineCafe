@@ -1,5 +1,5 @@
 {
-  "parent": "minecafe:root_drinks",
+  "parent": "minecafe:any_juice",
   "criteria": {
     "trigger_acai_juice": {
       "conditions": {
@@ -514,7 +514,7 @@
     "frame": "challenge",
     "hidden": false,
     "icon": {
-      "item": "minecafe:mango_juice"
+      "item": "minecafe:kiwi_juice"
     },
     "show_toast": true,
     "title": {

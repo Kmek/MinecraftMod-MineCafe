@@ -1,504 +1,576 @@
 {
-  "parent": "minecafe:any_yogurt",
+  "parent": "minecafe:root_drinks",
   "criteria": {
-    "trigger_acai_yogurt": {
+    "trigger_acai_milk_tea": {
       "conditions": {
         "items": [
           {
             "items": [
-              "minecafe:acai_yogurt"
+              "minecafe:acai_milk_tea"
             ]
           }
         ]
       },
       "trigger": "minecraft:inventory_changed"
     },
-    "trigger_apple_yogurt": {
+    "trigger_apple_milk_tea": {
       "conditions": {
         "items": [
           {
             "items": [
-              "minecafe:apple_yogurt"
+              "minecafe:apple_milk_tea"
             ]
           }
         ]
       },
       "trigger": "minecraft:inventory_changed"
     },
-    "trigger_banana_yogurt": {
+    "trigger_banana_milk_tea": {
       "conditions": {
         "items": [
           {
             "items": [
-              "minecafe:banana_yogurt"
+              "minecafe:banana_milk_tea"
             ]
           }
         ]
       },
       "trigger": "minecraft:inventory_changed"
     },
-    "trigger_blackberry_yogurt": {
+    "trigger_beetroot_milk_tea": {
       "conditions": {
         "items": [
           {
             "items": [
-              "minecafe:blackberry_yogurt"
+              "minecafe:beetroot_milk_tea"
             ]
           }
         ]
       },
       "trigger": "minecraft:inventory_changed"
     },
-    "trigger_blueberry_yogurt": {
+    "trigger_blackberry_milk_tea": {
       "conditions": {
         "items": [
           {
             "items": [
-              "minecafe:blueberry_yogurt"
+              "minecafe:blackberry_milk_tea"
             ]
           }
         ]
       },
       "trigger": "minecraft:inventory_changed"
     },
-    "trigger_caramel_yogurt": {
+    "trigger_blueberry_milk_tea": {
       "conditions": {
         "items": [
           {
             "items": [
-              "minecafe:caramel_yogurt"
+              "minecafe:blueberry_milk_tea"
             ]
           }
         ]
       },
       "trigger": "minecraft:inventory_changed"
     },
-    "trigger_cherry_yogurt": {
+    "trigger_brown_sugar_milk_tea": {
       "conditions": {
         "items": [
           {
             "items": [
-              "minecafe:cherry_yogurt"
+              "minecafe:brown_sugar_milk_tea"
             ]
           }
         ]
       },
       "trigger": "minecraft:inventory_changed"
     },
-    "trigger_chocolate_yogurt": {
+    "trigger_butterfly_pea_flower_milk_tea": {
       "conditions": {
         "items": [
           {
             "items": [
-              "minecafe:chocolate_yogurt"
+              "minecafe:butterfly_pea_flower_milk_tea"
             ]
           }
         ]
       },
       "trigger": "minecraft:inventory_changed"
     },
-    "trigger_chorus_fruit_yogurt": {
+    "trigger_cake_milk_tea": {
       "conditions": {
         "items": [
           {
             "items": [
-              "minecafe:chorus_fruit_yogurt"
+              "minecafe:cake_milk_tea"
             ]
           }
         ]
       },
       "trigger": "minecraft:inventory_changed"
     },
-    "trigger_cinnamon_yogurt": {
+    "trigger_carrot_milk_tea": {
       "conditions": {
         "items": [
           {
             "items": [
-              "minecafe:cinnamon_yogurt"
+              "minecafe:carrot_milk_tea"
             ]
           }
         ]
       },
       "trigger": "minecraft:inventory_changed"
     },
-    "trigger_coconut_yogurt": {
+    "trigger_cherry_milk_tea": {
       "conditions": {
         "items": [
           {
             "items": [
-              "minecafe:coconut_yogurt"
+              "minecafe:cherry_milk_tea"
             ]
           }
         ]
       },
       "trigger": "minecraft:inventory_changed"
     },
-    "trigger_coffee_yogurt": {
+    "trigger_chocolate_milk_tea": {
       "conditions": {
         "items": [
           {
             "items": [
-              "minecafe:coffee_yogurt"
+              "minecafe:chocolate_milk_tea"
             ]
           }
         ]
       },
       "trigger": "minecraft:inventory_changed"
     },
-    "trigger_cranberry_yogurt": {
+    "trigger_chorus_fruit_milk_tea": {
       "conditions": {
         "items": [
           {
             "items": [
-              "minecafe:cranberry_yogurt"
+              "minecafe:chorus_fruit_milk_tea"
             ]
           }
         ]
       },
       "trigger": "minecraft:inventory_changed"
     },
-    "trigger_dragon_fruit_yogurt": {
+    "trigger_coconut_milk_tea": {
       "conditions": {
         "items": [
           {
             "items": [
-              "minecafe:dragon_fruit_yogurt"
+              "minecafe:coconut_milk_tea"
             ]
           }
         ]
       },
       "trigger": "minecraft:inventory_changed"
     },
-    "trigger_fig_yogurt": {
+    "trigger_cookie_milk_tea": {
       "conditions": {
         "items": [
           {
             "items": [
-              "minecafe:fig_yogurt"
+              "minecafe:cookie_milk_tea"
             ]
           }
         ]
       },
       "trigger": "minecraft:inventory_changed"
     },
-    "trigger_glow_berry_yogurt": {
+    "trigger_cranberry_milk_tea": {
       "conditions": {
         "items": [
           {
             "items": [
-              "minecafe:glow_berry_yogurt"
+              "minecafe:cranberry_milk_tea"
             ]
           }
         ]
       },
       "trigger": "minecraft:inventory_changed"
     },
-    "trigger_gooseberry_yogurt": {
+    "trigger_dragon_fruit_milk_tea": {
       "conditions": {
         "items": [
           {
             "items": [
-              "minecafe:gooseberry_yogurt"
+              "minecafe:dragon_fruit_milk_tea"
             ]
           }
         ]
       },
       "trigger": "minecraft:inventory_changed"
     },
-    "trigger_grape_yogurt": {
+    "trigger_egg_custard_milk_tea": {
       "conditions": {
         "items": [
           {
             "items": [
-              "minecafe:grape_yogurt"
+              "minecafe:egg_custard_milk_tea"
             ]
           }
         ]
       },
       "trigger": "minecraft:inventory_changed"
     },
-    "trigger_honey_yogurt": {
+    "trigger_fig_milk_tea": {
       "conditions": {
         "items": [
           {
             "items": [
-              "minecafe:honey_yogurt"
+              "minecafe:fig_milk_tea"
             ]
           }
         ]
       },
       "trigger": "minecraft:inventory_changed"
     },
-    "trigger_kiwi_yogurt": {
+    "trigger_gooseberry_milk_tea": {
       "conditions": {
         "items": [
           {
             "items": [
-              "minecafe:kiwi_yogurt"
+              "minecafe:gooseberry_milk_tea"
             ]
           }
         ]
       },
       "trigger": "minecraft:inventory_changed"
     },
-    "trigger_lemon_yogurt": {
+    "trigger_grape_milk_tea": {
       "conditions": {
         "items": [
           {
             "items": [
-              "minecafe:lemon_yogurt"
+              "minecafe:grape_milk_tea"
             ]
           }
         ]
       },
       "trigger": "minecraft:inventory_changed"
     },
-    "trigger_lime_yogurt": {
+    "trigger_honey_milk_tea": {
       "conditions": {
         "items": [
           {
             "items": [
-              "minecafe:lime_yogurt"
+              "minecafe:honey_milk_tea"
             ]
           }
         ]
       },
       "trigger": "minecraft:inventory_changed"
     },
-    "trigger_lychee_yogurt": {
+    "trigger_kelp_milk_tea": {
       "conditions": {
         "items": [
           {
             "items": [
-              "minecafe:lychee_yogurt"
+              "minecafe:kelp_milk_tea"
             ]
           }
         ]
       },
       "trigger": "minecraft:inventory_changed"
     },
-    "trigger_mango_yogurt": {
+    "trigger_kiwi_milk_tea": {
       "conditions": {
         "items": [
           {
             "items": [
-              "minecafe:mango_yogurt"
+              "minecafe:kiwi_milk_tea"
             ]
           }
         ]
       },
       "trigger": "minecraft:inventory_changed"
     },
-    "trigger_mangosteen_yogurt": {
+    "trigger_lavender_milk_tea": {
       "conditions": {
         "items": [
           {
             "items": [
-              "minecafe:mangosteen_yogurt"
+              "minecafe:lavender_milk_tea"
             ]
           }
         ]
       },
       "trigger": "minecraft:inventory_changed"
     },
-    "trigger_matcha_yogurt": {
+    "trigger_lemon_milk_tea": {
       "conditions": {
         "items": [
           {
             "items": [
-              "minecafe:matcha_yogurt"
+              "minecafe:lemon_milk_tea"
             ]
           }
         ]
       },
       "trigger": "minecraft:inventory_changed"
     },
-    "trigger_mint_yogurt": {
+    "trigger_lime_milk_tea": {
       "conditions": {
         "items": [
           {
             "items": [
-              "minecafe:mint_yogurt"
+              "minecafe:lime_milk_tea"
             ]
           }
         ]
       },
       "trigger": "minecraft:inventory_changed"
     },
-    "trigger_orange_yogurt": {
+    "trigger_lychee_milk_tea": {
       "conditions": {
         "items": [
           {
             "items": [
-              "minecafe:orange_yogurt"
+              "minecafe:lychee_milk_tea"
             ]
           }
         ]
       },
       "trigger": "minecraft:inventory_changed"
     },
-    "trigger_passion_fruit_yogurt": {
+    "trigger_mango_milk_tea": {
       "conditions": {
         "items": [
           {
             "items": [
-              "minecafe:passion_fruit_yogurt"
+              "minecafe:mango_milk_tea"
             ]
           }
         ]
       },
       "trigger": "minecraft:inventory_changed"
     },
-    "trigger_peach_yogurt": {
+    "trigger_mangosteen_milk_tea": {
       "conditions": {
         "items": [
           {
             "items": [
-              "minecafe:peach_yogurt"
+              "minecafe:mangosteen_milk_tea"
             ]
           }
         ]
       },
       "trigger": "minecraft:inventory_changed"
     },
-    "trigger_pear_yogurt": {
+    "trigger_matcha_milk_tea": {
       "conditions": {
         "items": [
           {
             "items": [
-              "minecafe:pear_yogurt"
+              "minecafe:matcha_milk_tea"
             ]
           }
         ]
       },
       "trigger": "minecraft:inventory_changed"
     },
-    "trigger_pineapple_yogurt": {
+    "trigger_orange_milk_tea": {
       "conditions": {
         "items": [
           {
             "items": [
-              "minecafe:pineapple_yogurt"
+              "minecafe:orange_milk_tea"
             ]
           }
         ]
       },
       "trigger": "minecraft:inventory_changed"
     },
-    "trigger_plain_yogurt": {
+    "trigger_passion_fruit_milk_tea": {
       "conditions": {
         "items": [
           {
             "items": [
-              "minecafe:plain_yogurt"
+              "minecafe:passion_fruit_milk_tea"
             ]
           }
         ]
       },
       "trigger": "minecraft:inventory_changed"
     },
-    "trigger_plum_yogurt": {
+    "trigger_peach_milk_tea": {
       "conditions": {
         "items": [
           {
             "items": [
-              "minecafe:plum_yogurt"
+              "minecafe:peach_milk_tea"
             ]
           }
         ]
       },
       "trigger": "minecraft:inventory_changed"
     },
-    "trigger_pomegranate_yogurt": {
+    "trigger_pear_milk_tea": {
       "conditions": {
         "items": [
           {
             "items": [
-              "minecafe:pomegranate_yogurt"
+              "minecafe:pear_milk_tea"
             ]
           }
         ]
       },
       "trigger": "minecraft:inventory_changed"
     },
-    "trigger_pumpkin_yogurt": {
+    "trigger_pineapple_milk_tea": {
       "conditions": {
         "items": [
           {
             "items": [
-              "minecafe:pumpkin_yogurt"
+              "minecafe:pineapple_milk_tea"
             ]
           }
         ]
       },
       "trigger": "minecraft:inventory_changed"
     },
-    "trigger_raspberry_yogurt": {
+    "trigger_plum_milk_tea": {
       "conditions": {
         "items": [
           {
             "items": [
-              "minecafe:raspberry_yogurt"
+              "minecafe:plum_milk_tea"
             ]
           }
         ]
       },
       "trigger": "minecraft:inventory_changed"
     },
-    "trigger_starfruit_yogurt": {
+    "trigger_pomegranate_milk_tea": {
       "conditions": {
         "items": [
           {
             "items": [
-              "minecafe:starfruit_yogurt"
+              "minecafe:pomegranate_milk_tea"
             ]
           }
         ]
       },
       "trigger": "minecraft:inventory_changed"
     },
-    "trigger_strawberry_yogurt": {
+    "trigger_pumpkin_spice_milk_tea": {
       "conditions": {
         "items": [
           {
             "items": [
-              "minecafe:strawberry_yogurt"
+              "minecafe:pumpkin_spice_milk_tea"
             ]
           }
         ]
       },
       "trigger": "minecraft:inventory_changed"
     },
-    "trigger_sweet_berry_yogurt": {
+    "trigger_raspberry_milk_tea": {
       "conditions": {
         "items": [
           {
             "items": [
-              "minecafe:sweet_berry_yogurt"
+              "minecafe:raspberry_milk_tea"
             ]
           }
         ]
       },
       "trigger": "minecraft:inventory_changed"
     },
-    "trigger_vanilla_yogurt": {
+    "trigger_rose_milk_tea": {
       "conditions": {
         "items": [
           {
             "items": [
-              "minecafe:vanilla_yogurt"
+              "minecafe:rose_milk_tea"
             ]
           }
         ]
       },
       "trigger": "minecraft:inventory_changed"
     },
-    "trigger_watermelon_yogurt": {
+    "trigger_starfruit_milk_tea": {
       "conditions": {
         "items": [
           {
             "items": [
-              "minecafe:watermelon_yogurt"
+              "minecafe:starfruit_milk_tea"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "trigger_strawberry_milk_tea": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecafe:strawberry_milk_tea"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "trigger_sweet_berry_milk_tea": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecafe:sweet_berry_milk_tea"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "trigger_thai_milk_tea": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecafe:thai_milk_tea"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "trigger_tiger_milk_tea": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecafe:tiger_milk_tea"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "trigger_vanilla_milk_tea": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecafe:vanilla_milk_tea"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "trigger_watermelon_milk_tea": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecafe:watermelon_milk_tea"
             ]
           }
         ]
@@ -509,144 +581,68 @@
   "display": {
     "announce_to_chat": true,
     "description": {
-      "text": "Craft every type of yogurt"
+      "text": "Craft a boba milk tea"
     },
-    "frame": "challenge",
+    "frame": "goal",
     "hidden": false,
     "icon": {
-      "item": "minecafe:strawberry_yogurt"
+      "item": "minecafe:pumpkin_spice_milk_tea"
     },
     "show_toast": true,
     "title": {
-      "text": "Every Yogurt"
+      "text": "Any Boba Milk Tea"
     }
   },
   "requirements": [
     [
-      "trigger_plain_yogurt"
-    ],
-    [
-      "trigger_lychee_yogurt"
-    ],
-    [
-      "trigger_strawberry_yogurt"
-    ],
-    [
-      "trigger_raspberry_yogurt"
-    ],
-    [
-      "trigger_watermelon_yogurt"
-    ],
-    [
-      "trigger_cherry_yogurt"
-    ],
-    [
-      "trigger_mangosteen_yogurt"
-    ],
-    [
-      "trigger_cranberry_yogurt"
-    ],
-    [
-      "trigger_pomegranate_yogurt"
-    ],
-    [
-      "trigger_sweet_berry_yogurt"
-    ],
-    [
-      "trigger_fig_yogurt"
-    ],
-    [
-      "trigger_pumpkin_yogurt"
-    ],
-    [
-      "trigger_passion_fruit_yogurt"
-    ],
-    [
-      "trigger_gooseberry_yogurt"
-    ],
-    [
-      "trigger_mango_yogurt"
-    ],
-    [
-      "trigger_orange_yogurt"
-    ],
-    [
-      "trigger_glow_berry_yogurt"
-    ],
-    [
-      "trigger_honey_yogurt"
-    ],
-    [
-      "trigger_peach_yogurt"
-    ],
-    [
-      "trigger_apple_yogurt"
-    ],
-    [
-      "trigger_pear_yogurt"
-    ],
-    [
-      "trigger_banana_yogurt"
-    ],
-    [
-      "trigger_pineapple_yogurt"
-    ],
-    [
-      "trigger_starfruit_yogurt"
-    ],
-    [
-      "trigger_lemon_yogurt"
-    ],
-    [
-      "trigger_kiwi_yogurt"
-    ],
-    [
-      "trigger_mint_yogurt"
-    ],
-    [
-      "trigger_lime_yogurt"
-    ],
-    [
-      "trigger_matcha_yogurt"
-    ],
-    [
-      "trigger_grape_yogurt"
-    ],
-    [
-      "trigger_blueberry_yogurt"
-    ],
-    [
-      "trigger_chorus_fruit_yogurt"
-    ],
-    [
-      "trigger_plum_yogurt"
-    ],
-    [
-      "trigger_blackberry_yogurt"
-    ],
-    [
-      "trigger_acai_yogurt"
-    ],
-    [
-      "trigger_chocolate_yogurt"
-    ],
-    [
-      "trigger_coffee_yogurt"
-    ],
-    [
-      "trigger_caramel_yogurt"
-    ],
-    [
-      "trigger_cinnamon_yogurt"
-    ],
-    [
-      "trigger_dragon_fruit_yogurt"
-    ],
-    [
-      "trigger_vanilla_yogurt"
-    ],
-    [
-      "trigger_coconut_yogurt"
+      "trigger_rose_milk_tea",
+      "trigger_raspberry_milk_tea",
+      "trigger_strawberry_milk_tea",
+      "trigger_cherry_milk_tea",
+      "trigger_sweet_berry_milk_tea",
+      "trigger_apple_milk_tea",
+      "trigger_watermelon_milk_tea",
+      "trigger_beetroot_milk_tea",
+      "trigger_pomegranate_milk_tea",
+      "trigger_cranberry_milk_tea",
+      "trigger_fig_milk_tea",
+      "trigger_peach_milk_tea",
+      "trigger_orange_milk_tea",
+      "trigger_pumpkin_spice_milk_tea",
+      "trigger_thai_milk_tea",
+      "trigger_tiger_milk_tea",
+      "trigger_gooseberry_milk_tea",
+      "trigger_carrot_milk_tea",
+      "trigger_mango_milk_tea",
+      "trigger_passion_fruit_milk_tea",
+      "trigger_pineapple_milk_tea",
+      "trigger_starfruit_milk_tea",
+      "trigger_egg_custard_milk_tea",
+      "trigger_honey_milk_tea",
+      "trigger_banana_milk_tea",
+      "trigger_lemon_milk_tea",
+      "trigger_pear_milk_tea",
+      "trigger_lime_milk_tea",
+      "trigger_matcha_milk_tea",
+      "trigger_kiwi_milk_tea",
+      "trigger_grape_milk_tea",
+      "trigger_kelp_milk_tea",
+      "trigger_butterfly_pea_flower_milk_tea",
+      "trigger_blueberry_milk_tea",
+      "trigger_blackberry_milk_tea",
+      "trigger_plum_milk_tea",
+      "trigger_mangosteen_milk_tea",
+      "trigger_acai_milk_tea",
+      "trigger_chorus_fruit_milk_tea",
+      "trigger_lavender_milk_tea",
+      "trigger_coconut_milk_tea",
+      "trigger_vanilla_milk_tea",
+      "trigger_lychee_milk_tea",
+      "trigger_dragon_fruit_milk_tea",
+      "trigger_cake_milk_tea",
+      "trigger_chocolate_milk_tea",
+      "trigger_cookie_milk_tea",
+      "trigger_brown_sugar_milk_tea"
     ]
   ]
 }

@@ -33,7 +33,7 @@ public class DataGenerators {
                         event.getLookupProvider(),
                         event.getExistingFileHelper(),
                         // Sub providers which generate the advancements
-                        List.of(new ModAdvancementGenerator()/*subProvider1, subProvider2*/)
+                        List.of(/*new AnyAdvancementGenerator(),*/ new EveryAdvancementGenerator())
                 )
         );
     }

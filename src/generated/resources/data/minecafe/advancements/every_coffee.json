@@ -1,5 +1,5 @@
 {
-  "parent": "minecafe:root_drinks",
+  "parent": "minecafe:any_coffee",
   "criteria": {
     "trigger_americano": {
       "conditions": {

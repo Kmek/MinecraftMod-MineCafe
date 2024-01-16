@@ -1,5 +1,5 @@
 {
-  "parent": "minecafe:root_food",
+  "parent": "minecafe:any_toast",
   "criteria": {
     "trigger_acai_jam_toast": {
       "conditions": {

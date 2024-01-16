@@ -1,5 +1,5 @@
 {
-  "parent": "minecafe:root_food",
+  "parent": "minecafe:any_pudding",
   "criteria": {
     "trigger_acai_pudding": {
       "conditions": {

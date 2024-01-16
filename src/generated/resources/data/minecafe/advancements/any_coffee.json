@@ -1,132 +1,168 @@
 {
-  "parent": "minecafe:any_brownie",
+  "parent": "minecafe:root_drinks",
   "criteria": {
-    "trigger_blondie_brownie": {
+    "trigger_americano": {
       "conditions": {
         "items": [
           {
             "items": [
-              "minecafe:blondie_brownie"
+              "minecafe:americano"
             ]
           }
         ]
       },
       "trigger": "minecraft:inventory_changed"
     },
-    "trigger_brownie": {
+    "trigger_butter_coffee": {
       "conditions": {
         "items": [
           {
             "items": [
-              "minecafe:brownie"
+              "minecafe:butter_coffee"
             ]
           }
         ]
       },
       "trigger": "minecraft:inventory_changed"
     },
-    "trigger_caramel_brownie": {
+    "trigger_cafe_au_lait": {
       "conditions": {
         "items": [
           {
             "items": [
-              "minecafe:caramel_brownie"
+              "minecafe:cafe_au_lait"
             ]
           }
         ]
       },
       "trigger": "minecraft:inventory_changed"
     },
-    "trigger_cheesecake_brownie": {
+    "trigger_cappuccino": {
       "conditions": {
         "items": [
           {
             "items": [
-              "minecafe:cheesecake_brownie"
+              "minecafe:cappuccino"
             ]
           }
         ]
       },
       "trigger": "minecraft:inventory_changed"
     },
-    "trigger_cookie_brownie": {
+    "trigger_coffee": {
       "conditions": {
         "items": [
           {
             "items": [
-              "minecafe:cookie_brownie"
+              "minecafe:coffee"
             ]
           }
         ]
       },
       "trigger": "minecraft:inventory_changed"
     },
-    "trigger_double_chocolate_brownie": {
+    "trigger_espresso": {
       "conditions": {
         "items": [
           {
             "items": [
-              "minecafe:double_chocolate_brownie"
+              "minecafe:espresso"
             ]
           }
         ]
       },
       "trigger": "minecraft:inventory_changed"
     },
-    "trigger_fig_newton": {
+    "trigger_flat_white": {
       "conditions": {
         "items": [
           {
             "items": [
-              "minecafe:fig_newton"
+              "minecafe:flat_white"
             ]
           }
         ]
       },
       "trigger": "minecraft:inventory_changed"
     },
-    "trigger_lemon_bar": {
+    "trigger_frappe_coffee": {
       "conditions": {
         "items": [
           {
             "items": [
-              "minecafe:lemon_bar"
+              "minecafe:frappe_coffee"
             ]
           }
         ]
       },
       "trigger": "minecraft:inventory_changed"
     },
-    "trigger_peanut_butter_brownie": {
+    "trigger_hot_cocoa": {
       "conditions": {
         "items": [
           {
             "items": [
-              "minecafe:peanut_butter_brownie"
+              "minecafe:hot_cocoa"
             ]
           }
         ]
       },
       "trigger": "minecraft:inventory_changed"
     },
-    "trigger_peppermint_brownie": {
+    "trigger_iced_coffee": {
       "conditions": {
         "items": [
           {
             "items": [
-              "minecafe:peppermint_brownie"
+              "minecafe:iced_coffee"
             ]
           }
         ]
       },
       "trigger": "minecraft:inventory_changed"
     },
-    "trigger_sopaipilla_cheesecake_bar": {
+    "trigger_latte": {
       "conditions": {
         "items": [
           {
             "items": [
-              "minecafe:sopaipilla_cheesecake_bar"
+              "minecafe:latte"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "trigger_macchiato": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecafe:macchiato"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "trigger_mocha": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecafe:mocha"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "trigger_whipped_coffee": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecafe:whipped_coffee"
             ]
           }
         ]
@@ -137,51 +173,34 @@
   "display": {
     "announce_to_chat": true,
     "description": {
-      "text": "Craft every type of brownie"
+      "text": "Craft a coffee"
     },
-    "frame": "challenge",
+    "frame": "goal",
     "hidden": false,
     "icon": {
-      "item": "minecafe:caramel_brownie"
+      "item": "minecafe:coffee"
     },
     "show_toast": true,
     "title": {
-      "text": "Every Brownie"
+      "text": "Any Coffee"
     }
   },
   "requirements": [
     [
-      "trigger_brownie"
-    ],
-    [
-      "trigger_double_chocolate_brownie"
-    ],
-    [
-      "trigger_cookie_brownie"
-    ],
-    [
-      "trigger_caramel_brownie"
-    ],
-    [
-      "trigger_peanut_butter_brownie"
-    ],
-    [
-      "trigger_peppermint_brownie"
-    ],
-    [
-      "trigger_cheesecake_brownie"
-    ],
-    [
-      "trigger_blondie_brownie"
-    ],
-    [
-      "trigger_lemon_bar"
-    ],
-    [
-      "trigger_sopaipilla_cheesecake_bar"
-    ],
-    [
-      "trigger_fig_newton"
+      "trigger_hot_cocoa",
+      "trigger_espresso",
+      "trigger_coffee",
+      "trigger_butter_coffee",
+      "trigger_americano",
+      "trigger_macchiato",
+      "trigger_mocha",
+      "trigger_cafe_au_lait",
+      "trigger_flat_white",
+      "trigger_cappuccino",
+      "trigger_latte",
+      "trigger_frappe_coffee",
+      "trigger_whipped_coffee",
+      "trigger_iced_coffee"
     ]
   ]
 }

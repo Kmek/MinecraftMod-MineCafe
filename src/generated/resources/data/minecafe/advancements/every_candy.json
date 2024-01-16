@@ -1,5 +1,5 @@
 {
-  "parent": "minecafe:root_food",
+  "parent": "minecafe:any_candy",
   "criteria": {
     "trigger_candy_cane": {
       "conditions": {

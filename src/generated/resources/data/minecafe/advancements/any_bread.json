@@ -1,396 +1,336 @@
 {
-  "parent": "minecafe:any_fruit",
+  "parent": "minecafe:root_food",
   "criteria": {
-    "trigger_acai": {
+    "trigger_almond_bread": {
       "conditions": {
         "items": [
           {
             "items": [
-              "minecafe:acai"
+              "minecafe:almond_bread"
             ]
           }
         ]
       },
       "trigger": "minecraft:inventory_changed"
     },
-    "trigger_avocado": {
+    "trigger_apple_bread": {
       "conditions": {
         "items": [
           {
             "items": [
-              "minecafe:avocado"
+              "minecafe:apple_bread"
             ]
           }
         ]
       },
       "trigger": "minecraft:inventory_changed"
     },
-    "trigger_banana": {
+    "trigger_baguette": {
       "conditions": {
         "items": [
           {
             "items": [
-              "minecafe:banana"
+              "minecafe:baguette"
             ]
           }
         ]
       },
       "trigger": "minecraft:inventory_changed"
     },
-    "trigger_blackberry": {
+    "trigger_banana_bread": {
       "conditions": {
         "items": [
           {
             "items": [
-              "minecafe:blackberry"
+              "minecafe:banana_bread"
             ]
           }
         ]
       },
       "trigger": "minecraft:inventory_changed"
     },
-    "trigger_blueberry": {
+    "trigger_blueberry_bread": {
       "conditions": {
         "items": [
           {
             "items": [
-              "minecafe:blueberry"
+              "minecafe:blueberry_bread"
             ]
           }
         ]
       },
       "trigger": "minecraft:inventory_changed"
     },
-    "trigger_cassava": {
+    "trigger_butter_bread": {
       "conditions": {
         "items": [
           {
             "items": [
-              "minecafe:cassava"
+              "minecafe:butter_bread"
             ]
           }
         ]
       },
       "trigger": "minecraft:inventory_changed"
     },
-    "trigger_cherry": {
+    "trigger_caramel_apple_bread": {
       "conditions": {
         "items": [
           {
             "items": [
-              "minecafe:cherry"
+              "minecafe:caramel_apple_bread"
             ]
           }
         ]
       },
       "trigger": "minecraft:inventory_changed"
     },
-    "trigger_coconut": {
+    "trigger_caramel_bread": {
       "conditions": {
         "items": [
           {
             "items": [
-              "minecafe:coconut"
+              "minecafe:caramel_bread"
             ]
           }
         ]
       },
       "trigger": "minecraft:inventory_changed"
     },
-    "trigger_coffee_cherries": {
+    "trigger_carrot_bread": {
       "conditions": {
         "items": [
           {
             "items": [
-              "minecafe:coffee_cherries"
+              "minecafe:carrot_bread"
             ]
           }
         ]
       },
       "trigger": "minecraft:inventory_changed"
     },
-    "trigger_cranberry": {
+    "trigger_chocolate_bread": {
       "conditions": {
         "items": [
           {
             "items": [
-              "minecafe:cranberry"
+              "minecafe:chocolate_bread"
             ]
           }
         ]
       },
       "trigger": "minecraft:inventory_changed"
     },
-    "trigger_dragon_fruit": {
+    "trigger_chocolate_croissant": {
       "conditions": {
         "items": [
           {
             "items": [
-              "minecafe:dragon_fruit"
+              "minecafe:chocolate_croissant"
             ]
           }
         ]
       },
       "trigger": "minecraft:inventory_changed"
     },
-    "trigger_fig": {
+    "trigger_chorus_fruit_bread": {
       "conditions": {
         "items": [
           {
             "items": [
-              "minecafe:fig"
+              "minecafe:chorus_fruit_bread"
             ]
           }
         ]
       },
       "trigger": "minecraft:inventory_changed"
     },
-    "trigger_gooseberry": {
+    "trigger_cinnamon_raisin_bread": {
       "conditions": {
         "items": [
           {
             "items": [
-              "minecafe:gooseberry"
+              "minecafe:cinnamon_raisin_bread"
             ]
           }
         ]
       },
       "trigger": "minecraft:inventory_changed"
     },
-    "trigger_grape": {
+    "trigger_cinnamon_roll": {
       "conditions": {
         "items": [
           {
             "items": [
-              "minecafe:grape"
+              "minecafe:cinnamon_roll"
             ]
           }
         ]
       },
       "trigger": "minecraft:inventory_changed"
     },
-    "trigger_kiwi": {
+    "trigger_coffee_bread": {
       "conditions": {
         "items": [
           {
             "items": [
-              "minecafe:kiwi"
+              "minecafe:coffee_bread"
             ]
           }
         ]
       },
       "trigger": "minecraft:inventory_changed"
     },
-    "trigger_kiwiberry": {
+    "trigger_croissant": {
       "conditions": {
         "items": [
           {
             "items": [
-              "minecafe:kiwiberry"
+              "minecafe:croissant"
             ]
           }
         ]
       },
       "trigger": "minecraft:inventory_changed"
     },
-    "trigger_lemon": {
+    "trigger_gingerbread_square": {
       "conditions": {
         "items": [
           {
             "items": [
-              "minecafe:lemon"
+              "minecafe:gingerbread_square"
             ]
           }
         ]
       },
       "trigger": "minecraft:inventory_changed"
     },
-    "trigger_lime": {
+    "trigger_honey_bread": {
       "conditions": {
         "items": [
           {
             "items": [
-              "minecafe:lime"
+              "minecafe:honey_bread"
             ]
           }
         ]
       },
       "trigger": "minecraft:inventory_changed"
     },
-    "trigger_lychee": {
+    "trigger_iced_cinnamon_roll": {
       "conditions": {
         "items": [
           {
             "items": [
-              "minecafe:lychee"
+              "minecafe:iced_cinnamon_roll"
             ]
           }
         ]
       },
       "trigger": "minecraft:inventory_changed"
     },
-    "trigger_mango": {
+    "trigger_lemon_bread": {
       "conditions": {
         "items": [
           {
             "items": [
-              "minecafe:mango"
+              "minecafe:lemon_bread"
             ]
           }
         ]
       },
       "trigger": "minecraft:inventory_changed"
     },
-    "trigger_mangosteen": {
+    "trigger_matcha_bread": {
       "conditions": {
         "items": [
           {
             "items": [
-              "minecafe:mangosteen"
+              "minecafe:matcha_bread"
             ]
           }
         ]
       },
       "trigger": "minecraft:inventory_changed"
     },
-    "trigger_monkfruit": {
+    "trigger_peach_bread": {
       "conditions": {
         "items": [
           {
             "items": [
-              "minecafe:monkfruit"
+              "minecafe:peach_bread"
             ]
           }
         ]
       },
       "trigger": "minecraft:inventory_changed"
     },
-    "trigger_orange": {
+    "trigger_peanut_butter_bread": {
       "conditions": {
         "items": [
           {
             "items": [
-              "minecafe:orange"
+              "minecafe:peanut_butter_bread"
             ]
           }
         ]
       },
       "trigger": "minecraft:inventory_changed"
     },
-    "trigger_passion_fruit": {
+    "trigger_potato_bread": {
       "conditions": {
         "items": [
           {
             "items": [
-              "minecafe:passion_fruit"
+              "minecafe:potato_bread"
             ]
           }
         ]
       },
       "trigger": "minecraft:inventory_changed"
     },
-    "trigger_peach": {
+    "trigger_pumpkin_bread": {
       "conditions": {
         "items": [
           {
             "items": [
-              "minecafe:peach"
+              "minecafe:pumpkin_bread"
             ]
           }
         ]
       },
       "trigger": "minecraft:inventory_changed"
     },
-    "trigger_pear": {
+    "trigger_raspberry_bread": {
       "conditions": {
         "items": [
           {
             "items": [
-              "minecafe:pear"
+              "minecafe:raspberry_bread"
             ]
           }
         ]
       },
       "trigger": "minecraft:inventory_changed"
     },
-    "trigger_pineapple": {
+    "trigger_raspberry_chocolate_bread": {
       "conditions": {
         "items": [
           {
             "items": [
-              "minecafe:pineapple"
+              "minecafe:raspberry_chocolate_bread"
             ]
           }
         ]
       },
       "trigger": "minecraft:inventory_changed"
     },
-    "trigger_plum": {
+    "trigger_strawberry_bread": {
       "conditions": {
         "items": [
           {
             "items": [
-              "minecafe:plum"
-            ]
-          }
-        ]
-      },
-      "trigger": "minecraft:inventory_changed"
-    },
-    "trigger_pomegranate": {
-      "conditions": {
-        "items": [
-          {
-            "items": [
-              "minecafe:pomegranate"
-            ]
-          }
-        ]
-      },
-      "trigger": "minecraft:inventory_changed"
-    },
-    "trigger_raspberry": {
-      "conditions": {
-        "items": [
-          {
-            "items": [
-              "minecafe:raspberry"
-            ]
-          }
-        ]
-      },
-      "trigger": "minecraft:inventory_changed"
-    },
-    "trigger_starfruit": {
-      "conditions": {
-        "items": [
-          {
-            "items": [
-              "minecafe:starfruit"
-            ]
-          }
-        ]
-      },
-      "trigger": "minecraft:inventory_changed"
-    },
-    "trigger_strawberry": {
-      "conditions": {
-        "items": [
-          {
-            "items": [
-              "minecafe:strawberry"
-            ]
-          }
-        ]
-      },
-      "trigger": "minecraft:inventory_changed"
-    },
-    "trigger_white_strawberry": {
-      "conditions": {
-        "items": [
-          {
-            "items": [
-              "minecafe:white_strawberry"
+              "minecafe:strawberry_bread"
             ]
           }
         ]
@@ -401,117 +341,48 @@
   "display": {
     "announce_to_chat": true,
     "description": {
-      "text": "Find every type of fruit"
+      "text": "Craft a bread loaf"
     },
-    "frame": "challenge",
+    "frame": "goal",
     "hidden": false,
     "icon": {
-      "item": "minecafe:cherry"
+      "item": "minecafe:carrot_bread"
     },
     "show_toast": true,
     "title": {
-      "text": "Every Fruit"
+      "text": "Aloaf (Of Bread)"
     }
   },
   "requirements": [
     [
-      "trigger_orange"
-    ],
-    [
-      "trigger_lemon"
-    ],
-    [
-      "trigger_lime"
-    ],
-    [
-      "trigger_avocado"
-    ],
-    [
-      "trigger_lychee"
-    ],
-    [
-      "trigger_banana"
-    ],
-    [
-      "trigger_mango"
-    ],
-    [
-      "trigger_cherry"
-    ],
-    [
-      "trigger_peach"
-    ],
-    [
-      "trigger_pear"
-    ],
-    [
-      "trigger_plum"
-    ],
-    [
-      "trigger_fig"
-    ],
-    [
-      "trigger_grape"
-    ],
-    [
-      "trigger_kiwi"
-    ],
-    [
-      "trigger_pineapple"
-    ],
-    [
-      "trigger_dragon_fruit"
-    ],
-    [
-      "trigger_passion_fruit"
-    ],
-    [
-      "trigger_pomegranate"
-    ],
-    [
-      "trigger_coconut"
-    ],
-    [
-      "trigger_mangosteen"
-    ],
-    [
-      "trigger_monkfruit"
-    ],
-    [
-      "trigger_acai"
-    ],
-    [
-      "trigger_starfruit"
-    ],
-    [
-      "trigger_strawberry"
-    ],
-    [
-      "trigger_white_strawberry"
-    ],
-    [
-      "trigger_raspberry"
-    ],
-    [
-      "trigger_blueberry"
-    ],
-    [
-      "trigger_blackberry"
-    ],
-    [
-      "trigger_cranberry"
-    ],
-    [
-      "trigger_gooseberry"
-    ],
-    [
-      "trigger_kiwiberry"
-    ],
-    [
-      "trigger_coffee_cherries"
-    ],
-    [
-      "trigger_cassava"
+      "trigger_croissant",
+      "trigger_chocolate_croissant",
+      "trigger_cinnamon_roll",
+      "trigger_iced_cinnamon_roll",
+      "trigger_gingerbread_square",
+      "trigger_baguette",
+      "trigger_carrot_bread",
+      "trigger_potato_bread",
+      "trigger_butter_bread",
+      "trigger_honey_bread",
+      "trigger_lemon_bread",
+      "trigger_coffee_bread",
+      "trigger_peanut_butter_bread",
+      "trigger_banana_bread",
+      "trigger_pumpkin_bread",
+      "trigger_blueberry_bread",
+      "trigger_strawberry_bread",
+      "trigger_raspberry_bread",
+      "trigger_raspberry_chocolate_bread",
+      "trigger_peach_bread",
+      "trigger_apple_bread",
+      "trigger_caramel_apple_bread",
+      "trigger_caramel_bread",
+      "trigger_chocolate_bread",
+      "trigger_cinnamon_raisin_bread",
+      "trigger_almond_bread",
+      "trigger_chorus_fruit_bread",
+      "trigger_matcha_bread"
     ]
   ]
 }

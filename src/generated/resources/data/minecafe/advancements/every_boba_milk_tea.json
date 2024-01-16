@@ -1,5 +1,5 @@
 {
-  "parent": "minecafe:root_drinks",
+  "parent": "minecafe:any_boba_milk_tea",
   "criteria": {
     "trigger_acai_milk_tea": {
       "conditions": {

@@ -1,5 +1,5 @@
 {
-  "parent": "minecafe:root_ingredients",
+  "parent": "minecafe:any_nuts",
   "criteria": {
     "trigger_almond": {
       "conditions": {
@@ -53,7 +53,7 @@
   "display": {
     "announce_to_chat": true,
     "description": {
-      "text": "Craft every type of nut"
+      "text": "Find every type of nut"
     },
     "frame": "challenge",
     "hidden": false,

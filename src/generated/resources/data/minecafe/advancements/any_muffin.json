@@ -1,5 +1,5 @@
 {
-  "parent": "minecafe:any_muffin",
+  "parent": "minecafe:root_food",
   "criteria": {
     "trigger_apple_cinnamon_muffin": {
       "conditions": {
@@ -245,77 +245,39 @@
   "display": {
     "announce_to_chat": true,
     "description": {
-      "text": "Craft every type of muffin"
+      "text": "Craft a muffin"
     },
-    "frame": "challenge",
+    "frame": "goal",
     "hidden": false,
     "icon": {
-      "item": "minecafe:pumpkin_cheesecake_muffin"
+      "item": "minecafe:blueberry_muffin"
     },
     "show_toast": true,
     "title": {
-      "text": "Every Muffin"
+      "text": "Any Muffin"
     }
   },
   "requirements": [
     [
-      "trigger_blueberry_muffin"
-    ],
-    [
-      "trigger_strawberry_muffin"
-    ],
-    [
-      "trigger_raspberry_muffin"
-    ],
-    [
-      "trigger_peach_muffin"
-    ],
-    [
-      "trigger_mango_coconut_muffin"
-    ],
-    [
-      "trigger_pineapple_coconut_muffin"
-    ],
-    [
-      "trigger_cranberry_orange_muffin"
-    ],
-    [
-      "trigger_lemon_poppyseed_muffin"
-    ],
-    [
-      "trigger_carrot_cake_muffin"
-    ],
-    [
-      "trigger_banana_nut_muffin"
-    ],
-    [
-      "trigger_apple_cinnamon_muffin"
-    ],
-    [
-      "trigger_cinnamon_muffin"
-    ],
-    [
-      "trigger_coffee_cake_muffin"
-    ],
-    [
-      "trigger_chocolate_chip_muffin"
-    ],
-    [
-      "trigger_smores_muffin"
-    ],
-    [
-      "trigger_double_chocolate_muffin"
-    ],
-    [
-      "trigger_pumpkin_muffin"
-    ],
-    [
-      "trigger_pumpkin_cheesecake_muffin"
-    ],
-    [
-      "trigger_chorus_fruit_muffin"
-    ],
-    [
+      "trigger_blueberry_muffin",
+      "trigger_strawberry_muffin",
+      "trigger_raspberry_muffin",
+      "trigger_peach_muffin",
+      "trigger_mango_coconut_muffin",
+      "trigger_pineapple_coconut_muffin",
+      "trigger_cranberry_orange_muffin",
+      "trigger_lemon_poppyseed_muffin",
+      "trigger_carrot_cake_muffin",
+      "trigger_banana_nut_muffin",
+      "trigger_apple_cinnamon_muffin",
+      "trigger_cinnamon_muffin",
+      "trigger_coffee_cake_muffin",
+      "trigger_chocolate_chip_muffin",
+      "trigger_smores_muffin",
+      "trigger_double_chocolate_muffin",
+      "trigger_pumpkin_muffin",
+      "trigger_pumpkin_cheesecake_muffin",
+      "trigger_chorus_fruit_muffin",
       "trigger_matcha_muffin"
     ]
   ]

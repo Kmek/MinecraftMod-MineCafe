@@ -1,5 +1,5 @@
 {
-  "parent": "minecafe:root_food",
+  "parent": "minecafe:any_bread",
   "criteria": {
     "trigger_almond_bread": {
       "conditions": {
@@ -350,7 +350,7 @@
     },
     "show_toast": true,
     "title": {
-      "text": "Every Bread"
+      "text": "Every Bread Loaf"
     }
   },
   "requirements": [

@@ -1,5 +1,5 @@
 {
-  "parent": "minecafe:any_fruit",
+  "parent": "minecafe:root_ingredients",
   "criteria": {
     "trigger_acai": {
       "conditions": {
@@ -401,116 +401,52 @@
   "display": {
     "announce_to_chat": true,
     "description": {
-      "text": "Find every type of fruit"
+      "text": "Find a fruit"
     },
-    "frame": "challenge",
+    "frame": "goal",
     "hidden": false,
     "icon": {
-      "item": "minecafe:cherry"
+      "item": "minecafe:lemon"
     },
     "show_toast": true,
     "title": {
-      "text": "Every Fruit"
+      "text": "Any Fruit"
     }
   },
   "requirements": [
     [
-      "trigger_orange"
-    ],
-    [
-      "trigger_lemon"
-    ],
-    [
-      "trigger_lime"
-    ],
-    [
-      "trigger_avocado"
-    ],
-    [
-      "trigger_lychee"
-    ],
-    [
-      "trigger_banana"
-    ],
-    [
-      "trigger_mango"
-    ],
-    [
-      "trigger_cherry"
-    ],
-    [
-      "trigger_peach"
-    ],
-    [
-      "trigger_pear"
-    ],
-    [
-      "trigger_plum"
-    ],
-    [
-      "trigger_fig"
-    ],
-    [
-      "trigger_grape"
-    ],
-    [
-      "trigger_kiwi"
-    ],
-    [
-      "trigger_pineapple"
-    ],
-    [
-      "trigger_dragon_fruit"
-    ],
-    [
-      "trigger_passion_fruit"
-    ],
-    [
-      "trigger_pomegranate"
-    ],
-    [
-      "trigger_coconut"
-    ],
-    [
-      "trigger_mangosteen"
-    ],
-    [
-      "trigger_monkfruit"
-    ],
-    [
-      "trigger_acai"
-    ],
-    [
-      "trigger_starfruit"
-    ],
-    [
-      "trigger_strawberry"
-    ],
-    [
-      "trigger_white_strawberry"
-    ],
-    [
-      "trigger_raspberry"
-    ],
-    [
-      "trigger_blueberry"
-    ],
-    [
-      "trigger_blackberry"
-    ],
-    [
-      "trigger_cranberry"
-    ],
-    [
-      "trigger_gooseberry"
-    ],
-    [
-      "trigger_kiwiberry"
-    ],
-    [
-      "trigger_coffee_cherries"
-    ],
-    [
+      "trigger_orange",
+      "trigger_lemon",
+      "trigger_lime",
+      "trigger_avocado",
+      "trigger_lychee",
+      "trigger_banana",
+      "trigger_mango",
+      "trigger_cherry",
+      "trigger_peach",
+      "trigger_pear",
+      "trigger_plum",
+      "trigger_fig",
+      "trigger_grape",
+      "trigger_kiwi",
+      "trigger_pineapple",
+      "trigger_dragon_fruit",
+      "trigger_passion_fruit",
+      "trigger_pomegranate",
+      "trigger_coconut",
+      "trigger_mangosteen",
+      "trigger_monkfruit",
+      "trigger_acai",
+      "trigger_starfruit",
+      "trigger_strawberry",
+      "trigger_white_strawberry",
+      "trigger_raspberry",
+      "trigger_blueberry",
+      "trigger_blackberry",
+      "trigger_cranberry",
+      "trigger_gooseberry",
+      "trigger_kiwiberry",
+      "trigger_coffee_cherries",
       "trigger_cassava"
     ]
   ]

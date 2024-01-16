@@ -1,5 +1,5 @@
 {
-  "parent": "minecafe:any_yogurt",
+  "parent": "minecafe:root_food",
   "criteria": {
     "trigger_acai_yogurt": {
       "conditions": {
@@ -509,143 +509,61 @@
   "display": {
     "announce_to_chat": true,
     "description": {
-      "text": "Craft every type of yogurt"
+      "text": "Craft a yogurt"
     },
-    "frame": "challenge",
+    "frame": "goal",
     "hidden": false,
     "icon": {
-      "item": "minecafe:strawberry_yogurt"
+      "item": "minecafe:vanilla_yogurt"
     },
     "show_toast": true,
     "title": {
-      "text": "Every Yogurt"
+      "text": "Any Yogurt"
     }
   },
   "requirements": [
     [
-      "trigger_plain_yogurt"
-    ],
-    [
-      "trigger_lychee_yogurt"
-    ],
-    [
-      "trigger_strawberry_yogurt"
-    ],
-    [
-      "trigger_raspberry_yogurt"
-    ],
-    [
-      "trigger_watermelon_yogurt"
-    ],
-    [
-      "trigger_cherry_yogurt"
-    ],
-    [
-      "trigger_mangosteen_yogurt"
-    ],
-    [
-      "trigger_cranberry_yogurt"
-    ],
-    [
-      "trigger_pomegranate_yogurt"
-    ],
-    [
-      "trigger_sweet_berry_yogurt"
-    ],
-    [
-      "trigger_fig_yogurt"
-    ],
-    [
-      "trigger_pumpkin_yogurt"
-    ],
-    [
-      "trigger_passion_fruit_yogurt"
-    ],
-    [
-      "trigger_gooseberry_yogurt"
-    ],
-    [
-      "trigger_mango_yogurt"
-    ],
-    [
-      "trigger_orange_yogurt"
-    ],
-    [
-      "trigger_glow_berry_yogurt"
-    ],
-    [
-      "trigger_honey_yogurt"
-    ],
-    [
-      "trigger_peach_yogurt"
-    ],
-    [
-      "trigger_apple_yogurt"
-    ],
-    [
-      "trigger_pear_yogurt"
-    ],
-    [
-      "trigger_banana_yogurt"
-    ],
-    [
-      "trigger_pineapple_yogurt"
-    ],
-    [
-      "trigger_starfruit_yogurt"
-    ],
-    [
-      "trigger_lemon_yogurt"
-    ],
-    [
-      "trigger_kiwi_yogurt"
-    ],
-    [
-      "trigger_mint_yogurt"
-    ],
-    [
-      "trigger_lime_yogurt"
-    ],
-    [
-      "trigger_matcha_yogurt"
-    ],
-    [
-      "trigger_grape_yogurt"
-    ],
-    [
-      "trigger_blueberry_yogurt"
-    ],
-    [
-      "trigger_chorus_fruit_yogurt"
-    ],
-    [
-      "trigger_plum_yogurt"
-    ],
-    [
-      "trigger_blackberry_yogurt"
-    ],
-    [
-      "trigger_acai_yogurt"
-    ],
-    [
-      "trigger_chocolate_yogurt"
-    ],
-    [
-      "trigger_coffee_yogurt"
-    ],
-    [
-      "trigger_caramel_yogurt"
-    ],
-    [
-      "trigger_cinnamon_yogurt"
-    ],
-    [
-      "trigger_dragon_fruit_yogurt"
-    ],
-    [
-      "trigger_vanilla_yogurt"
-    ],
-    [
+      "trigger_plain_yogurt",
+      "trigger_lychee_yogurt",
+      "trigger_strawberry_yogurt",
+      "trigger_raspberry_yogurt",
+      "trigger_watermelon_yogurt",
+      "trigger_cherry_yogurt",
+      "trigger_mangosteen_yogurt",
+      "trigger_cranberry_yogurt",
+      "trigger_pomegranate_yogurt",
+      "trigger_sweet_berry_yogurt",
+      "trigger_fig_yogurt",
+      "trigger_pumpkin_yogurt",
+      "trigger_passion_fruit_yogurt",
+      "trigger_gooseberry_yogurt",
+      "trigger_mango_yogurt",
+      "trigger_orange_yogurt",
+      "trigger_glow_berry_yogurt",
+      "trigger_honey_yogurt",
+      "trigger_peach_yogurt",
+      "trigger_apple_yogurt",
+      "trigger_pear_yogurt",
+      "trigger_banana_yogurt",
+      "trigger_pineapple_yogurt",
+      "trigger_starfruit_yogurt",
+      "trigger_lemon_yogurt",
+      "trigger_kiwi_yogurt",
+      "trigger_mint_yogurt",
+      "trigger_lime_yogurt",
+      "trigger_matcha_yogurt",
+      "trigger_grape_yogurt",
+      "trigger_blueberry_yogurt",
+      "trigger_chorus_fruit_yogurt",
+      "trigger_plum_yogurt",
+      "trigger_blackberry_yogurt",
+      "trigger_acai_yogurt",
+      "trigger_chocolate_yogurt",
+      "trigger_coffee_yogurt",
+      "trigger_caramel_yogurt",
+      "trigger_cinnamon_yogurt",
+      "trigger_dragon_fruit_yogurt",
+      "trigger_vanilla_yogurt",
       "trigger_coconut_yogurt"
     ]
   ]

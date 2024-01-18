@@ -25,31 +25,40 @@ public class ModItemModelProvider extends ItemModelProvider {
         simpleItem(ModItemsInit.CROP_INSPECTOR_ITEM, "tools/");
         handheldItem(ModItemsInit.GOLDEN_FORTUNE_COOKIE_PICKAXE, "tools/");
 
+        // INGREDIENTS
+        ModItemsInit.CREAMS.forEach(e -> simpleItem(e, "creams/"));
         ModItemsInit.CROP_ITEMS.forEach(e -> simpleItem(e, "crops/"));
         ModItemsInit.NUTS.forEach(e -> simpleItem(e, "nuts/"));
-        ModItemsInit.CREAMS.forEach(e -> simpleItem(e, "creams/"));
+        ModItemsInit.INGREDIENTS.forEach(e -> simpleItem(e, "ingredients/"));
         ModItemsInit.JAMS.forEach(e -> simpleItem(e, "jams/"));
+        ModItemsInit.WAFFLE_MOLDS.forEach(e -> simpleItem(e, "waffles/"));
+
+        // FOOD
+        ModItemsInit.BARS.forEach(e -> simpleItem(e, "baked_goods/"));
         ModItemsInit.BREADS.forEach(e -> simpleItem(e, "breads/"));
-        ModItemsInit.BREADS_TOASTS.forEach(e -> simpleItem(e, "breads/"));
+        ModItemsInit.BROWNIES.forEach(e -> simpleItem(e, "baked_goods/"));
+        ModItemsInit.CANDY.forEach(e -> simpleItem(e, "candy/"));
         ModItemsInit.CAKES.forEach(e -> simpleItem(e, "cakes/"));
+        ModItemsInit.CANNOLIS.forEach(e -> simpleItem(e, "cannolis/"));
+        ModItemsInit.CHEESECAKES.forEach(e -> simpleItem(e, "cakes/"));
+        ModItemsInit.COOKIES_ALL.forEach(e -> simpleItem(e, "cookies/"));
+        ModItemsInit.MUFFINS.forEach(e -> simpleItem(e, "baked_goods/"));
         ModItemsInit.PIES.forEach(e -> simpleItem(e, "pies/"));
         ModItemsInit.PUDDINGS.forEach(e -> simpleItem(e, "puddings/"));
-        ModItemsInit.CANDY.forEach(e -> simpleItem(e, "candy/"));
-        ModItemsInit.BROWNIES.forEach(e -> simpleItem(e, "baked_goods/"));
         ModItemsInit.SMORES.forEach(e -> simpleItem(e, "marshmallows/"));
-        ModItemsInit.CANNOLIS.forEach(e -> simpleItem(e, "cannolis/"));
-        ModItemsInit.MUFFINS.forEach(e -> simpleItem(e, "baked_goods/"));
-        ModItemsInit.COOKIES.forEach(e -> simpleItem(e, "cookies/"));
+        ModItemsInit.WAFFLES.forEach(e -> simpleItem(e, "waffles/"));
         ModItemsInit.YOGURTS.forEach(e -> simpleItem(e, "yogurts/"));
+
+        // DRINKS
         ModItemsInit.BOBA_MILK_TEAS.forEach(e -> simpleItem(e, "milk_teas/"));
         ModItemsInit.SPECIAL_BOBA_MILK_TEAS.forEach(e -> simpleItem(e, "milk_teas/"));
         ModItemsInit.COFFEES.forEach(e -> simpleItem(e, "coffees/"));
         ModItemsInit.SPECIAL_COFFEES.forEach(e -> simpleItem(e, "coffees/"));
         ModItemsInit.FRUIT_JUICES.forEach(e -> simpleItem(e, "juices/"));
-        ModItemsInit.INGREDIENTS.forEach(e -> simpleItem(e, "ingredients/"));
-        ModItemsInit.WAFFLE_MOLDS.forEach(e -> simpleItem(e, "waffles/"));
-        ModItemsInit.WAFFLES.forEach(e -> simpleItem(e, "waffles/"));
+        ModItemsInit.LEMONADES.forEach(e -> simpleItem(e, "juices/"));
         ModItemsInit.MISC_DRINKS.forEach(e -> simpleItem(e, "misc_drinks/"));
+        ModItemsInit.FLAVORED_MILKS.forEach(e -> simpleItem(e, "misc_drinks/"));
+        ModItemsInit.FLAVORED_WATERS.forEach(e -> simpleItem(e, "misc_drinks/"));
 
         // Band-aid solution to straggler items
         simpleItem(ModItemsInit.FORTUNE_COOKIE, "cookies/");
@@ -72,7 +81,7 @@ public class ModItemModelProvider extends ItemModelProvider {
 
         simpleItemFromPath("coffee_bucket", "coffees/");
         itemFromExplicitPath("vanilla_flower", "block/flower/", "item/generated");
-        ModBlocksInit.CAKE_BLOCKS.forEach(reg -> simpleItemFromPath(reg.getId().getPath(), "cakes/whole/"));
+        ModBlocksInit.CAKE_BLOCKS_ALL.forEach(reg -> simpleItemFromPath(reg.getId().getPath(), "cakes/whole/"));
 
         // Seed items
         ModBlocksInit.FLOWER_CROPS.stream()

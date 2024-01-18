@@ -16,6 +16,7 @@ public class ModBlockModelProvider extends BlockModelProvider {
     @Override
     protected void registerModels() {
         ModBlocksInit.CAKE_BLOCKS.forEach(reg -> cakeModels(reg.getId().getPath(), "block/cake/"));
+        ModBlocksInit.CAKE_BLOCKS_VELVET.forEach(reg -> cakeModels(reg.getId().getPath(), "block/cake/"));
         ModBlocksInit.LUNCHBOXES.forEach(reg -> lunchboxModels(reg.getId().getPath(), "block/lunchbox/"));
     }
 

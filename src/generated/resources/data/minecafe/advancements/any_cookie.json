@@ -1596,6 +1596,15 @@
       "trigger_black_and_white_cookie",
       "trigger_oreo_cookie",
       "trigger_samoa_cookie",
+      "trigger_jammy_dodger_cookie",
+      "trigger_gingerbread_man_cookie",
+      "trigger_macaroon",
+      "trigger_almond_cookie",
+      "trigger_pecan_cookie",
+      "trigger_peanut_cookie",
+      "trigger_white_chocolate_chip_macadamia_cookie",
+      "trigger_caramel_cookie",
+      "trigger_chocolate_caramel_cookie",
       "trigger_strawberry_crinkle_cookie",
       "trigger_red_velvet_crinkle_cookie",
       "trigger_orange_crinkle_cookie",
@@ -1604,14 +1613,6 @@
       "trigger_chorus_fruit_crinkle_cookie",
       "trigger_chocolate_crinkle_cookie",
       "trigger_gingersnap_cookie",
-      "trigger_gingerbread_man_cookie",
-      "trigger_almond_cookie",
-      "trigger_pecan_cookie",
-      "trigger_peanut_cookie",
-      "trigger_white_chocolate_chip_macadamia_cookie",
-      "trigger_caramel_cookie",
-      "trigger_chocolate_caramel_cookie",
-      "trigger_jammy_dodger_cookie",
       "trigger_watermelon_thumbprint_cookie",
       "trigger_strawberry_thumbprint_cookie",
       "trigger_sweet_berry_thumbprint_cookie",
@@ -1707,8 +1708,7 @@
       "trigger_cinnamon_roll_macaron",
       "trigger_carrot_cake_macaron",
       "trigger_donut_macaron",
-      "trigger_cotton_candy_macaron",
-      "trigger_macaroon"
+      "trigger_cotton_candy_macaron"
     ]
   ]
 }

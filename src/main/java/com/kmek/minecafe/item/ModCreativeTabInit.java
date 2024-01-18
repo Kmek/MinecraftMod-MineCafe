@@ -42,7 +42,7 @@ public class ModCreativeTabInit {
         );
         event.registerCreativeModeTab(new ResourceLocation(MineCafeMod.MODID, "minecafe_tab3"), builder -> builder
                 .title(Component.translatable("itemGroup.minecafe_food"))
-                .icon(() -> new ItemStack(ModItemsInit.BREADS.get(0).get()))
+                .icon(() -> new ItemStack(ModItemsInit.BREADS_PASTRIES.get(0).get()))
                 .displayItems((featureFlags, output, hasOp) -> {
                     // Add categories
                     acceptFoods(output);
@@ -187,7 +187,8 @@ public class ModCreativeTabInit {
     }
 
     private void acceptBreads(CreativeModeTab.Output output) {
-        ModItemsInit.BREADS.forEach(reg -> output.accept(reg.get()));
+        ModItemsInit.BREADS_PASTRIES.forEach(reg -> output.accept(reg.get()));
+        ModItemsInit.BREADS_LOAVES.forEach(reg -> output.accept(reg.get()));
         ModItemsInit.BREADS_TOASTS.forEach(reg -> output.accept(reg.get()));
     }
 
@@ -197,11 +198,16 @@ public class ModCreativeTabInit {
 
     private void acceptCake(CreativeModeTab.Output output) {
         ModBlocksInit.CAKE_BLOCKS.forEach(reg -> output.accept(reg.get()));
+        ModBlocksInit.CAKE_BLOCKS_VELVET.forEach(reg -> output.accept(reg.get()));
         ModItemsInit.CAKES.forEach(reg -> output.accept(reg.get()));
+        ModItemsInit.CHEESECAKES.forEach(reg -> output.accept(reg.get()));
     }
 
     private void acceptPie(CreativeModeTab.Output output) {
-        ModItemsInit.PIES.forEach(reg -> output.accept(reg.get()));
+        ModItemsInit.PIES_MISC.forEach(reg -> output.accept(reg.get()));
+        ModItemsInit.FRUIT_PIES.forEach(reg -> output.accept(reg.get()));
+        ModItemsInit.CREAM_PIES.forEach(reg -> output.accept(reg.get()));
+        ModItemsInit.MEAT_PIES.forEach(reg -> output.accept(reg.get()));
     }
 
     private void acceptPudding(CreativeModeTab.Output output) {
@@ -214,12 +220,16 @@ public class ModCreativeTabInit {
 
     private void acceptCookies(CreativeModeTab.Output output) {
         ModItemsInit.COOKIES.forEach(reg -> output.accept(reg.get()));
+        ModItemsInit.CRINKLE_COOKIES.forEach(reg -> output.accept(reg.get()));
+        ModItemsInit.THUMBPRINT_COOKIES.forEach(reg -> output.accept(reg.get()));
+        ModItemsInit.MACARONS.forEach(reg -> output.accept(reg.get()));
         output.accept(ModItemsInit.FORTUNE_COOKIE.get());
         output.accept(ModItemsInit.GOLDEN_FORTUNE_COOKIE.get());
     }
 
     private void acceptMiscFoodItems(CreativeModeTab.Output output) {
         ModItemsInit.BROWNIES.forEach(reg -> output.accept(reg.get()));
+        ModItemsInit.BARS.forEach(reg -> output.accept(reg.get()));
 
         ModItemsInit.MUFFINS.forEach(reg -> output.accept(reg.get()));
     }
@@ -261,9 +271,12 @@ public class ModCreativeTabInit {
 
     private void acceptFruitDrinks(CreativeModeTab.Output output) {
         ModItemsInit.FRUIT_JUICES.forEach(reg -> output.accept(reg.get()));
+        ModItemsInit.LEMONADES.forEach(reg -> output.accept(reg.get()));
     }
 
     private void acceptMiscDrinks(CreativeModeTab.Output output) {
+        ModItemsInit.FLAVORED_MILKS.forEach(reg -> output.accept(reg.get()));
+        ModItemsInit.FLAVORED_WATERS.forEach(reg -> output.accept(reg.get()));
         ModItemsInit.MISC_DRINKS.forEach(reg -> output.accept(reg.get()));
     }
 }

@@ -23,6 +23,7 @@ import net.minecraftforge.registries.RegistryObject;
 
 import java.util.*;
 import java.util.function.Supplier;
+import java.util.stream.Stream;
 
 public class ModBlocksInit {
     public static final DeferredRegister<Item> ITEMS = ModItemsInit.ITEMS;
@@ -233,6 +234,10 @@ public class ModBlocksInit {
     public static final List<RegistryObject<Block>> CAKE_BLOCKS =
             new FileDataLoader("registration_data/cake_blocks.txt").read().stream()
                     .map(args -> registerBlockItem(args.get(0), () -> (Block) new MyCakeBlock())).toList();
+    public static final List<RegistryObject<Block>> CAKE_BLOCKS_VELVET =
+            new FileDataLoader("registration_data/cake_blocks_velvet.txt").read().stream()
+                    .map(args -> registerBlockItem(args.get(0), () -> (Block) new MyCakeBlock())).toList();
+    public static final List<RegistryObject<Block>> CAKE_BLOCKS_ALL = Stream.of(CAKE_BLOCKS, CAKE_BLOCKS_VELVET).flatMap(Collection::stream).toList();
 
     /**
      * Fluids

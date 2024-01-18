@@ -1,5 +1,5 @@
 {
-  "parent": "minecafe:food/cannoli/any_cannoli",
+  "parent": "minecafe:any_cannoli",
   "criteria": {
     "trigger_acai_cannoli": {
       "conditions": {
@@ -514,7 +514,7 @@
     "frame": "challenge",
     "hidden": false,
     "icon": {
-      "item": "minecafe:honey_cannoli"
+      "item": "minecafe:blueberry_cannoli"
     },
     "show_toast": true,
     "title": {

@@ -1,5 +1,5 @@
 {
-  "parent": "minecafe:ingredients/jams/any_jam",
+  "parent": "minecafe:any_jam",
   "criteria": {
     "trigger_acai_jam": {
       "conditions": {
@@ -358,7 +358,7 @@
     "frame": "challenge",
     "hidden": false,
     "icon": {
-      "item": "minecafe:passion_fruit_jam"
+      "item": "minecafe:blueberry_jam"
     },
     "show_toast": true,
     "title": {

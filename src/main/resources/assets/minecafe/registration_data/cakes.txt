@@ -1,33 +1,11 @@
-cassava_bibingka, 3, 1.5
-coffee_cake, 3, 1.5
-tiramisu, 3, 1.5
-
-// Cheesecakes
-cheesecake_slice, 3, 1.5
-cherry_cheesecake_slice, 3, 1.5
-strawberry_cheesecake_slice, 3, 1.5
-raspberry_cheesecake_slice, 3, 1.5
-peach_cheesecake_slice, 3, 1.5
-pumpkin_cheesecake_slice, 3, 1.5
-mango_cheesecake_slice, 3, 1.5
-lemon_cheesecake_slice, 3, 1.5
-matcha_cheesecake_slice, 3, 1.5
-kiwi_cheesecake_slice, 3, 1.5
-blueberry_cheesecake_slice, 3, 1.5
-chorus_fruit_cheesecake_slice, 3, 1.5
-coconut_cheesecake_slice, 3, 1.5
-banana_cheesecake_slice, 3, 1.5
-coffee_cheesecake_slice, 3, 1.5
-hot_cocoa_cheesecake_slice, 3, 1.5
-caramel_cheesecake_slice, 3, 1.5
-chocolate_cheesecake_slice, 3, 1.5
-basque_cheesecake_slice, 3, 1.5
-funfetti_cheesecake_slice, 3, 1.5
-rainbow_cheesecake_slice, 3, 1.5
-
-// Other Cakes
-princess_cake, 3, 1.5
+// INCLUDE: cheesecakes.txt
 
 // Snack cakes
 twinkie, 2, 1
 chocolate_twinkie, 3, 1.5
+
+// Other Cakes
+princess_cake, 3, 1.5
+coffee_cake, 3, 1.5
+tiramisu, 3, 1.5
+cassava_bibingka, 3, 1.5

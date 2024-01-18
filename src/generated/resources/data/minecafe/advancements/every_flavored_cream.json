@@ -1,5 +1,5 @@
 {
-  "parent": "minecafe:ingredients/any_flavored_cream",
+  "parent": "minecafe:any_flavored_cream",
   "criteria": {
     "trigger_acai_cream": {
       "conditions": {

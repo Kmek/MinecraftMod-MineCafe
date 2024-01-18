@@ -1,12 +1,3 @@
-// Pastries
-croissant, 3, 1.5
-chocolate_croissant, 3, 1.5
-cinnamon_roll, 3, 1.5
-iced_cinnamon_roll, 3, 1.5
-
-gingerbread_square, 2, 1
-
-// Breads
 baguette, 4, 2
 
 carrot_bread, 4, 2
@@ -31,5 +22,3 @@ cinnamon_raisin_bread, 4, 2
 almond_bread, 4, 2
 chorus_fruit_bread, 4, 2
 matcha_bread, 4, 2
-
-// INCLUDE: breads_toasts.txt

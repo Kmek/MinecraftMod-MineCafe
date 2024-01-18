@@ -73,18 +73,6 @@
       },
       "trigger": "minecraft:inventory_changed"
     },
-    "trigger_blueberry_lemonade": {
-      "conditions": {
-        "items": [
-          {
-            "items": [
-              "minecafe:blueberry_lemonade"
-            ]
-          }
-        ]
-      },
-      "trigger": "minecraft:inventory_changed"
-    },
     "trigger_carrot_juice": {
       "conditions": {
         "items": [
@@ -229,36 +217,12 @@
       },
       "trigger": "minecraft:inventory_changed"
     },
-    "trigger_lemonade": {
-      "conditions": {
-        "items": [
-          {
-            "items": [
-              "minecafe:lemonade"
-            ]
-          }
-        ]
-      },
-      "trigger": "minecraft:inventory_changed"
-    },
     "trigger_lime_juice": {
       "conditions": {
         "items": [
           {
             "items": [
               "minecafe:lime_juice"
-            ]
-          }
-        ]
-      },
-      "trigger": "minecraft:inventory_changed"
-    },
-    "trigger_limeade": {
-      "conditions": {
-        "items": [
-          {
-            "items": [
-              "minecafe:limeade"
             ]
           }
         ]
@@ -283,18 +247,6 @@
           {
             "items": [
               "minecafe:mango_juice"
-            ]
-          }
-        ]
-      },
-      "trigger": "minecraft:inventory_changed"
-    },
-    "trigger_mango_lemonade": {
-      "conditions": {
-        "items": [
-          {
-            "items": [
-              "minecafe:mango_lemonade"
             ]
           }
         ]
@@ -373,18 +325,6 @@
       },
       "trigger": "minecraft:inventory_changed"
     },
-    "trigger_pineapple_lemonade": {
-      "conditions": {
-        "items": [
-          {
-            "items": [
-              "minecafe:pineapple_lemonade"
-            ]
-          }
-        ]
-      },
-      "trigger": "minecraft:inventory_changed"
-    },
     "trigger_plum_juice": {
       "conditions": {
         "items": [
@@ -433,18 +373,6 @@
       },
       "trigger": "minecraft:inventory_changed"
     },
-    "trigger_raspberry_lemonade": {
-      "conditions": {
-        "items": [
-          {
-            "items": [
-              "minecafe:raspberry_lemonade"
-            ]
-          }
-        ]
-      },
-      "trigger": "minecraft:inventory_changed"
-    },
     "trigger_starfruit_juice": {
       "conditions": {
         "items": [
@@ -463,18 +391,6 @@
           {
             "items": [
               "minecafe:strawberry_juice"
-            ]
-          }
-        ]
-      },
-      "trigger": "minecraft:inventory_changed"
-    },
-    "trigger_strawberry_lemonade": {
-      "conditions": {
-        "items": [
-          {
-            "items": [
-              "minecafe:strawberry_lemonade"
             ]
           }
         ]
@@ -509,7 +425,7 @@
   "display": {
     "announce_to_chat": true,
     "description": {
-      "text": "Craft a Juice"
+      "text": "Craft a juice"
     },
     "frame": "goal",
     "hidden": false,
@@ -557,14 +473,7 @@
       "trigger_coconut_juice",
       "trigger_banana_juice",
       "trigger_pear_juice",
-      "trigger_peach_juice",
-      "trigger_raspberry_lemonade",
-      "trigger_strawberry_lemonade",
-      "trigger_mango_lemonade",
-      "trigger_pineapple_lemonade",
-      "trigger_lemonade",
-      "trigger_limeade",
-      "trigger_blueberry_lemonade"
+      "trigger_peach_juice"
     ]
   ]
 }

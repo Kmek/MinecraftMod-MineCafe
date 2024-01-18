@@ -73,30 +73,6 @@
       },
       "trigger": "minecraft:inventory_changed"
     },
-    "trigger_fig_newton": {
-      "conditions": {
-        "items": [
-          {
-            "items": [
-              "minecafe:fig_newton"
-            ]
-          }
-        ]
-      },
-      "trigger": "minecraft:inventory_changed"
-    },
-    "trigger_lemon_bar": {
-      "conditions": {
-        "items": [
-          {
-            "items": [
-              "minecafe:lemon_bar"
-            ]
-          }
-        ]
-      },
-      "trigger": "minecraft:inventory_changed"
-    },
     "trigger_peanut_butter_brownie": {
       "conditions": {
         "items": [
@@ -115,18 +91,6 @@
           {
             "items": [
               "minecafe:peppermint_brownie"
-            ]
-          }
-        ]
-      },
-      "trigger": "minecraft:inventory_changed"
-    },
-    "trigger_sopaipilla_cheesecake_bar": {
-      "conditions": {
-        "items": [
-          {
-            "items": [
-              "minecafe:sopaipilla_cheesecake_bar"
             ]
           }
         ]
@@ -158,10 +122,7 @@
       "trigger_peanut_butter_brownie",
       "trigger_peppermint_brownie",
       "trigger_cheesecake_brownie",
-      "trigger_blondie_brownie",
-      "trigger_lemon_bar",
-      "trigger_sopaipilla_cheesecake_bar",
-      "trigger_fig_newton"
+      "trigger_blondie_brownie"
     ]
   ]
 }

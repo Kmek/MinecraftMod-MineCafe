@@ -21,6 +21,7 @@ public class ModBlockStateProvider extends BlockStateProvider {
     @Override
     protected void registerStatesAndModels() {
         ModBlocksInit.CAKE_BLOCKS.forEach(reg -> cakeBlockState(reg));
+        ModBlocksInit.CAKE_BLOCKS_VELVET.forEach(reg -> cakeBlockState(reg));
         ModBlocksInit.LUNCHBOXES.forEach(reg -> lunchboxBlockState(reg));
     }
 

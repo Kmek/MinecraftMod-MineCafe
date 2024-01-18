@@ -1,46 +1,22 @@
 // Pie Slices
 
-// Red
-strawberry_cream_pie_slice, 3, 1.5
-raspberry_cream_pie_slice, 3, 1.5
-cherry_pie_slice, 3, 1.5
-cranberry_pie_slice, 3, 1.5
-bumbleberry_pie_slice, 3, 1.5
-strawberry_pie_slice, 3, 1.5
-plum_pie_slice, 3, 1.5
-
 // Orange
-peach_pie_slice, 3, 1.5
 pecan_pie_slice, 3, 1.5
 sunflower_pie_slice, 3, 1.5
 pumpkin_pie_slice, 3, 1.5
-apple_pie_slice, 3, 1.5
-peaches_and_cream_pie_slice, 3, 1.5
-banoffi_pie_slice, 3, 1.5
-orange_creamsicle_pie_slice, 3, 1.5
 
 // Yellow
 honey_pie_slice, 3, 1.5
 chess_pie_slice, 3, 1.5
-lemon_cream_pie_slice, 3, 1.5
 
 // Green
 key_lime_pie_slice, 3, 1.5
 grasshopper_pie_slice, 3, 1.5
 
-// Purple
-blueberry_pie_slice, 3, 1.5
-
 // Black
-blackberry_pie_slice, 3, 1.5
 cookies_and_cream_pie_slice, 3, 1.5
 
-// White
-vanilla_cream_pie_slice, 3, 1.5
-
 // Tan
-coconut_cream_pie_slice, 3, 1.5
-banana_cream_pie_slice, 3, 1.5
 sugar_cream_pie_slice, 3, 1.5
 water_pie_slice, 3, 1.5
 caramel_cream_pie_slice, 3, 1.5
@@ -51,22 +27,15 @@ maple_pie_slice, 3, 1.5
 peanut_pie_slice, 3, 1.5
 
 // Brown
-raisin_pie_slice, 3, 1.5
 brownie_pie_slice, 3, 1.5
-chocolate_cream_pie_slice, 3, 1.5
-mi_mud_pie_slice, 3, 1.5
 
 possum_pie_slice, 3, 1.5
 shoofly_pie_slice, 3, 1.5
 smores_pie_slice, 3, 1.5
 turtle_pie_slice, 3, 1.5
 
+// INCLUDE: pies_fruit.txt
 
-// Meat pies
-steak_pie, 4, 2
-pork_pie, 4, 2
-mutton_pie, 4, 2
-chicken_pie, 4, 2
-rabbit_pie, 4, 2
-cod_pie, 4, 2
-salmon_pie, 4, 2
+// INCLUDE: pies_cream.txt
+
+// INCLUDE: pies_meat.txt

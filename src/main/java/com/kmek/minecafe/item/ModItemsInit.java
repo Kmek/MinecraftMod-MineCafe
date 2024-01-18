@@ -19,7 +19,11 @@ import net.minecraftforge.registries.RegistryObject;
 import org.jetbrains.annotations.Nullable;
 
 import java.util.*;
+import java.util.function.Function;
+import java.util.function.Supplier;
 import java.util.stream.Stream;
+
+import static com.kmek.minecafe.datagen.FileDataLoader.*;
 
 public class ModItemsInit {
     /**
@@ -63,9 +67,10 @@ public class ModItemsInit {
                     new FoodProperties.Builder().nutrition(2).saturationMod(1f).build())))))
             .toList();
 
-    /**
-     * Ingredients
-     */
+
+    /*******************************************************************************************************************
+     * INGREDIENTS
+     ******************************************************************************************************************/
     public static final List<RegistryObject<Item>> INGREDIENTS =
             new FileDataLoader("registration_data/ingredients.txt").read().stream()
                     .map(args -> {
@@ -77,69 +82,75 @@ public class ModItemsInit {
                                             .nutrition(Integer.parseInt(args.get(1)))
                                             .saturationMod(Float.parseFloat(args.get(2))).build())));
                     }).toList();
-    public static final List<RegistryObject<Item>> CREAMS =
-            new FileDataLoader("registration_data/creams.txt").read().stream()
-                .map(args -> ITEMS.register(args.get(0) + "_cream", () -> new Item(new Item.Properties().food(
-                        new FoodProperties.Builder().nutrition(0).saturationMod(0.3f).build())))
-                ).toList();
-    // Jams
-    public static final List<RegistryObject<Item>> JAMS =
-        new FileDataLoader("registration_data/jams.txt").read().stream()
-            .map(args -> ITEMS.register(args.get(0) + "_jam", () -> new Item(new Item.Properties().food(
-                    new FoodProperties.Builder().nutrition(1).saturationMod(0.4f).build())))
-            ).toList();
+    public static final List<RegistryObject<Item>> CREAMS = regListItems("creams.txt", "", "_cream", ITEMS, foodFixedArgs.apply(0, 0.3f));
+    public static final List<RegistryObject<Item>> JAMS = regListItems("jams.txt", "", "_jam", ITEMS, foodFixedArgs.apply(1, 0.4f));
 
-    /**
-     * Dishes
-     */
+    public static final RegistryObject<Item> BATTER_MESS = ITEMS.register("batter_mess", () -> new Item(new Item.Properties().food(
+        new FoodProperties.Builder().nutrition(0).saturationMod(0)
+            .effect(() -> new MobEffectInstance(MobEffects.POISON, 200, 0), 0.8f)
+            .build())) {
+                @Override
+                public void appendHoverText(ItemStack stack, @Nullable Level level, List<Component> components, TooltipFlag flag) {
+                    components.add(Component.literal("Consume raw eggs at your own risk").withStyle(ChatFormatting.YELLOW));
+                    super.appendHoverText(stack, level, components, flag);
+            }});
+    public static final RegistryObject<Item> BURNT_CRISP = ITEMS.register("burnt_crisp", () -> new Item(new Item.Properties().food(
+            new FoodProperties.Builder().nutrition(1).saturationMod(0.5f)
+                    .effect(() -> new MobEffectInstance(MobEffects.HUNGER, 200, 0), 1.0f)
+                    .build())));
+
+
+    /*******************************************************************************************************************
+     * DISHES
+     ******************************************************************************************************************/
     public static final RegistryObject<Item> CLEAR_CUP = ITEMS.register("clear_cup", () -> new Item(new Item.Properties()));
     public static final RegistryObject<Item> MUG = ITEMS.register("mug", () -> new Item(new Item.Properties()));
 //    public static final RegistryObject<Item> ICE_TRAY = ITEMS.register("ice_tray", () -> new Item(new Item.Properties().stacksTo(1)));
 //    public static final RegistryObject<Item> ICE_TRAY_WATER = ITEMS.register("ice_tray_water", () -> new Item(new Item.Properties().stacksTo(1)));
 //    public static final RegistryObject<Item> ICE_TRAY_ICE = ITEMS.register("ice_tray_ice", () -> new Item(new Item.Properties().stacksTo(1).craftRemainder(ICE_TRAY.get())));
 
-    /**
-     * Food
-     */
-    public static final RegistryObject<Item> BATTER_MESS = ITEMS.register("batter_mess", () -> new Item(new Item.Properties().food(
-            new FoodProperties.Builder().nutrition(0).saturationMod(0)
-                    .effect(() -> new MobEffectInstance(MobEffects.POISON, 200, 0), 0.8f)
-                    .build())) {
-        @Override
-        public void appendHoverText(ItemStack stack, @Nullable Level level, List<Component> components, TooltipFlag flag) {
-            components.add(Component.literal("Consume raw eggs at your own risk").withStyle(ChatFormatting.YELLOW));
-            super.appendHoverText(stack, level, components, flag);
-        }
-    });
-    public static final RegistryObject<Item> BURNT_CRISP = ITEMS.register("burnt_crisp", () -> new Item(new Item.Properties().food(
-            new FoodProperties.Builder().nutrition(1).saturationMod(0.5f)
-                    .effect(() -> new MobEffectInstance(MobEffects.HUNGER, 200, 0), 1.0f)
-                    .build())));
+
+    /*******************************************************************************************************************
+     * FOODS
+     ******************************************************************************************************************/
+    public static final List<RegistryObject<Item>> YOGURTS = regListItems("yogurts.txt", ITEMS, food2Args);
+    public static final List<RegistryObject<Item>> PUDDINGS = regListItems("puddings.txt", ITEMS, food2Args);
+    public static final List<RegistryObject<Item>> CANDY = regListItems("candy.txt", ITEMS, food2Args);
+    public static final List<RegistryObject<Item>> BROWNIES = regListItems("brownies.txt", ITEMS, food2Args);
+    public static final List<RegistryObject<Item>> BARS = regListItems("bars.txt", ITEMS, food2Args);
+    public static final List<RegistryObject<Item>> MUFFINS = regListItems("muffins.txt", ITEMS, food2Args);
+    public static final List<RegistryObject<Item>> CANNOLIS = regListItems("creams.txt", "", "_cannoli", ITEMS, foodFixedArgs.apply(2, 0.5f));
+
+    // Cakes
+    public static final List<RegistryObject<Item>> CAKES = regListItems("cakes.txt", ITEMS, food2Args);
+    public static final List<RegistryObject<Item>> CHEESECAKES = regListItems("cheesecakes.txt", ITEMS, food2Args);
+
     // Breads
-    public static final List<RegistryObject<Item>> BREADS_PASTRIES =
-            new FileDataLoader("registration_data/breads_pastries.txt").read().stream()
-                    .map(args -> ITEMS.register(args.get(0), () -> new Item(new Item.Properties().food(
-                            new FoodProperties.Builder()
-                                    .nutrition(Integer.parseInt(args.get(1)))
-                                    .saturationMod(Float.parseFloat(args.get(2))).build())))
-                    ).toList();
-    public static final List<RegistryObject<Item>> BREADS_LOAVES =
-            new FileDataLoader("registration_data/breads_loaves.txt").read().stream()
-                    .map(args -> ITEMS.register(args.get(0), () -> new Item(new Item.Properties().food(
-                            new FoodProperties.Builder()
-                                    .nutrition(Integer.parseInt(args.get(1)))
-                                    .saturationMod(Float.parseFloat(args.get(2))).build())))
-                    ).toList();
-    public static final List<RegistryObject<Item>> BREADS_TOASTS =
-            new FileDataLoader("registration_data/breads_toasts.txt").read().stream()
-                    .map(args -> ITEMS.register(args.get(0), () -> new Item(new Item.Properties().food(
-                            new FoodProperties.Builder()
-                                    .nutrition(Integer.parseInt(args.get(1)))
-                                    .saturationMod(Float.parseFloat(args.get(2))).build())))
-                    ).toList();
+    public static final List<RegistryObject<Item>> BREADS_PASTRIES = regListItems("breads_pastries.txt", ITEMS, food2Args);
+    public static final List<RegistryObject<Item>> BREADS_LOAVES = regListItems("breads_loaves.txt", ITEMS, food2Args);
+    public static final List<RegistryObject<Item>> BREADS_TOASTS = regListItems("breads_toasts.txt", ITEMS, food2Args);
     public static final List<RegistryObject<Item>> BREADS = Stream.of(BREADS_PASTRIES, BREADS_LOAVES, BREADS_TOASTS).flatMap(Collection::stream).toList();
 
-    // Waffle snacks
+    // Pies
+    public static final List<RegistryObject<Item>> PIES_MISC = regListItems("pies.txt", ITEMS, food2Args);
+    public static final List<RegistryObject<Item>> MEAT_PIES = regListItems("pies_meat.txt", ITEMS, food2Args);
+    public static final List<RegistryObject<Item>> FRUIT_PIES = regListItems("pies_fruit.txt", ITEMS, food2Args);
+    public static final List<RegistryObject<Item>> CREAM_PIES = regListItems("pies_cream.txt", ITEMS, food2Args);
+    public static final List<RegistryObject<Item>> PIES = Stream.of(PIES_MISC, MEAT_PIES, FRUIT_PIES, CREAM_PIES).flatMap(Collection::stream).toList();
+
+    // Cookies
+    public static final List<RegistryObject<Item>> COOKIES = regListItems("cookies.txt", ITEMS, food2Args);
+    public static final List<RegistryObject<Item>> CRINKLE_COOKIES = regListItems("cookies_crinkle.txt", ITEMS, food2Args);
+    public static final List<RegistryObject<Item>> THUMBPRINT_COOKIES = regListItems("cookies_thumbprint.txt", ITEMS, food2Args);
+    public static final List<RegistryObject<Item>> MACARONS = regListItems("macarons.txt", ITEMS, food2Args);
+    public static final List<RegistryObject<Item>> COOKIES_ALL = Stream.of(COOKIES, CRINKLE_COOKIES, THUMBPRINT_COOKIES, MACARONS).flatMap(Collection::stream).toList();
+    public static final RegistryObject<Item> FORTUNE_COOKIE = ITEMS.register("fortune_cookie", () -> new FortuneCookieItem(false));
+    public static final RegistryObject<Item> GOLDEN_FORTUNE_COOKIE = ITEMS.register("golden_fortune_cookie", () -> new FortuneCookieItem(true));
+    // todo make golden and diamond macarons have special effects?
+
+    /**
+     * Waffles
+     */
     public static final RegistryObject<Item> RAW_WAFFLE_BATTER = ITEMS.register("raw_waffle_batter", () -> new Item(new Item.Properties().food(
             new FoodProperties.Builder().nutrition(0).saturationMod(0)
                     .effect(() -> new MobEffectInstance(MobEffects.POISON, 300, 0), 0.6f)
@@ -179,79 +190,10 @@ public class ModItemsInit {
             ITEMS.register("pickaxe_waffle_mold", () -> new WaffleMoldItem(PICKAXE_WAFFLE.get())),
             ITEMS.register("sword_waffle_mold", () -> new WaffleMoldItem(SWORD_WAFFLE.get()))
         );
-    public static final List<RegistryObject<Item>> CAKES =
-            new FileDataLoader("registration_data/cakes.txt").read().stream()
-                .map(args -> ITEMS.register(args.get(0), () -> new Item(new Item.Properties().food(
-                        new FoodProperties.Builder()
-                                .nutrition(Integer.parseInt(args.get(1)))
-                                .saturationMod(Float.parseFloat(args.get(2))).build())))
-                ).toList();
-    public static final List<RegistryObject<Item>> CHEESECAKES =
-            new FileDataLoader("registration_data/cheesecakes.txt").read().stream()
-                    .map(args -> ITEMS.register(args.get(0), () -> new Item(new Item.Properties().food(
-                            new FoodProperties.Builder()
-                                    .nutrition(Integer.parseInt(args.get(1)))
-                                    .saturationMod(Float.parseFloat(args.get(2))).build())))
-                    ).toList();
-    public static final List<RegistryObject<Item>> PIES_MISC =
-            new FileDataLoader("registration_data/pies.txt").read().stream()
-                .map(args -> ITEMS.register(args.get(0), () -> new Item(new Item.Properties().food(
-                        new FoodProperties.Builder()
-                                .nutrition(Integer.parseInt(args.get(1)))
-                                .saturationMod(Float.parseFloat(args.get(2))).build())))
-                ).toList();
-    public static final List<RegistryObject<Item>> MEAT_PIES =
-            new FileDataLoader("registration_data/pies_meat.txt").read().stream()
-                    .map(args -> ITEMS.register(args.get(0), () -> new Item(new Item.Properties().food(
-                            new FoodProperties.Builder()
-                                    .nutrition(Integer.parseInt(args.get(1)))
-                                    .saturationMod(Float.parseFloat(args.get(2))).build())))
-                    ).toList();
-    public static final List<RegistryObject<Item>> FRUIT_PIES =
-            new FileDataLoader("registration_data/pies_fruit.txt").read().stream()
-                    .map(args -> ITEMS.register(args.get(0), () -> new Item(new Item.Properties().food(
-                            new FoodProperties.Builder()
-                                    .nutrition(Integer.parseInt(args.get(1)))
-                                    .saturationMod(Float.parseFloat(args.get(2))).build())))
-                    ).toList();
-    public static final List<RegistryObject<Item>> CREAM_PIES =
-            new FileDataLoader("registration_data/pies_cream.txt").read().stream()
-                    .map(args -> ITEMS.register(args.get(0), () -> new Item(new Item.Properties().food(
-                            new FoodProperties.Builder()
-                                    .nutrition(Integer.parseInt(args.get(1)))
-                                    .saturationMod(Float.parseFloat(args.get(2))).build())))
-                    ).toList();
-    public static final List<RegistryObject<Item>> PIES = Stream.of(PIES_MISC, MEAT_PIES, FRUIT_PIES, CREAM_PIES).flatMap(Collection::stream).toList();
-    public static final List<RegistryObject<Item>> PUDDINGS =
-            new FileDataLoader("registration_data/puddings.txt").read().stream()
-                    .map(args -> ITEMS.register(args.get(0), () -> new Item(new Item.Properties().food(
-                            new FoodProperties.Builder()
-                                    .nutrition(Integer.parseInt(args.get(1)))
-                                    .saturationMod(Float.parseFloat(args.get(2))).build())))
-                    ).toList();
-    public static final List<RegistryObject<Item>> CANDY =
-            new FileDataLoader("registration_data/candy.txt").read().stream()
-                .map(args -> ITEMS.register(args.get(0), () -> new Item(new Item.Properties().food(
-                    new FoodProperties.Builder()
-                        .nutrition(Integer.parseInt(args.get(1)))
-                        .saturationMod(Float.parseFloat(args.get(2))).build())))
-                ).toList();
-    // Misc Foods
-    public static final List<RegistryObject<Item>> BROWNIES =
-            new FileDataLoader("registration_data/brownies.txt").read().stream()
-                .map(args -> ITEMS.register(args.get(0), () -> new Item(new Item.Properties().food(
-                        new FoodProperties.Builder()
-                                .nutrition(Integer.parseInt(args.get(1)))
-                                .saturationMod(Float.parseFloat(args.get(2))).build())))
-                ).toList();
-    public static final List<RegistryObject<Item>> BARS =
-            new FileDataLoader("registration_data/bars.txt").read().stream()
-                    .map(args -> ITEMS.register(args.get(0), () -> new Item(new Item.Properties().food(
-                            new FoodProperties.Builder()
-                                    .nutrition(Integer.parseInt(args.get(1)))
-                                    .saturationMod(Float.parseFloat(args.get(2))).build())))
-                    ).toList();
-    // Smores Marshmallow toasting
+
+    /**
+     * Smores & Marshmallows
+     */
     public static final RegistryObject<Item> MARSHMALLOW = ITEMS.register("marshmallow", () -> new Item(new Item.Properties().food(
             new FoodProperties.Builder().nutrition(1).saturationMod(0.5f).build())));
     public static final RegistryObject<Item> MARSHMALLOWS = ITEMS.register("marshmallows", () -> new Item(new Item.Properties().food(
@@ -281,57 +223,25 @@ public class ModItemsInit {
             .map(str -> ITEMS.register("smore_" + str, () -> new Item(new Item.Properties().food(
                         new FoodProperties.Builder().nutrition(5).saturationMod(2f).build())))
             ).toList();
-    public static final List<RegistryObject<Item>> CANNOLIS =
-            new FileDataLoader("registration_data/creams.txt").read().stream()
-                .map(args -> ITEMS.register(args.get(0) + "_cannoli", () -> new Item(new Item.Properties().food(
-                        new FoodProperties.Builder().nutrition(2).saturationMod(0.5f).build())))
-                ).toList();
-    public static final List<RegistryObject<Item>> MUFFINS =
-            new FileDataLoader("registration_data/muffins.txt").read().stream()
-                .map(args -> ITEMS.register(args.get(0), () -> new Item(new Item.Properties().food(
-                    new FoodProperties.Builder()
-                        .nutrition(Integer.parseInt(args.get(1)))
-                        .saturationMod(Float.parseFloat(args.get(2))).build())))
-                ).toList();
-    public static final List<RegistryObject<Item>> COOKIES =
-            new FileDataLoader("registration_data/cookies.txt").read().stream()
-                .map(args -> ITEMS.register(args.get(0), () -> new Item(new Item.Properties().food(
-                    new FoodProperties.Builder()
-                        .nutrition(Integer.parseInt(args.get(1)))
-                        .saturationMod(Float.parseFloat(args.get(2))).build())))
-                ).toList();
-    public static final List<RegistryObject<Item>> CRINKLE_COOKIES =
-            new FileDataLoader("registration_data/cookies_crinkle.txt").read().stream()
-                    .map(args -> ITEMS.register(args.get(0), () -> new Item(new Item.Properties().food(
-                            new FoodProperties.Builder()
-                                    .nutrition(Integer.parseInt(args.get(1)))
-                                    .saturationMod(Float.parseFloat(args.get(2))).build())))
-                    ).toList();
-    public static final List<RegistryObject<Item>> THUMBPRINT_COOKIES =
-            new FileDataLoader("registration_data/cookies_thumbprint.txt").read().stream()
-                    .map(args -> ITEMS.register(args.get(0), () -> new Item(new Item.Properties().food(
-                            new FoodProperties.Builder()
-                                    .nutrition(Integer.parseInt(args.get(1)))
-                                    .saturationMod(Float.parseFloat(args.get(2))).build())))
-                    ).toList();
-    public static final List<RegistryObject<Item>> MACARONS =
-            new FileDataLoader("registration_data/macarons.txt").read().stream()
-                    .map(args -> ITEMS.register(args.get(0), () -> new Item(new Item.Properties().food(
-                            new FoodProperties.Builder()
-                                    .nutrition(Integer.parseInt(args.get(1)))
-                                    .saturationMod(Float.parseFloat(args.get(2))).build())))
-                    ).toList();
-    public static final List<RegistryObject<Item>> COOKIES_ALL = Stream.of(COOKIES, CRINKLE_COOKIES, THUMBPRINT_COOKIES, MACARONS).flatMap(Collection::stream).toList();
-    public static final RegistryObject<Item> FORTUNE_COOKIE = ITEMS.register("fortune_cookie", () -> new FortuneCookieItem(false));
-    public static final RegistryObject<Item> GOLDEN_FORTUNE_COOKIE = ITEMS.register("golden_fortune_cookie", () -> new FortuneCookieItem(true));
-    // todo make golden and diamond macarons have special effects
-    public static final List<RegistryObject<Item>> YOGURTS =
-            new FileDataLoader("registration_data/yogurts.txt").read().stream()
-                    .map(args -> ITEMS.register(args.get(0), () -> new Item(new Item.Properties().food(
-                            new FoodProperties.Builder()
-                                    .nutrition(Integer.parseInt(args.get(1)))
-                                    .saturationMod(Float.parseFloat(args.get(2))).build())))
-                    ).toList();
+
+
+    /*******************************************************************************************************************
+     * DRINKS
+     ******************************************************************************************************************/
+    public static final Function<ArrayList<String>, Supplier<Item>> drink2Args = args ->
+            () -> (Item) new CustomDrinkItem(
+                    Integer.parseInt(args.get(1)),
+                    Float.parseFloat(args.get(2)), CLEAR_CUP.get());
+
+    public static final List<RegistryObject<Item>> FRUIT_JUICES = regListItems("juices.txt", ITEMS, drink2Args);
+    public static final List<RegistryObject<Item>> LEMONADES = regListItems("lemonades.txt", ITEMS, drink2Args);
+    public static final List<RegistryObject<Item>> MISC_DRINKS = regListItems("misc_drinks.txt", ITEMS, drink2Args);
+    public static final List<RegistryObject<Item>> FLAVORED_MILKS = regListItems("flavored_milks.txt", ITEMS, drink2Args);
+    public static final List<RegistryObject<Item>> FLAVORED_WATERS = regListItems("flavored_waters.txt", ITEMS, drink2Args);
+
+    // Teas
+    public static final RegistryObject<Item> MATCHA_TEA = ITEMS.register("matcha_tea",
+            () -> new CoffeeItem(1, 0.5f, 1, null));
 
     /**
      * Bubble Milk Teas
@@ -339,9 +249,7 @@ public class ModItemsInit {
     public static final List<RegistryObject<Item>> BOBA_MILK_TEAS =
         new FileDataLoader("registration_data/boba_milk_teas.txt").read().stream().map(
             args -> ITEMS.register(args.get(0) + "_milk_tea",
-                    () -> (Item) new MilkTeaItem(
-                            Integer.parseInt(args.get(1)),
-                            Float.parseFloat(args.get(2))))
+                    () -> (Item) new MilkTeaItem(Integer.parseInt(args.get(1)), Float.parseFloat(args.get(2))))
         ).toList();
     // Funky tea flavors with effects
     public static final List<RegistryObject<Item>> SPECIAL_BOBA_MILK_TEAS = List.of(
@@ -416,43 +324,4 @@ public class ModItemsInit {
                     Component.literal("Has a lot of caffeine...").withStyle(ChatFormatting.DARK_RED))),
         ITEMS.register("dead_eye_coffee", () -> new CoffeeItem(0, 0, 5, null,
                     Component.literal("Too much caffeine...").withStyle(ChatFormatting.DARK_RED).withStyle(ChatFormatting.OBFUSCATED))));
-    // Teas
-    public static final RegistryObject<Item> MATCHA_TEA = ITEMS.register("matcha_tea",
-            () -> new CoffeeItem(1, 0.5f, 1, null));
-
-    public static final List<RegistryObject<Item>> FRUIT_JUICES =
-            new FileDataLoader("registration_data/juices.txt").read().stream()
-                .map(args -> ITEMS.register(args.get(0),
-                        () -> (Item) new CustomDrinkItem(
-                                Integer.parseInt(args.get(1)),
-                                Float.parseFloat(args.get(2)), CLEAR_CUP.get())))
-                .toList();
-    public static final List<RegistryObject<Item>> LEMONADES =
-            new FileDataLoader("registration_data/lemonades.txt").read().stream()
-                    .map(args -> ITEMS.register(args.get(0),
-                            () -> (Item) new CustomDrinkItem(
-                                    Integer.parseInt(args.get(1)),
-                                    Float.parseFloat(args.get(2)), CLEAR_CUP.get())))
-                    .toList();
-    public static final List<RegistryObject<Item>> MISC_DRINKS =
-            new FileDataLoader("registration_data/misc_drinks.txt").read().stream()
-                    .map(args -> ITEMS.register(args.get(0),
-                            () -> (Item) new CustomDrinkItem(
-                                    Integer.parseInt(args.get(1)),
-                                    Float.parseFloat(args.get(2)), CLEAR_CUP.get())))
-                    .toList();
-    public static final List<RegistryObject<Item>> FLAVORED_MILKS =
-            new FileDataLoader("registration_data/flavored_milks.txt").read().stream()
-                    .map(args -> ITEMS.register(args.get(0),
-                            () -> (Item) new CustomDrinkItem(
-                                    Integer.parseInt(args.get(1)),
-                                    Float.parseFloat(args.get(2)), CLEAR_CUP.get())))
-                    .toList();
-    public static final List<RegistryObject<Item>> FLAVORED_WATERS =
-            new FileDataLoader("registration_data/flavored_waters.txt").read().stream()
-                    .map(args -> ITEMS.register(args.get(0),
-                            () -> (Item) new CustomDrinkItem(
-                                    Integer.parseInt(args.get(1)),
-                                    Float.parseFloat(args.get(2)), CLEAR_CUP.get())))
-                    .toList();
 }

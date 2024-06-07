@@ -103,7 +103,6 @@ public class ModItemModelProvider extends ItemModelProvider {
         ModBlocksInit.CRAFTING_BLOCKS.forEach(w -> blockItemFromBlockParent(w, "crafting/"));
         ModBlocksInit.DECORATIVE_BLOCKS.forEach(w -> blockItemFromBlockParent(w, "decorative/"));
         ModBlocksInit.WALL_SHELVES.forEach(w -> blockItemFromBlockParent(w, "shelf/"));
-        ModBlocksInit.LUNCHBOXES.forEach(w -> blockItemFromBlockParent(w, "lunchbox/"));
     }
 
     /**

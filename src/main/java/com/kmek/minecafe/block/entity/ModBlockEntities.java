@@ -48,13 +48,6 @@ public class ModBlockEntities {
                             ModBlocksInit.CRIMSON_WALL_SHELF.get(),
                             ModBlocksInit.WARPED_WALL_SHELF.get()).build(null));
 
-    public static final RegistryObject<BlockEntityType<LunchboxBlockEntity>> LUNCHBOX =
-            BLOCK_ENTITIES.register("lunchbox", () ->
-                    BlockEntityType.Builder.of(LunchboxBlockEntity::new,
-                            ModBlocksInit.RED_LUNCHBOX.get(),
-                            ModBlocksInit.CREEPER_LUNCHBOX.get(),
-                            ModBlocksInit.END_LUNCHBOX.get()).build(null));
-
     /**
      * Crafting Station Block Entities
      */

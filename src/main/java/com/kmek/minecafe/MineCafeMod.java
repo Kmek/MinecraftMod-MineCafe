@@ -132,7 +132,6 @@ public class MineCafeMod {
             MenuScreens.register(ModMenuTypes.VASE_MENU.get(), VaseScreen::new);
             MenuScreens.register(ModMenuTypes.CASH_REGISTER_MENU.get(), CashRegisterScreen::new);
             MenuScreens.register(ModMenuTypes.WALL_SHELF_MENU.get(), WallShelfScreen::new);
-            MenuScreens.register(ModMenuTypes.LUNCHBOX_MENU.get(), LunchboxScreen::new);
         }
     }
 

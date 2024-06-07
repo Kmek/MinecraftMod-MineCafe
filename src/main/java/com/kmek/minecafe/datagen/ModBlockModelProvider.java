@@ -17,7 +17,6 @@ public class ModBlockModelProvider extends BlockModelProvider {
     protected void registerModels() {
         ModBlocksInit.CAKE_BLOCKS.forEach(reg -> cakeModels(reg.getId().getPath(), "block/cake/"));
         ModBlocksInit.CAKE_BLOCKS_VELVET.forEach(reg -> cakeModels(reg.getId().getPath(), "block/cake/"));
-        ModBlocksInit.LUNCHBOXES.forEach(reg -> lunchboxModels(reg.getId().getPath(), "block/lunchbox/"));
     }
 
     private BlockModelBuilder cakeModelSingleTextureFile(String name, String appendFileName, String textureFolder, String parent) {

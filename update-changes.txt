@@ -3,14 +3,18 @@ Changes for upcoming 1.5:
 - Added blackberry crop + food & drink variants
 - Added almonds, pecans, peanuts, macadamia nuts, mint
 - Added muffins
-- Added in pecan pie, grasshopper pie
+- Added in pecan pie, grasshopper pie, generally more pies
 - Added mint cream, mint cannoli, peanut cream, peanut cannoli
 - Added peanut butter, peanut butter cup, chocolate covered peanuts, peanut butter brownie
-- Added cookies
-- Add white chocolate
-- Add more cheesecakes
-- Add yogurts
-- Add pudding cups
-- add fortune cookie and golden fortune cookie, and the golden fortune cookie pickaxe
-- add item model datagen
-- add toasts
+- Added cookies, macarons
+- Added white chocolate
+- Added more cheesecakes
+- Added yogurts
+- Added pudding cups
+- added fortune cookie and golden fortune cookie, and the golden fortune cookie pickaxe
+- added item model datagen
+- added toasts
+- added cakes
+- added advancements/achievements
+- use forge tags for eggs and milk in recipes
+- added a lunchbox, but then split it off into its own smaller mod

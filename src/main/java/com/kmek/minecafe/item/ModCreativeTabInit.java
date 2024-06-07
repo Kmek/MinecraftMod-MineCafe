@@ -67,7 +67,6 @@ public class ModCreativeTabInit {
     private void acceptBlocks(CreativeModeTab.Output output) {
         ModBlocksInit.CRAFTING_BLOCKS.forEach(reg -> output.accept(reg.get()));
         ModBlocksInit.DECORATIVE_BLOCKS.forEach(reg -> output.accept(reg.get()));
-        ModBlocksInit.LUNCHBOXES.forEach(reg -> output.accept(reg.get()));
 //        ModBlocksInit.TO_GO_CONTAINERS.forEach(reg -> output.accept(reg.get()));
         ModBlocksInit.WALL_SHELVES.forEach(reg -> output.accept(reg.get()));
 

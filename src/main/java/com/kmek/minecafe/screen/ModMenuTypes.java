@@ -39,8 +39,6 @@ public class ModMenuTypes {
             registerMenuType(CashRegisterMenu::new, "cash_register_menu");
     public static final RegistryObject<MenuType<WallShelfMenu>> WALL_SHELF_MENU =
             registerMenuType(WallShelfMenu::new, "wall_shelf_menu");
-    public static final RegistryObject<MenuType<LunchboxMenu>> LUNCHBOX_MENU =
-            registerMenuType(LunchboxMenu::new, "lunchbox_menu");
 
     /**
      * Setup for menu registering

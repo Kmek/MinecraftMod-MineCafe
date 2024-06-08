@@ -1,0 +1,29 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "M": {
+      "tag": "forge:milk"
+    },
+    "B": {
+      "item": "minecraft:bowl"
+    },
+    "S": {
+      "tag": "forge:sugar"
+    },
+    "E": {
+      "tag": "forge:eggs"
+    },
+    "W": {
+      "item": "minecraft:wheat"
+    }
+  },
+  "pattern": [
+    "MBM",
+    "SES",
+    "WWW"
+  ],
+  "result": {
+    "item": "minecafe:raw_cake_batter"
+  }
+}

@@ -139,6 +139,7 @@ public class ModCreativeTabInit {
 
     private void acceptMiscIngredients(CreativeModeTab.Output output) {
         output.accept(ModItemsInit.RAW_WAFFLE_BATTER.get());
+        output.accept(ModItemsInit.RAW_CAKE_BATTER.get());
         output.accept(ModItemsInit.BATTER_MESS.get());
         output.accept(ModItemsInit.BURNT_CRISP.get());
     }

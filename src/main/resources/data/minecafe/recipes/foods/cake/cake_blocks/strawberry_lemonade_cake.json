@@ -1,0 +1,29 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "B": {
+      "item": "minecafe:raw_cake_batter"
+    },
+    "F": {
+      "item": "minecafe:strawberry_cream"
+    },
+    "A": {
+      "item": "minecafe:lemon_cream"
+    },
+    "S": {
+      "item": "minecafe:strawberry"
+    },
+    "L": {
+      "item": "minecafe:lemon"
+    }
+  },
+  "pattern": [
+    "FAF",
+    "SLS",
+    "SBS"
+  ],
+  "result": {
+    "item": "minecafe:strawberry_lemonade_cake"
+  }
+}

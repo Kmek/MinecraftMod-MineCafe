@@ -122,6 +122,8 @@ public class ModItemsInit {
     public static final List<RegistryObject<Item>> CANNOLIS = regListItems("creams.txt", "", "_cannoli", ITEMS, foodFixedArgs.apply(2, 0.5f));
 
     // Cakes
+    public static final RegistryObject<Item> RAW_CAKE_BATTER = ITEMS.register("raw_cake_batter",
+            () -> new RawBatterItem("Consume raw eggs at your own risk", true));
     public static final List<RegistryObject<Item>> CAKES = regListItems("cakes.txt", ITEMS, food2Args);
     public static final List<RegistryObject<Item>> CHEESECAKES = regListItems("cheesecakes.txt", ITEMS, food2Args);
 
@@ -151,16 +153,8 @@ public class ModItemsInit {
     /**
      * Waffles
      */
-    public static final RegistryObject<Item> RAW_WAFFLE_BATTER = ITEMS.register("raw_waffle_batter", () -> new Item(new Item.Properties().food(
-            new FoodProperties.Builder().nutrition(0).saturationMod(0)
-                    .effect(() -> new MobEffectInstance(MobEffects.POISON, 300, 0), 0.6f)
-                    .build())) {
-        @Override
-        public void appendHoverText(ItemStack stack, @Nullable Level level, List<Component> components, TooltipFlag flag) {
-            components.add(Component.literal("Consume raw eggs at your own risk").withStyle(ChatFormatting.YELLOW));
-            super.appendHoverText(stack, level, components, flag);
-        }
-    });
+    public static final RegistryObject<Item> RAW_WAFFLE_BATTER = ITEMS.register("raw_waffle_batter",
+            () -> new RawBatterItem("Consume raw eggs at your own risk", false));
     public static final RegistryObject<Item> TAIYAKI = ITEMS.register("taiyaki", () -> new WaffleItem(2, 0.8f));
     public static final RegistryObject<Item> EGG_WAFFLE = ITEMS.register("egg_waffle", () -> new WaffleItem(2, 0.8f));
     public static final RegistryObject<Item> PAW_WAFFLE = ITEMS.register("paw_waffle", () -> new WaffleItem(2, 0.8f));

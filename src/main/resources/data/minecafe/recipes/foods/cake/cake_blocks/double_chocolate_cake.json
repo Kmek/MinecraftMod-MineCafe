@@ -1,0 +1,26 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "B": {
+      "item": "minecafe:raw_cake_batter"
+    },
+    "F": {
+      "item": "minecafe:chocolate_cream"
+    },
+    "C": {
+      "tag": "forge:chocolate"
+    },
+    "S": {
+      "item": "minecraft:sweet_berries"
+    }
+  },
+  "pattern": [
+    " S ",
+    "FFF",
+    "CBC"
+  ],
+  "result": {
+    "item": "minecafe:double_chocolate_cake"
+  }
+}

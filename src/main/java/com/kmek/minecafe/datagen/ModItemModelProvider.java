@@ -76,6 +76,7 @@ public class ModItemModelProvider extends ItemModelProvider {
         simpleItem(ModItemsInit.BURNT_CRISP, "ingredients/");
         simpleItem(ModItemsInit.BATTER_MESS, "ingredients/");
         simpleItem(ModItemsInit.RAW_WAFFLE_BATTER, "waffles/");
+        simpleItem(ModItemsInit.RAW_CAKE_BATTER, "cakes/");
 
         /* ********* ITEMS for BLOCKS ********* */
 

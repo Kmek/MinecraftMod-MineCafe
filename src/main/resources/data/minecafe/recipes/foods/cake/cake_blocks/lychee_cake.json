@@ -1,0 +1,23 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "B": {
+      "item": "minecafe:raw_cake_batter"
+    },
+    "F": {
+      "item": "minecafe:lychee_cream"
+    },
+    "L": {
+      "item": "minecafe:lychee"
+    }
+  },
+  "pattern": [
+    "FFF",
+    "LLL",
+    " B "
+  ],
+  "result": {
+    "item": "minecafe:lychee_cake"
+  }
+}

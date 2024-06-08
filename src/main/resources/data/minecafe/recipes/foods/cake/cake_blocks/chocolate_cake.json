@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "B": {
+      "item": "minecafe:raw_cake_batter"
+    },
+    "F": {
+      "item": "minecafe:chocolate_cream"
+    }
+  },
+  "pattern": [
+    "FFF",
+    " B "
+  ],
+  "result": {
+    "item": "minecafe:chocolate_cake"
+  }
+}

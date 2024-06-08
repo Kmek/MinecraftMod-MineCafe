@@ -2,23 +2,25 @@
   "type": "minecraft:crafting_shaped",
   "category": "misc",
   "key": {
+    "B": {
+      "item": "minecafe:raw_cake_batter"
+    },
+    "F": {
+      "item": "minecafe:vanilla_cream"
+    },
     "R": { "item": "minecraft:red_dye" },
     "O": { "item": "minecraft:orange_dye" },
     "Y": { "item": "minecraft:yellow_dye" },
     "G": { "item": "minecraft:green_dye" },
-    "B": { "item": "minecraft:blue_dye" },
-    "P": { "item": "minecraft:purple_dye" },
-    "I": { "item": "minecraft:pink_dye" },
-    "W": { "item": "minecraft:white_dye" },
-    "S": { "tag": "forge:sugar" }
+    "L": { "item": "minecraft:blue_dye" },
+    "P": { "item": "minecraft:purple_dye" }
   },
   "pattern": [
-    "ROY",
-    "WSG",
-    "IPB"
+    "RFG",
+    "OFL",
+    "YBP"
   ],
   "result": {
-    "item": "minecafe:sprinkles",
-    "count": 8
+    "item": "minecafe:rainbow_cake"
   }
 }

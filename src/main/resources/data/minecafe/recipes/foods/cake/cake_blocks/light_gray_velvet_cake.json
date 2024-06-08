@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "B": {
+      "item": "minecafe:raw_cake_batter"
+    },
+    "F": {
+      "item": "minecafe:vanilla_cream"
+    },
+    "D": { "item": "minecraft:light_gray_dye" }
+  },
+  "pattern": [
+    " D ",
+    "FFF",
+    "DBD"
+  ],
+  "result": {
+    "item": "minecafe:light_gray_velvet_cake"
+  }
+}

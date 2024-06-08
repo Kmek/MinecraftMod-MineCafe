@@ -1,0 +1,103 @@
+{
+  "name": "Cake Blocks",
+  "icon": "minecafe:lemon_blueberry_cake",
+  "category": "minecafe:food",
+  "read_by_default": "true",
+  "pages": [
+    {
+      "type": "patchouli:crafting",
+      "recipe": "minecafe:foods/cake/cake_blocks/cake",
+      "recipe2": "minecafe:foods/cake/cake_blocks/carrot_cake"
+    },
+    {
+      "type": "patchouli:crafting",
+      "recipe": "minecafe:foods/cake/cake_blocks/lychee_cake",
+      "recipe2": "minecafe:foods/cake/cake_blocks/rose_cake"
+    },
+    {
+      "type": "patchouli:crafting",
+      "recipe": "minecafe:foods/cake/cake_blocks/strawberry_cake",
+      "recipe2": "minecafe:foods/cake/cake_blocks/strawberry_lemonade_cake"
+    },
+    {
+      "type": "patchouli:crafting",
+      "recipe": "minecafe:foods/cake/cake_blocks/orange_cake",
+      "recipe2": "minecafe:foods/cake/cake_blocks/banana_cake"
+    },
+    {
+      "type": "patchouli:crafting",
+      "recipe": "minecafe:foods/cake/cake_blocks/lemon_cake",
+      "recipe2": "minecafe:foods/cake/cake_blocks/lemon_blueberry_cake"
+    },
+    {
+      "type": "patchouli:crafting",
+      "recipe": "minecafe:foods/cake/cake_blocks/lime_cake",
+      "recipe2": "minecafe:foods/cake/cake_blocks/matcha_cake"
+    },
+    {
+      "type": "patchouli:crafting",
+      "recipe": "minecafe:foods/cake/cake_blocks/blueberry_cake",
+      "recipe2": "minecafe:foods/cake/cake_blocks/chorus_fruit_cake"
+    },
+    {
+      "type": "patchouli:crafting",
+      "recipe": "minecafe:foods/cake/cake_blocks/vanilla_cake",
+      "recipe2": "minecafe:foods/cake/cake_blocks/funfetti_cake"
+    },
+    {
+      "type": "patchouli:crafting",
+      "recipe": "minecafe:foods/cake/cake_blocks/rainbow_cake",
+      "recipe2": "minecafe:foods/cake/cake_blocks/black_forest_cake"
+    },
+    {
+      "type": "patchouli:crafting",
+      "recipe": "minecafe:foods/cake/cake_blocks/chocolate_cake",
+      "recipe2": "minecafe:foods/cake/cake_blocks/double_chocolate_cake"
+    },
+    {
+      "type": "patchouli:crafting",
+      "recipe": "minecafe:foods/cake/cake_blocks/boston_cream_pie",
+      "recipe2": "minecafe:foods/cake/cake_blocks/pineapple_upside_down_cake"
+    },
+    {
+      "type": "patchouli:crafting",
+      "recipe": "minecafe:foods/cake/cake_blocks/red_velvet_cake",
+      "recipe2": "minecafe:foods/cake/cake_blocks/orange_velvet_cake"
+    },
+    {
+      "type": "patchouli:crafting",
+      "recipe": "minecafe:foods/cake/cake_blocks/yellow_velvet_cake",
+      "recipe2": "minecafe:foods/cake/cake_blocks/lime_green_velvet_cake"
+    },
+    {
+      "type": "patchouli:crafting",
+      "recipe": "minecafe:foods/cake/cake_blocks/green_velvet_cake",
+      "recipe2": "minecafe:foods/cake/cake_blocks/cyan_velvet_cake"
+    },
+    {
+      "type": "patchouli:crafting",
+      "recipe": "minecafe:foods/cake/cake_blocks/light_blue_velvet_cake",
+      "recipe2": "minecafe:foods/cake/cake_blocks/blue_velvet_cake"
+    },
+    {
+      "type": "patchouli:crafting",
+      "recipe": "minecafe:foods/cake/cake_blocks/purple_velvet_cake",
+      "recipe2": "minecafe:foods/cake/cake_blocks/magenta_velvet_cake"
+    },
+    {
+      "type": "patchouli:crafting",
+      "recipe": "minecafe:foods/cake/cake_blocks/pink_velvet_cake",
+      "recipe2": "minecafe:foods/cake/cake_blocks/white_velvet_cake"
+    },
+    {
+      "type": "patchouli:crafting",
+      "recipe": "minecafe:foods/cake/cake_blocks/light_gray_velvet_cake",
+      "recipe2": "minecafe:foods/cake/cake_blocks/gray_velvet_cake"
+    },
+    {
+      "type": "patchouli:crafting",
+      "recipe": "minecafe:foods/cake/cake_blocks/black_velvet_cake",
+      "recipe2": "minecafe:foods/cake/cake_blocks/brown_velvet_cake"
+    }
+  ]
+}

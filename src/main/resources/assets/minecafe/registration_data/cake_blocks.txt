@@ -30,3 +30,8 @@ boston_cream_pie
 pineapple_upside_down_cake
 
 // INCLUDE: cake_blocks_velvet.txt
+
+// Ideas:
+// Honey cake
+// Angel food cake
+// Remaining fruit cakes

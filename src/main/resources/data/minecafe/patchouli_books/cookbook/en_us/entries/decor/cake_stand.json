@@ -12,6 +12,12 @@
     {
       "type": "patchouli:crafting",
       "recipe": "minecafe:display_blocks/cake_stand"
+    },
+    {
+      "type": "patchouli:image",
+      "images": ["minecafe:textures/patchouli_images/cake_stand.png"],
+      "title": "Cake Blocks",
+      "text": "Placable cakes will be rendered as a block on top of the cake stand."
     }
   ]
 }

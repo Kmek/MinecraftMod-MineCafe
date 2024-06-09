@@ -16,6 +16,7 @@
     {
       "type": "patchouli:image",
       "images": ["minecafe:textures/patchouli_images/cake_stand.png"],
+      "border": true,
       "title": "Cake Blocks",
       "text": "Placable cakes will be rendered as a block on top of the cake stand."
     }
